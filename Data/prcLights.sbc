@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- Spotlight -->
+            <!-- Large -->
+                <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+                    <Id>
+                        <TypeId>ReflectorLight</TypeId>
+                        <SubtypeId>LargePrecursorSpotlight</SubtypeId>
+                    </Id>
+
+                    <DisplayName>Zei'a Spotlight</DisplayName>
+                    <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+                    <Description>And so, B-Urp said: Let there be light!</Description>
+                    <CubeSize>Large</CubeSize>
+                    <GuiVisible>false</GuiVisible>
+                    <BlockTopology>TriangleMesh</BlockTopology>
+                    <Size x="1" y="1" z="1"/>
+                    <ModelOffset x="0" y="0" z="0"/>
+                    <Model>Models\Cubes\Large\light.mwm</Model>
+
+                    <Components>
+                        <Component Subtype="SteelPlate" Count="12"/>
+                        <Component Subtype="LargeTube" Count="3"/>
+                        <Component Subtype="PrecursorAlloy" Count="50" />
+                        <Component Subtype="Feor" Count="50" />
+                        <Component Subtype="InteriorPlate" Count="30"/>
+                        <Component Subtype="Construction" Count="22"/>
+                        <Component Subtype="BulletproofGlass" Count="6"/>
+                    </Components>
+                    <CriticalComponent Subtype="Construction" Index="0"/>
+
+                    <MountPoints>
+                        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
+                        <MountPoint Side="Left" StartX="0.5" StartY="0.38" EndX="0.9" EndY="0.62"/>
+                        <MountPoint Side="Right" StartX="0.1" StartY="0.38" EndX="0.5" EndY="0.62"/>
+                        <MountPoint Side="Bottom" StartX="0.38" StartY="0.5" EndX="0.62" EndY="0.9"/>
+                        <MountPoint Side="Top" StartX="0.38" StartY="0.1" EndX="0.62" EndY="0.5"/>
+                    </MountPoints>
+
+                    <BuildProgressModels>
+                        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LightConstruction_1.mwm"/>
+                        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LightConstruction_2.mwm"/>
+                        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightConstruction_3.mwm"/>
+                    </BuildProgressModels>
+
+                    <BlockPairName>PrecursorSpotlight</BlockPairName>
+                    <MirroringZ>Y</MirroringZ>
+                    <EdgeType>Light</EdgeType>
+                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <LightRadius Min="1" Max="50" Default="5"/>
+                    <LightReflectorRadius Min="1" Max="2000" Default="120"/>
+                    <LightFalloff Min="1" Max="3" Default="1.5"/>
+                    <LightIntensity Min="0.5" Max="20" Default="1"/>
+                    <ResourceSinkGroup>Utility</ResourceSinkGroup>
+                    <RequiredPowerInput>0.001</RequiredPowerInput>
+                    <Flare>SpotlightLarge</Flare>
+                    <ReflectorThickness>10</ReflectorThickness>
+                    <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
+                    <ReflectorConeDegrees>90</ReflectorConeDegrees>
+                    <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+                    <DamagedSound>ParticleElectrical</DamagedSound>
+                    <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+                    <DestroySound>PoofExplosionCat3</DestroySound>
+                    <PCU>25</PCU>
+                    <IsAirTight>false</IsAirTight>
+                </Definition>
+            
+            <!-- Small -->
+                <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+                <Id>
+                    <TypeId>ReflectorLight</TypeId>
+                    <SubtypeId>SmallPrecursorSpotlight</SubtypeId>
+                </Id>
+
+                <DisplayName>Small Zei'a Spotlight</DisplayName>
+                <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+                <Description>And so, B-Urp said: Let there be light!</Description>
+                <CubeSize>Small</CubeSize>
+                <GuiVisible>false</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1"/>
+                <ModelOffset x="0" y="0" z="0"/>
+                <Model>Models\Cubes\Small\light.mwm</Model>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="2"/>
+                    <Component Subtype="LargeTube" Count="2"/>
+                    <Component Subtype="PrecursorAlloy" Count="50" />
+                    <Component Subtype="Feor" Count="50" />
+                    <Component Subtype="InteriorPlate" Count="2"/>
+                    <Component Subtype="Construction" Count="2"/>
+                    <Component Subtype="BulletproofGlass" Count="3"/>
+                </Components>
+                <CriticalComponent Subtype="Construction" Index="0"/>
+
+                <MountPoints>
+                    <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                    <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                    <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                    <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                    <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                </MountPoints>
+
+                <BuildProgressModels>
+                    <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LightConstruction_1.mwm"/>
+                    <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightConstruction_2.mwm"/>
+                </BuildProgressModels>
+
+                <BlockPairName>PrecursorSpotlight</BlockPairName>
+                <MirroringZ>Y</MirroringZ>
+                <EdgeType>Light</EdgeType>
+                <BuildTimeSeconds>200</BuildTimeSeconds>
+                <LightRadius Min="1" Max="50" Default="5"/>
+                <LightReflectorRadius Min="1" Max="2000" Default="120"/>
+                <LightFalloff Min="1" Max="3" Default="1.5"/>
+                <LightIntensity Min="0.5" Max="20" Default="3"/>
+                <ResourceSinkGroup>Utility</ResourceSinkGroup>
+                <RequiredPowerInput>0.0002</RequiredPowerInput>
+                <Flare>SpotlightSmall</Flare>
+                <ReflectorThickness>10</ReflectorThickness>
+                <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+                <ReflectorConeDegrees>90</ReflectorConeDegrees>
+                <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+                <DamagedSound>ParticleElectrical</DamagedSound>
+                <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+                <DestroySound>PoofExplosionCat2</DestroySound>
+                <PCU>25</PCU>
+                <IsAirTight>false</IsAirTight>
+                </Definition>
+
+
+        <!-- Searchlight -->
+            <!-- Large -->
+                <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+                <Id>
+                    <TypeId>ReflectorLight</TypeId>
+                    <SubtypeId>LargePrecursorSearchlight</SubtypeId>
+                </Id>
+
+                <DisplayName>Zei'a Searchlight</DisplayName>
+                <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+                <Description>Directed flashbang</Description>
+                <CubeSize>Large</CubeSize>
+                <GuiVisible>false</GuiVisible>
+                <BlockTopology>TriangleMesh</BlockTopology>
+                <Size x="1" y="1" z="1"/>
+                <ModelOffset x="0" y="0" z="0"/>
+                <Model>Models\Cubes\Large\light.mwm</Model>
+
+                <Components>
+                    <Component Subtype="SteelPlate" Count="12"/>
+                    <Component Subtype="LargeTube" Count="3"/>
+                    <Component Subtype="PrecursorAlloy" Count="50" />
+                    <Component Subtype="Feor" Count="50" />
+                    <Component Subtype="InteriorPlate" Count="30"/>
+                    <Component Subtype="Construction" Count="22"/>
+                    <Component Subtype="BulletproofGlass" Count="6"/>
+                </Components>
+                <CriticalComponent Subtype="Construction" Index="0"/>
+
+                <MountPoints>
+                    <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
+                    <MountPoint Side="Left" StartX="0.5" StartY="0.38" EndX="0.9" EndY="0.62"/>
+                    <MountPoint Side="Right" StartX="0.1" StartY="0.38" EndX="0.5" EndY="0.62"/>
+                    <MountPoint Side="Bottom" StartX="0.38" StartY="0.5" EndX="0.62" EndY="0.9"/>
+                    <MountPoint Side="Top" StartX="0.38" StartY="0.1" EndX="0.62" EndY="0.5"/>
+                </MountPoints>
+
+                <BuildProgressModels>
+                    <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LightConstruction_1.mwm"/>
+                    <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LightConstruction_2.mwm"/>
+                    <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightConstruction_3.mwm"/>
+                </BuildProgressModels>
+
+                <BlockPairName>PrecursorSearchlight</BlockPairName>
+                <MirroringZ>Y</MirroringZ>
+                <EdgeType>Light</EdgeType>
+                <BuildTimeSeconds>200</BuildTimeSeconds>
+                <LightRadius Min="1" Max="50" Default="5"/>
+                <LightReflectorRadius Min="1" Max="2000" Default="120"/>
+                <LightFalloff Min="1" Max="3" Default="1.5"/>
+                <LightIntensity Min="0.5" Max="20" Default="1"/>
+                <ResourceSinkGroup>Utility</ResourceSinkGroup>
+                <RequiredPowerInput>0.001</RequiredPowerInput>
+                <Flare>SpotlightLarge</Flare>
+                <ReflectorThickness>10</ReflectorThickness>
+                <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
+                <ReflectorConeDegrees>25</ReflectorConeDegrees>
+                <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+                <DamagedSound>ParticleElectrical</DamagedSound>
+                <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+                <DestroySound>PoofExplosionCat3</DestroySound>
+                <PCU>25</PCU>
+                <IsAirTight>false</IsAirTight>
+                </Definition>
+
+
+            <!-- Small -->
+                <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+                    <Id>
+                        <TypeId>ReflectorLight</TypeId>
+                        <SubtypeId>SmallPrecursorSearchlight</SubtypeId>
+                    </Id>
+
+                    <DisplayName>Small Zei'a Searchlight</DisplayName>
+                    <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+                    <Description>Directed flashbang</Description>
+                    <CubeSize>Small</CubeSize>
+                    <GuiVisible>false</GuiVisible>
+                    <BlockTopology>TriangleMesh</BlockTopology>
+                    <Size x="1" y="1" z="1"/>
+                    <ModelOffset x="0" y="0" z="0"/>
+                    <Model>Models\Cubes\Small\light.mwm</Model>
+
+                    <Components>
+                        <Component Subtype="SteelPlate" Count="2"/>
+                        <Component Subtype="LargeTube" Count="2"/>
+                        <Component Subtype="PrecursorAlloy" Count="50" />
+                        <Component Subtype="Feor" Count="50" />
+                        <Component Subtype="InteriorPlate" Count="2"/>
+                        <Component Subtype="Construction" Count="2"/>
+                        <Component Subtype="BulletproofGlass" Count="3"/>
+                    </Components>
+                    <CriticalComponent Subtype="Construction" Index="0"/>
+
+                    <MountPoints>
+                        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1"/>
+                    </MountPoints>
+
+                    <BuildProgressModels>
+                        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LightConstruction_1.mwm"/>
+                        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightConstruction_2.mwm"/>
+                    </BuildProgressModels>
+
+                    <BlockPairName>PrecursorSearchlight</BlockPairName>
+                    <MirroringZ>Y</MirroringZ>
+                    <EdgeType>Light</EdgeType>
+                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <LightRadius Min="1" Max="50" Default="5"/>
+                    <LightReflectorRadius Min="1" Max="2000" Default="120"/>
+                    <LightFalloff Min="1" Max="3" Default="1.5"/>
+                    <LightIntensity Min="0.5" Max="20" Default="3"/>
+                    <ResourceSinkGroup>Utility</ResourceSinkGroup>
+                    <RequiredPowerInput>0.0002</RequiredPowerInput>
+                    <Flare>SpotlightSmall</Flare>
+                    <ReflectorThickness>10</ReflectorThickness>
+                    <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+                    <ReflectorConeDegrees>25</ReflectorConeDegrees>
+                    <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+                    <DamagedSound>ParticleElectrical</DamagedSound>
+                    <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+                    <DestroySound>PoofExplosionCat2</DestroySound>
+                    <PCU>25</PCU>
+                    <IsAirTight>false</IsAirTight>
+                </Definition>
+
+        <!-- prclights END -->
+    </CubeBlocks>
+</Definitions>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+
+        <!-- Alloy -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>PrecursorAlloy</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Alloy</DisplayName>
+                <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+                <Size>
+                    <X>0.5</X>
+                    <Y>0.5</Y>
+                    <Z>0.01</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\steel_plate_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>15</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+		
+        <!-- Feo'r -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Feor</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Feo'r</DisplayName>
+                <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+                <Size>
+                    <X>1</X>
+                    <Y>0.04</Y>
+                    <Z>0.04</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\small_tube_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>15</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+
+        <!-- Memory Foam -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>MemoryFoam</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Memory Foam</DisplayName>
+                <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+                <Size>
+                    <X>0.04</X>
+                    <Y>0.04</Y>
+                    <Z>0.04</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\small_tube_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>15</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+
+		<!-- Hand Core (kinda very gay) -->
+            <Component>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>PrecursorHandheldBattery</SubtypeId>
+                </Id>
+
+                <DisplayName>Handled Zei'a Energy Core</DisplayName>
+                <Icon>Textures\GUI\Icons\Cubes\Battery1x1.dds</Icon>
+                <Size>
+                    <X>0.1</X>
+                    <Y>0.1</Y>
+                    <Z>0.1</Z>
+                </Size>
+
+                <Mass>2</Mass>
+                <Volume>5</Volume>
+                <Model>Models\Components\construction_components_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>1</MaxIntegrity>
+                <DropProbability>0.3</DropProbability>
+                <Health>14</Health>
+            </Component>
+        <!-- Components END -->
+        
+    </Components>
+</Definitions>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Weapons>
+
+        <!-- Rocket Launcher -->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>PrecursorHandLauncher</SubtypeId>
+                </Id>
+
+                <MissileAmmoData RateOfFire="500" ShootSoundName="WepRocketLaunchShot" ShotsInBurst="1" />
+                <NoAmmoSoundName>WepRocketLaunchNoAmmo</NoAmmoSoundName>
+                <ReloadSoundName>WepRocketLaunchReloadLong</ReloadSoundName>
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="PrecursorMissile" />
+                </AmmoMagazines>
+
+                <ReloadTime>500</ReloadTime>
+                <RecoilJetpackVertical>0</RecoilJetpackVertical>
+                <RecoilJetpackHorizontal>0</RecoilJetpackHorizontal>
+                <RecoilGroundVertical>0</RecoilGroundVertical>
+                <RecoilGroundHorizontal>0</RecoilGroundHorizontal>
+
+                <RecoilMultiplierDataNames>
+                    <string>Standing</string>
+                    <string>Walking</string>
+                    <string>Running</string>
+                    <string>Crouching</string>
+                    <string>Aiming</string>
+                </RecoilMultiplierDataNames>
+
+                <RecoilMultiplierDataVerticals>
+                    <float>1</float>
+                    <float>1</float>
+                    <float>1.5</float>
+                    <float>.75</float>
+                    <float>.75</float>
+                </RecoilMultiplierDataVerticals>
+
+                <RecoilMultiplierDataHorizontals>
+                    <float>1</float>
+                    <float>1</float>
+                    <float>1.5</float>
+                    <float>.75</float>
+                    <float>.75</float>
+                </RecoilMultiplierDataHorizontals>
+
+                <ShootDirectionUpdateTime>200</ShootDirectionUpdateTime>
+                <EquipDuration>0.5</EquipDuration>
+                <ShakeOnActionPrimary>false</ShakeOnActionPrimary>
+                <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+                <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+            </Weapon>
+		<!-- Small Missile Launcher-->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>SmallPrecursorMissileLauncher</SubtypeId>
+                </Id>
+
+                <MissileAmmoData RateOfFire="500" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="0" />
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+                <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="PrecursorMissile" />
+                </AmmoMagazines>
+
+                <ReloadTime>1000</ReloadTime>
+            </Weapon>
+
+        <!-- Large Missile Launcher-->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>LargePrecursorMissileLauncher</SubtypeId>
+                </Id>
+
+                <MissileAmmoData RateOfFire="500" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="19" />
+                <DeviateShotAngle>0.1</DeviateShotAngle>
+                <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+                <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="PrecursorMissile" />
+                </AmmoMagazines>
+                <ReloadTime>1000</ReloadTime>
+            </Weapon>
+
+        <!-- Gatling Gun -->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>PrecursorGatlingGun</SubtypeId>
+                </Id>
+
+                <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepShipGatlingShot" ShotsInBurst="37000"/>
+                <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <RangeMultiplier>5</RangeMultiplier>
+                <DamageMultiplier>13576132215353</DamageMultiplier>
+                <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+                <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+                <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+            
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="NATO_25x184mm"/>
+                </AmmoMagazines>
+
+                <ReloadTime>500</ReloadTime>
+            </Weapon>
+
+        <!--Interior Turret-->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>PrecursorIntTurret</SubtypeId>
+                </Id>
+
+                <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepTurretInteriorFire"/>
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <DamageMultiplier>13576132215353</DamageMultiplier>
+                <RangeMultiplier>5</RangeMultiplier>
+                <MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
+                
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="NATO_5p56x45mm"/>
+                </AmmoMagazines>
+            </Weapon>
+		<!-- prcWeapons END -->
+  </Weapons>
+</Definitions>
