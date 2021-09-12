@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Remote Control -->
+      <!-- Large -->
+        <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+          <Id>
+            <TypeId>RemoteControl</TypeId>
+            <SubtypeId>LargePrecursorRC</SubtypeId>
+          </Id>
+          <DisplayName>Zei'a Remote Control</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
+          <Description></Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
+
+          <Components>
+            <Component Subtype="InteriorPlate" Count="5" />
+            <Component Subtype="Construction" Count="10" />
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="Motor" Count="1" />
+            <Component Subtype="Computer" Count="15" />
+            <Component Subtype="InteriorPlate" Count="5" />
+          </Components>
+          <CriticalComponent Subtype="Computer" Index="0" />
+
+          <MountPoints>
+            <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.7" />
+            <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="0.7" />
+            <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.7" EndY="1" />
+            <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="0.7" />
+            <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.7" />
+          </MountPoints>
+
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RemoteControlConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteControlConstruction_2.mwm" />
+          </BuildProgressModels>
+
+          <BlockPairName>PrecursorRC</BlockPairName>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>500</BuildTimeSeconds>
+          <MirroringY>Z</MirroringY>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <RequiredPowerInput>0.01</RequiredPowerInput>
+          <EnableFirstPerson>true</EnableFirstPerson>
+          <EnableShipControl>true</EnableShipControl>
+          <EnableBuilderCockpit>false</EnableBuilderCockpit>
+          <Public>true</Public>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <EmissiveColorPreset>Extended</EmissiveColorPreset>
+          <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+          <PCU>25</PCU>      
+        </Definition>
+
+      <!-- Small -->
+        <Definition xsi:type="MyObjectBuilder_RemoteControlDefinition">
+          <Id>
+            <TypeId>RemoteControl</TypeId>
+            <SubtypeId>SmallPrecursorRC</SubtypeId>
+          </Id>
+
+          <DisplayName>Small Zei'a Remote Control</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
+          <Description></Description>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Small\RemoteControl.mwm</Model>
+
+          <Components>
+            <Component Subtype="InteriorPlate" Count="1" />
+            <Component Subtype="Construction" Count="1" />
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="Motor" Count="1" />
+            <Component Subtype="Computer" Count="1" />
+            <Component Subtype="InteriorPlate" Count="1" />
+          </Components>
+          <CriticalComponent Subtype="Computer" Index="0" />
+
+          <MountPoints>
+            <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+            <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+          </MountPoints>
+
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RemoteControlConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RemoteControlConstruction_2.mwm" />
+          </BuildProgressModels>
+
+          <BlockPairName>PrecursorRC</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>500</BuildTimeSeconds>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <RequiredPowerInput>0.01</RequiredPowerInput>
+          <EnableFirstPerson>true</EnableFirstPerson>
+          <EnableShipControl>true</EnableShipControl>
+          <EnableBuilderCockpit>false</EnableBuilderCockpit>
+          <Public>true</Public>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <EmissiveColorPreset>Extended</EmissiveColorPreset>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+          <PCU>25</PCU>
+          <IsAirTight>false</IsAirTight>      
+        </Definition>
+
+      <!-- Passenger seat -->
+        <!-- Large -->
+          <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+              <TypeId>Cockpit</TypeId>
+              <SubtypeId>PrecursorPassengerSeatLarge</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Passenger Seat</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+            <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\PassengerSeat.mwm</Model>
+            <CharacterAnimation>passengerseat_large</CharacterAnimation>
+            <UsesDeformation>false</UsesDeformation>
+
+            <Components>
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="MemoryFoam" Count="2000" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+            <MountPoints>
+              <MountPoint Side="Bottom" StartX="0.3" StartY="0.6" EndX="0.7" EndY="1" Default="true"/>
+              <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.4" />
+            </MountPoints>
+
+            <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassengerSeatConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassengerSeatConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassengerSeatConstruction_3.mwm" />
+            </BuildProgressModels>
+
+            <VoxelPlacement>
+              <StaticMode>
+                <PlacementMode>Volumetric</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </StaticMode>
+
+              <DynamicMode>
+                <PlacementMode>Volumetric</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </DynamicMode>
+            </VoxelPlacement>
+
+            <BlockPairName>PrecursorPassengerSeat</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>      
+          </Definition>
+
+        <!-- Small -->
+          <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+              <TypeId>Cockpit</TypeId>
+              <SubtypeId>PrecursorPassengerSeatSmall</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Passenger Seat</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+            <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0.5" z="-0.5" />
+            <Model>Models\Cubes\Small\PassengerSeat.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <UsesDeformation>false</UsesDeformation>
+
+            <Components>
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="MemoryFoam" Count="2000" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+            <MountPoints>
+              <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" StartZ="-0.5" EndX="0.5" EndY="0.5" EndZ="0.5" Default="true" />
+              <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="0.5" EndY="0.5" />
+            </MountPoints>
+
+            <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\PassengerSeatConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PassengerSeatConstruction_2.mwm" />
+            </BuildProgressModels>
+
+            <VoxelPlacement>
+              <StaticMode>
+                <PlacementMode>OutsideVoxel</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </StaticMode>
+
+              <DynamicMode>
+                <PlacementMode>OutsideVoxel</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </DynamicMode>
+            </VoxelPlacement>
+
+            <BlockPairName>PrecursorPassengerSeat</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>      
+          </Definition>
+
+        <!-- Small VB -->
+          <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+              <TypeId>Cockpit</TypeId>
+              <SubtypeId>PrecursorPassengerSeatSmallVB</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Passenger Seat VB</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+            <Description>"Birb goes vroom" - S-Mos 2021</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="3" z="2" />
+            <ModelOffset x="0" y="0" z="-0.5" />
+            <Model>Models\Cubes\Small\PassengerSeat.mwm</Model>
+            <CharacterAnimation>passengerseat_small</CharacterAnimation>
+            <UsesDeformation>false</UsesDeformation>
+
+            <Components>
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="MemoryFoam" Count="2000" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+            <MountPoints>
+              <MountPoint Side="Bottom" StartX="0" StartY="0" StartZ="-0.5" EndX="2" EndY="2" EndZ="1.5" Default="true" />
+              <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="2" />
+            </MountPoints>
+
+            <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\PassengerSeatConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PassengerSeatConstruction_2.mwm" />
+            </BuildProgressModels>
+
+            <VoxelPlacement>
+              <StaticMode>
+                <PlacementMode>OutsideVoxel</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </StaticMode>
+
+              <DynamicMode>
+                <PlacementMode>OutsideVoxel</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </DynamicMode>
+            </VoxelPlacement>
+
+            <BlockPairName>PrecursorPassengerSeatVB</BlockPairName>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>      
+          </Definition>
+
+      <!-- prccontrols END -->
+
+  </CubeBlocks>
+</Definitions>

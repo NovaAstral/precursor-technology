@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Sensor -->
+      <!-- Large -->
+        <Definition xsi:type="MyObjectBuilder_SensorBlockDefinition">
+          <Id>
+            <TypeId>SensorBlock</TypeId>
+            <SubtypeId>LargePrecursorSensor</SubtypeId>
+          </Id>
+
+          <DisplayName>Zei'a Sensor</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
+          <Description>Description_Sensor</Description>
+          <CubeSize>Large</CubeSize>
+          <GuiVisible>false</GuiVisible>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Large\Sensor.mwm</Model>
+
+          <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="InteriorPlate" Count="5" />
+            <Component Subtype="Construction" Count="5" />
+            <Component Subtype="Computer" Count="6" />
+            <Component Subtype="RadioCommunication" Count="4" />
+            <Component Subtype="Detector" Count="6" />
+            <Component Subtype="SteelPlate" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="Detector" Index="0" />
+
+          <MountPoints>
+            <MountPoint Side="Back" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" />
+          </MountPoints>
+
+          <IsStandAlone>false</IsStandAlone>
+          <HasPhysics>false</HasPhysics>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\SensorConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SensorConstruction_2.mwm" />
+          </BuildProgressModels>
+
+          <VoxelPlacement>
+            <StaticMode>
+              <PlacementMode>OutsideVoxel</PlacementMode>
+              <MaxAllowed>0.4</MaxAllowed>
+              <MinAllowed>0</MinAllowed>
+            </StaticMode>
+
+            <DynamicMode>
+              <PlacementMode>OutsideVoxel</PlacementMode>
+              <MaxAllowed>0.4</MaxAllowed>
+              <MinAllowed>0.01</MinAllowed>
+            </DynamicMode>
+          </VoxelPlacement>
+
+          <BlockPairName>PrecursorSensor</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <MaxRange>10000</MaxRange>
+          <EmissiveColorPreset>Extended</EmissiveColorPreset>
+          <ActionSound>BlockSensor</ActionSound>
+          <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+
+          <DestroyEffectOffset>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>1.1</Z>
+          </DestroyEffectOffset>
+
+          <DestroySound>PoofExplosionCat1</DestroySound>
+          <PCU>25</PCU>
+          <IsAirTight>false</IsAirTight>      
+        </Definition>
+
+      <!-- Small -->
+        <Definition xsi:type="MyObjectBuilder_SensorBlockDefinition">
+          <Id>
+            <TypeId>SensorBlock</TypeId>
+            <SubtypeId>SmallPrecursorSensor</SubtypeId>
+          </Id>
+
+          <DisplayName>Zei'a Small Sensor</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
+          <Description>Description_Sensor</Description>
+          <CubeSize>Small</CubeSize>
+          <GuiVisible>false</GuiVisible>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="1" />
+          <ModelOffset x="0" y="0" z="0" />
+          <Model>Models\Cubes\Small\Sensor.mwm</Model>
+
+          <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="InteriorPlate" Count="5" />
+            <Component Subtype="Construction" Count="5" />
+            <Component Subtype="Computer" Count="6" />
+            <Component Subtype="RadioCommunication" Count="4" />
+            <Component Subtype="Detector" Count="6" />
+            <Component Subtype="SteelPlate" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="Detector" Index="0" />
+
+          <MountPoints>
+           <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+          </MountPoints>
+
+          <IsStandAlone>false</IsStandAlone>
+          <HasPhysics>false</HasPhysics>
+
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\SensorConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\SensorConstruction_2.mwm" />
+          </BuildProgressModels>
+
+          <VoxelPlacement>
+            <StaticMode>
+              <PlacementMode>OutsideVoxel</PlacementMode>
+              <MaxAllowed>0.4</MaxAllowed>
+              <MinAllowed>0</MinAllowed>
+            </StaticMode>
+
+            <DynamicMode>
+              <PlacementMode>OutsideVoxel</PlacementMode>
+              <MaxAllowed>0.4</MaxAllowed>
+              <MinAllowed>0.01</MinAllowed>
+            </DynamicMode>
+          </VoxelPlacement>
+          
+          <BlockPairName>PrecursorSensor</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+          <DamagedSound>ParticleElectrical</DamagedSound>
+          <MaxRange>8000</MaxRange>
+          <EmissiveColorPreset>Extended</EmissiveColorPreset>
+          <ActionSound>BlockSensor</ActionSound>
+          <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+          <DestroySound>PoofExplosionCat1</DestroySound>
+          <PCU>25</PCU>
+          <IsAirTight>false</IsAirTight>      
+        </Definition>
+
+    <!-- prcAutomated END -->
+  </CubeBlocks>
+</Definitions>
