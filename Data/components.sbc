@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Components>
-
         <!-- Alloy -->
             <Component>
                 <Id>
@@ -74,7 +73,7 @@
                     <SubtypeId>PrecursorBurpMemoryFoam</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a B-Urp's Memory Foam</DisplayName>
-                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't work :(-->
+                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't actually work and I'm sad :( - Also B-Urp -->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
                     <X>0.04</X>
@@ -112,8 +111,8 @@
                 <DropProbability>0</DropProbability>
                 <Health>15</Health>
             </Component>
+            
         <!-- Components END -->
-        
     </Components>
 </Definitions>
 

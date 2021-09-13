@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
-
         <!-- Spotlight -->
             <!-- Large -->
                 <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
@@ -194,7 +193,6 @@
                 <PCU>25</PCU>
                 <IsAirTight>false</IsAirTight>
                 </Definition>
-
 
             <!-- Small -->
                 <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
