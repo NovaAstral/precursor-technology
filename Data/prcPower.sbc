@@ -19,15 +19,15 @@
           <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
 
           <Components>
-            <Component Subtype="SteelPlate" Count="4" />
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
+            <Component Subtype="SteelPlate" Count="4" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="Girder" Count="12" />
             <Component Subtype="Computer" Count="4" />
             <Component Subtype="SolarCell" Count="32" />
             <Component Subtype="Construction" Count="4" />
-            <Component Subtype="BulletproofGlass" Count="4" />
+            <Component Subtype="BulletproofGlass" Count="4" />         
           </Components>
           <CriticalComponent Subtype="SolarCell" Index="0" />
 
@@ -94,14 +94,14 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="Girder" Count="4" />
             <Component Subtype="Computer" Count="1" />
             <Component Subtype="SolarCell" Count="8" />
             <Component Subtype="Construction" Count="1" />
-            <Component Subtype="BulletproofGlass" Count="1" />
+            <Component Subtype="BulletproofGlass" Count="1" />           
           </Components>
           <CriticalComponent Subtype="SolarCell" Index="0" />
 
@@ -168,14 +168,14 @@
         <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
 
         <Components>
-          <Component Subtype="InteriorPlate" Count="10" />
           <Component Subtype="PrecursorAlloy" Count="50" />
-          <Component Subtype="Feor" Count="50" />
+          <Component Subtype="PrecursorFeor" Count="50" />          
+          <Component Subtype="InteriorPlate" Count="10" />
           <Component Subtype="Motor" Count="8" />
           <Component Subtype="Construction" Count="20" />
           <Component Subtype="Girder" Count="24" />
           <Component Subtype="Computer" Count="2" />
-          <Component Subtype="InteriorPlate" Count="30" />
+          <Component Subtype="InteriorPlate" Count="30" />        
         </Components>
         <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -244,7 +244,7 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="5" />
-            <Component Subtype="Feor" Count="5" />
+            <Component Subtype="PrecursorFeor" Count="5" />          
             <Component Subtype="SteelPlate" Count="1" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="MetalGrid" Count="2" />
@@ -286,7 +286,7 @@
 
           <FuelId>
             <TypeId>Component</TypeId>
-            <SubtypeId>Feor</SubtypeId>
+            <SubtypeId>PrecursorFeor</SubtypeId>
           </FuelId>
 
           <PrimarySound>ShipLrgNuclearSm</PrimarySound>
@@ -310,7 +310,7 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="5" />
-            <Component Subtype="Feor" Count="5" />
+            <Component Subtype="PrecursorFeor" Count="5" />            
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="9" />
             <Component Subtype="MetalGrid" Count="9" />
@@ -318,7 +318,7 @@
             <Component Subtype="Reactor" Count="95" />
             <Component Subtype="Motor" Count="5" />
             <Component Subtype="Computer" Count="25" />
-            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />          
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -351,7 +351,7 @@
 
           <FuelId>
             <TypeId>Component</TypeId>
-            <SubtypeId>Feor</SubtypeId>
+            <SubtypeId>PrecursorFeor</SubtypeId>
           </FuelId>
 
           <PrimarySound>ShipSmNuclearSm</PrimarySound>
@@ -376,11 +376,11 @@
           <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="SteelPlate" Count="20" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="PowerCell" Count="80"/>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
           </Components>
           <CriticalComponent Subtype="PowerCell" Index="0" />
 
@@ -438,11 +438,11 @@
           <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="SteelPlate" Count="5" />
             <Component Subtype="Construction" Count="2" />
             <Component Subtype="PowerCell" Count="20"/>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
           </Components>
           <CriticalComponent Subtype="PowerCell" Index="0" />
 
@@ -499,8 +499,8 @@
           <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorFeor" Count="500" />          
             <Component Subtype="SteelPlate" Count="160" />
-            <Component Subtype="Feor" Count="500" />
             <Component Subtype="Construction" Count="120" />
             <Component Subtype="LargeTube" Count="24" />
             <Component Subtype="SmallTube" Count="40" />
@@ -508,7 +508,7 @@
             <Component Subtype="Computer" Count="8" />
             <Component Subtype="PowerCell" Count="40" />
             <Component Subtype="Construction" Count="20" />
-            <Component Subtype="SteelPlate" Count="40" />
+            <Component Subtype="SteelPlate" Count="40" />           
           </Components>
           <CriticalComponent Subtype="PowerCell" Index="0" />
 
@@ -597,8 +597,8 @@
           <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorFeor" Count="500" />          
             <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Feor" Count="500" />
             <Component Subtype="Construction" Count="36" />
             <Component Subtype="LargeTube" Count="8" />
             <Component Subtype="SmallTube" Count="12" />

@@ -7,11 +7,12 @@
           <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
             <Id>
               <TypeId>Warhead</TypeId>
-              <SubtypeId>PrecursorWarheadLarge</SubtypeId>
+              <SubtypeId>LargePrecursorWarhead</SubtypeId>
             </Id>
 
             <DisplayName>Zei'a Alpha Warhead</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+            <Description>For erasing REALLY big mistakes</Description>
+            <Icon>Textures\warhead.png</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -19,9 +20,9 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="SteelPlate" Count="60" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />            
+              <Component Subtype="SteelPlate" Count="60" />
               <Component Subtype="Girder" Count="144" />
               <Component Subtype="Construction" Count="72" />
               <Component Subtype="SmallTube" Count="72" />
@@ -59,10 +60,11 @@
           <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
             <Id>
               <TypeId>Warhead</TypeId>
-              <SubtypeId>PrecursorWarheadSmall</SubtypeId>
+              <SubtypeId>SmallPrecursorWarhead</SubtypeId>
             </Id>
 
             <DisplayName>Small Zei'a Alpha Warhead</DisplayName>
+            <Description>For erasing REALLY big mistakes</Description>
             <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -71,9 +73,9 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="SteelPlate" Count="6" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />
+              <Component Subtype="SteelPlate" Count="6" />
               <Component Subtype="Girder" Count="6" />
               <Component Subtype="Construction" Count="6" />
               <Component Subtype="SmallTube" Count="12" />
@@ -102,10 +104,11 @@
           <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
             <Id>
               <TypeId>Warhead</TypeId>
-              <SubtypeId>PrecursorPreciseWarheadLarge</SubtypeId>
+              <SubtypeId>LargePrecursorPreciseWarhead</SubtypeId>
             </Id>
 
             <DisplayName>Zei'a Omega Warhead</DisplayName>
+            <Description>For erasing really small mistakes</Description>
             <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -114,9 +117,9 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="SteelPlate" Count="120" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />
+              <Component Subtype="SteelPlate" Count="120" />
               <Component Subtype="Girder" Count="188" />
               <Component Subtype="Construction" Count="144" />
               <Component Subtype="SmallTube" Count="144" />
@@ -154,10 +157,11 @@
           <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
             <Id>
               <TypeId>Warhead</TypeId>
-              <SubtypeId>PrecursorPreciseWarheadSmall</SubtypeId>
+              <SubtypeId>SmallPrecursorPreciseWarhead</SubtypeId>
             </Id>
 
             <DisplayName>Small Zei'a Omega Warhead</DisplayName>
+            <Description>For erasing really small mistakes</Description>
             <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -166,15 +170,15 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
               <Components>
-              <Component Subtype="SteelPlate" Count="12" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />                  
+              <Component Subtype="SteelPlate" Count="12" />
               <Component Subtype="Girder" Count="12" />
               <Component Subtype="Construction" Count="12" />
               <Component Subtype="SmallTube" Count="24" />
               <Component Subtype="Computer" Count="12" />
               <Component Subtype="Explosives" Count="24" />
-              <Component Subtype="SteelPlate" Count="36" />
+              <Component Subtype="SteelPlate" Count="36" />          
             </Components>
             <CriticalComponent Subtype="Explosives" Index="0" />
 
@@ -213,15 +217,15 @@
           <UseModelIntersection>true</UseModelIntersection>
 
           <Components>
-            <Component Subtype="InteriorPlate" Count="6" />
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />             
+            <Component Subtype="InteriorPlate" Count="6" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="SmallTube" Count="1" />
             <Component Subtype="Motor" Count="2" />
             <Component Subtype="Computer" Count="5" />
             <Component Subtype="Construction" Count="5" />
-            <Component Subtype="SteelPlate" Count="4" />
+            <Component Subtype="SteelPlate" Count="4" />         
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -294,15 +298,15 @@
           <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
 
           <Components>
-            <Component Subtype="SteelPlate" Count="4"/>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />             
+            <Component Subtype="SteelPlate" Count="4"/>
             <Component Subtype="Construction" Count="4"/>
             <Component Subtype="MetalGrid" Count="7"/>
             <Component Subtype="SmallTube" Count="21"/>
             <Component Subtype="Motor" Count="4"/>
             <Component Subtype="Computer" Count="4"/>
-            <Component Subtype="SteelPlate" Count="11"/>
+            <Component Subtype="SteelPlate" Count="11"/>         
           </Components>
           <CriticalComponent Subtype="Computer" Index="0"/>
 
@@ -353,15 +357,15 @@
             <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
 
             <Components>
-              <Component Subtype="SteelPlate" Count="20" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />             
+              <Component Subtype="SteelPlate" Count="20" />
               <Component Subtype="Construction" Count="8" />
               <Component Subtype="MetalGrid" Count="30" />
               <Component Subtype="LargeTube" Count="25" />
               <Component Subtype="Motor" Count="6" />
               <Component Subtype="Computer" Count="4" />
-              <Component Subtype="SteelPlate" Count="15" />
+              <Component Subtype="SteelPlate" Count="15" />             
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -411,15 +415,15 @@
             <Model>Models\Cubes\Small\RocketLauncher.mwm</Model>
 
             <Components>
-              <Component Subtype="SteelPlate" Count="1" />
               <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="Feor" Count="50" />
+              <Component Subtype="PrecursorFeor" Count="50" />            
+              <Component Subtype="SteelPlate" Count="1" />
               <Component Subtype="Construction" Count="2" />
               <Component Subtype="MetalGrid" Count="1" />
               <Component Subtype="LargeTube" Count="4" />
               <Component Subtype="Motor" Count="1" />
               <Component Subtype="Computer" Count="1" />
-              <Component Subtype="SteelPlate" Count="3" />
+              <Component Subtype="SteelPlate" Count="3" />              
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
 

@@ -8,7 +8,7 @@
                     <SubtypeId>PrecursorMissile</SubtypeId>
                 </Id>
 
-                <DisplayName>200mm Zei'a Missile</DisplayName>
+                <DisplayName>Zei'a 200mm Missile</DisplayName>
                 <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
 
                 <Size>

@@ -22,9 +22,9 @@
           <PlaceDecals>false</PlaceDecals>
 
           <Components>
-            <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />
+            <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="Motor" Count="16" />
             <Component Subtype="Detector" Count="30" />
@@ -92,9 +92,9 @@
           <PlaceDecals>false</PlaceDecals>
 
           <Components>
-            <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
+            <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="SmallTube" Count="10" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="Motor" Count="5" />

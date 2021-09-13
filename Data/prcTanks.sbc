@@ -20,13 +20,13 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
             <Component Subtype="Computer" Count="8" />
             <Component Subtype="Construction" Count="40" />
-            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />   
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -115,13 +115,13 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />              
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="LargeTube" Count="8" />
             <Component Subtype="SmallTube" Count="10" />
             <Component Subtype="Computer" Count="8" />
             <Component Subtype="Construction" Count="10" />
-            <Component Subtype="SteelPlate" Count="6" />
+            <Component Subtype="SteelPlate" Count="6" />        
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -207,13 +207,13 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />             
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
             <Component Subtype="Computer" Count="8" />
             <Component Subtype="Construction" Count="40" />
-            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />         
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -291,13 +291,13 @@
           
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />             
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="LargeTube" Count="1" />
             <Component Subtype="SmallTube" Count="2" />
             <Component Subtype="Computer" Count="4" />
             <Component Subtype="Construction" Count="2" />
-            <Component Subtype="SteelPlate" Count="1" />
+            <Component Subtype="SteelPlate" Count="1" />         
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
          

@@ -19,10 +19,10 @@
           <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="10" />
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
             <Component Subtype="Motor" Count="1" />
             <Component Subtype="Computer" Count="15" />
             <Component Subtype="InteriorPlate" Count="5" />
@@ -80,10 +80,10 @@
           <Model>Models\Cubes\Small\RemoteControl.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="InteriorPlate" Count="1" />
             <Component Subtype="Construction" Count="1" />
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
             <Component Subtype="Motor" Count="1" />
             <Component Subtype="Computer" Count="1" />
             <Component Subtype="InteriorPlate" Count="1" />
@@ -108,10 +108,10 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>500</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.01</RequiredPowerInput>
-          <EnableFirstPerson>true</EnableFirstPerson>
+          <EnableFirstPerson>false</EnableFirstPerson>
           <EnableShipControl>true</EnableShipControl>
           <EnableBuilderCockpit>false</EnableBuilderCockpit>
           <Public>true</Public>
@@ -129,7 +129,7 @@
           <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
               <TypeId>Cockpit</TypeId>
-              <SubtypeId>PrecursorPassengerSeatLarge</SubtypeId>
+              <SubtypeId>LargePrecursorPassengerSeat</SubtypeId>
             </Id>
 
             <DisplayName>Zei'a Passenger Seat</DisplayName>
@@ -144,10 +144,10 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" />
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
-              <Component Subtype="MemoryFoam" Count="2000" />
             </Components>
             <CriticalComponent Subtype="InteriorPlate" Index="0" />
 
@@ -200,7 +200,7 @@
               <SubtypeId>PrecursorPassengerSeatSmall</SubtypeId>
             </Id>
 
-            <DisplayName>Zei'a Passenger Seat</DisplayName>
+            <DisplayName>Small Zei'a Passenger Seat</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description>
             <CubeSize>Small</CubeSize>
@@ -212,10 +212,10 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" />
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
-              <Component Subtype="MemoryFoam" Count="2000" />
             </Components>
             <CriticalComponent Subtype="InteriorPlate" Index="0" />
 
@@ -260,14 +260,14 @@
             <IsAirTight>false</IsAirTight>      
           </Definition>
 
-        <!-- Small VB -->
+        <!-- Small Offset -->
           <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
               <TypeId>Cockpit</TypeId>
-              <SubtypeId>PrecursorPassengerSeatSmallVB</SubtypeId>
+              <SubtypeId>PrecursorPassengerSeatSmallOffset</SubtypeId>
             </Id>
 
-            <DisplayName>Zei'a Passenger Seat VB</DisplayName>
+            <DisplayName>Zei'a Passenger Seat Offset</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
             <Description>"Birb goes vroom" - S-Mos 2021</Description>
             <CubeSize>Small</CubeSize>
@@ -279,10 +279,10 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" />            
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
-              <Component Subtype="MemoryFoam" Count="2000" />
             </Components>
             <CriticalComponent Subtype="InteriorPlate" Index="0" />
 
@@ -310,7 +310,6 @@
               </DynamicMode>
             </VoxelPlacement>
 
-            <BlockPairName>PrecursorPassengerSeatVB</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>15</BuildTimeSeconds>

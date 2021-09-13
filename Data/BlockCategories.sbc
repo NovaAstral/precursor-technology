@@ -8,10 +8,9 @@
 			<SubtypeId/>
 		</Id>
 
-		<DisplayName>Zei'a</DisplayName>
-		<Name>Zei'a</Name>
+		<DisplayName>Kas Zei'a</DisplayName>
+		<Name>Kas Zei'a</Name>
 			<ItemIds>
-
 				<string>BatteryBlock/LargePrecursorBattery</string>
 				<string>BatteryBlock/SmallPrecursorBattery</string>
 				<string>Reactor/LargeMagPulseReactor</string>
@@ -31,10 +30,10 @@
 				<string>Thrust/SmallPrecursorThruster</string>
 				<string>Thrust/LargePrecursorWeakThruster</string>
 				<string>Thrust/SmallPrecursorWeakThruster</string>
-				<string>Warhead/PrecursorWarheadLarge</string>
-				<string>Warhead/PrecursorWarheadSmall</string>
-				<string>Warhead/PrecursorPreciseWarheadLarge</string>
-				<string>Warhead/PrecursorPreciseWarheadSmall</string>
+				<string>Warhead/LargePrecursorWarhead</string>
+				<string>Warhead/SmalPrecursorWarhead</string>
+				<string>Warhead/LargePrecursorPreciseWarhead</string>
+				<string>Warhead/SmallPrecursorPreciseWarhead</string>
 				<string>SmallGatlingGun/PrecursorGatlingGun</string>
 				<string>SmallMissileLauncher/SmallPrecursorMissileLauncher</string>
 				<string>SmallMissileLauncher/LargePrecursorMissileLauncher</string>
@@ -73,11 +72,50 @@
 				<string>ReflectorLight/SmallPrecursorSearchlight</string>
 				<string>RemoteControl/LargePrecursorRC</string>
 				<string>RemoteControl/SmallPrecursorRC</string>
-				<string>PrecursorPassengerSeatLarge</string>
-				<string>PrecursorPassengerSeatSmall</string>
-				<string>PrecursorPassengerSeatSmallVB</string>
+				<string>Cockpit/PrecursorPassengerSeatLarge</string>
+				<string>Cockpit/PrecursorPassengerSeatSmall</string>
+				<string>Cockpit/PrecursorPassengerSeatSmallOffset</string>
 			</ItemIds>
 	</Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipTools</DisplayName>
+      <Name>ShipTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+		<string>ShipWelder/SmallPrecursorWelder</string>
+		<string>ShipWelder/LargePrecursorWelder</string>
+		<string>Drill/LargePrecursorDrill</string>
+		<string>Drill/SmallPrecursorDrill</string>
+		<string>ShipGrinder/LargePrecursorGrinder</string>
+		<string>ShipGrinder/SmallPrecursorGrinder</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+      <Name>ShipWeapons</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+		<string>SmallGatlingGun/PrecursorGatlingGun</string>
+		<string>SmallMissileLauncher/SmallPrecursorMissileLauncher</string>
+		<string>SmallMissileLauncher/LargePrecursorMissileLauncher</string>
+	  </ItemIds>
+    </Category>
 
 </CategoryClasses>
 </Definitions>

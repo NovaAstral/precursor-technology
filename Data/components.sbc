@@ -27,7 +27,7 @@
             <Component>
                 <Id>
                     <TypeId>Component</TypeId>
-                    <SubtypeId>Feor</SubtypeId>
+                    <SubtypeId>PrecursorFeor</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a Feo'r</DisplayName>
                 <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
@@ -48,10 +48,11 @@
             <Component>
                 <Id>
                     <TypeId>Component</TypeId>
-                    <SubtypeId>MemoryFoam</SubtypeId>
+                    <SubtypeId>PrecursorMemoryFoam</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a Memory Foam</DisplayName>
-                <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :(-->
+                <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
                     <X>0.04</X>
                     <Y>0.04</Y>
@@ -59,20 +60,43 @@
                 </Size>
                 <Mass>1</Mass>
                 <Volume>1</Volume>
-                <Model>Models\Components\small_tube_component.mwm</Model>
+                <Model>Models\Components\Cartridge.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
                 <MaxIntegrity>15</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
 
-		<!-- Hand Core (kinda very gay) -->
+            
+        <!-- B-Urp's Memory Foam -->
+            <Component>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>PrecursorBurpMemoryFoam</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a B-Urp's Memory Foam</DisplayName>
+                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't work :(-->
+                <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+                <Size>
+                    <X>0.04</X>
+                    <Y>0.04</Y>
+                    <Z>0.04</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\Cartridge.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>15</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+
+		<!-- Hand Core -->
             <Component>
                 <Id>
                     <TypeId>PhysicalGunObject</TypeId>
                     <SubtypeId>PrecursorHandheldBattery</SubtypeId>
                 </Id>
 
-                <DisplayName>Handled Zei'a Energy Core</DisplayName>
+                <DisplayName>Zei'a Handheld Energy Core</DisplayName>
                 <Icon>Textures\GUI\Icons\Cubes\Battery1x1.dds</Icon>
                 <Size>
                     <X>0.1</X>
@@ -80,15 +104,16 @@
                     <Z>0.1</Z>
                 </Size>
 
-                <Mass>2</Mass>
-                <Volume>5</Volume>
-                <Model>Models\Components\construction_components_component.mwm</Model>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Cubes\small\BatterySmall1x1.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
                 <MaxIntegrity>1</MaxIntegrity>
-                <DropProbability>0.3</DropProbability>
-                <Health>14</Health>
+                <DropProbability>0</DropProbability>
+                <Health>15</Health>
             </Component>
         <!-- Components END -->
         
     </Components>
 </Definitions>
+

@@ -21,7 +21,7 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />
@@ -99,7 +99,7 @@
 
           <Components>
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />

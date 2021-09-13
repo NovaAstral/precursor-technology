@@ -19,15 +19,15 @@
 					<Model>Models\Cubes\Large\gyroscope.mwm</Model>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="750" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="750" />
 						<Component Subtype="Construction" Count="60" />
 						<Component Subtype="LargeTube" Count="6" />
 						<Component Subtype="MetalGrid" Count="75" />
 						<Component Subtype="Motor" Count="6" />
 						<Component Subtype="Computer" Count="8" />
-						<Component Subtype="SteelPlate" Count="150" />
+						<Component Subtype="SteelPlate" Count="150" />					
 					</Components>
 					<CriticalComponent Subtype="Computer" Index="0" />
 
@@ -79,9 +79,9 @@
 					<SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="27" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="27" />
 						<Component Subtype="Construction" Count="11" />
 						<Component Subtype="LargeTube" Count="2" />
 						<Component Subtype="Motor" Count="5" />
@@ -137,15 +137,15 @@
 					<ThrusterType>Atmospheric</ThrusterType>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="10" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="10" />
 						<Component Subtype="Construction" Count="30" />
 						<Component Subtype="LargeTube" Count="8" />
 						<Component Subtype="MetalGrid" Count="10" />
 						<Component Subtype="Motor" Count="113" />
 						<Component Subtype="Construction" Count="20" />
-						<Component Subtype="SteelPlate" Count="31" />
+						<Component Subtype="SteelPlate" Count="31" />						
 					</Components>        
 					<CriticalComponent Subtype="Motor" Index="0" />
 
@@ -231,9 +231,9 @@
 					<ThrusterType>Atmospheric</ThrusterType>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="2" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="2" />
 						<Component Subtype="LargeTube" Count="1" />
 						<Component Subtype="MetalGrid" Count="1" />
 						<Component Subtype="Motor" Count="18" />
@@ -327,15 +327,15 @@
 					<ThrusterType>Atmospheric</ThrusterType>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="10" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="10" />
 						<Component Subtype="Construction" Count="30" />
 						<Component Subtype="LargeTube" Count="8" />
 						<Component Subtype="MetalGrid" Count="10" />
 						<Component Subtype="Motor" Count="113" />
 						<Component Subtype="Construction" Count="20" />
-						<Component Subtype="SteelPlate" Count="31" />
+						<Component Subtype="SteelPlate" Count="31" />						
 					</Components>        
 					<CriticalComponent Subtype="Motor" Index="0" />
 
@@ -421,14 +421,14 @@
 					<ThrusterType>Atmospheric</ThrusterType>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="2" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="2" />
 						<Component Subtype="LargeTube" Count="1" />
 						<Component Subtype="MetalGrid" Count="1" />
 						<Component Subtype="Motor" Count="18" />
 						<Component Subtype="Construction" Count="2" />
-						<Component Subtype="SteelPlate" Count="8" />
+						<Component Subtype="SteelPlate" Count="8" />						
 					</Components>        
 					<CriticalComponent Subtype="Motor" Index="0" />
 
@@ -515,9 +515,9 @@
 					<Model>Models\Cubes\Large\JumpDrive.mwm</Model>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="20" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />						
+						<Component Subtype="SteelPlate" Count="20" />
 						<Component Subtype="LargeTube" Count="40" />
 						<Component Subtype="MetalGrid" Count="100" />
 						<Component Subtype="GravityGenerator" Count="200" />
@@ -525,7 +525,7 @@
 						<Component Subtype="Superconductor" Count="4000" />
 						<Component Subtype="Computer" Count="900" />
 						<Component Subtype="Construction" Count="40" />
-						<Component Subtype="SteelPlate" Count="20" />
+						<Component Subtype="SteelPlate" Count="20" />					
 					</Components>
 					<CriticalComponent Subtype="Computer" Index="0" />
 
@@ -580,9 +580,9 @@
 					<Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
 
 					<Components>
-						<Component Subtype="SteelPlate" Count="20" />
 						<Component Subtype="PrecursorAlloy" Count="50" />
-						<Component Subtype="Feor" Count="50" />
+						<Component Subtype="PrecursorFeor" Count="50" />					
+						<Component Subtype="SteelPlate" Count="20" />
 						<Component Subtype="MetalGrid" Count="25" />
 						<Component Subtype="GravityGenerator" Count="10" />
 						<Component Subtype="Detector" Count="10" />
@@ -590,7 +590,7 @@
 						<Component Subtype="Superconductor" Count="1000" />
 						<Component Subtype="Computer" Count="150" />
 						<Component Subtype="Construction" Count="20" />
-						<Component Subtype="SteelPlate" Count="10" />
+						<Component Subtype="SteelPlate" Count="10" />						
 					</Components>
 					<CriticalComponent Subtype="Computer" Index="0" />
 

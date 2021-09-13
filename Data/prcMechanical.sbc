@@ -18,14 +18,14 @@
           <Model>Models\Cubes\Large\PistonBase.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />            
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="100" />
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="Motor" Count="40" />
             <Component Subtype="Computer" Count="20" />
-            <Component Subtype="SteelPlate" Count="50" />
+            <Component Subtype="SteelPlate" Count="50" />          
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -85,10 +85,10 @@
           <Model>Models\Cubes\Large\PistonBase.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />          
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="100" />
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="Motor" Count="40" />
             <Component Subtype="Computer" Count="20" />
@@ -151,14 +151,14 @@
           <Model>Models\Cubes\Small\PistonBase.mwm</Model>
 
           <Components>
-            <Component Subtype="SteelPlate" Count="20" />
-            <Component Subtype="Construction" Count="40" />
             <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />		
+            <Component Subtype="PrecursorFeor" Count="50" />          
+            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="Construction" Count="40" />	
             <Component Subtype="SmallTube" Count="40" />
             <Component Subtype="Motor" Count="20" />
             <Component Subtype="Computer" Count="10" />
-            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />	
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 
@@ -217,14 +217,14 @@
           <Model>Models\Cubes\Small\PistonBase.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" />
+            <Component Subtype="PrecursorFeor" Count="50" />            
             <Component Subtype="SteelPlate" Count="20" />
             <Component Subtype="Construction" Count="40" />
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="Feor" Count="50" />
             <Component Subtype="SmallTube" Count="40" />
             <Component Subtype="Motor" Count="20" />
             <Component Subtype="Computer" Count="10" />
-            <Component Subtype="SteelPlate" Count="20" />
+            <Component Subtype="SteelPlate" Count="20" />          
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
 

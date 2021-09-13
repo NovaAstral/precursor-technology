@@ -19,7 +19,7 @@
 
         <MissileProperties>
           <MissileMass>45</MissileMass>
-          <MissileExplosionRadius>50</MissileExplosionRadius>
+          <MissileExplosionRadius>250</MissileExplosionRadius>
           <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
           <MissileAcceleration>600</MissileAcceleration>
           <MissileInitialSpeed>100</MissileInitialSpeed>
