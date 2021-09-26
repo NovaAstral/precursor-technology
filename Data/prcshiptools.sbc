@@ -10,6 +10,7 @@
                     </Id>
 
                     <DisplayName>Small Zei'a Welder</DisplayName>
+                    <Description>Don't use this on big things damnit</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
                     <Description></Description>
                     <CubeSize>Small</CubeSize>
@@ -74,6 +75,7 @@
                     </Id>
 
                     <DisplayName>Zei'a Welder</DisplayName>
+                    <Description>Don't use this on big things damnit</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
                     <Description></Description>
                     <CubeSize>Large</CubeSize>
@@ -331,6 +333,7 @@
                     </Id>
 
                     <DisplayName>Zei'a Grinder</DisplayName>
+                    <Description>Don't use this on big things damnit</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
                     <Description></Description>
@@ -409,6 +412,7 @@
                     </Id>
 
                     <DisplayName>Small Zei'a Grinder</DisplayName>
+                    <Description>Don't use this on big things damnit</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
                     <Description></Description>
