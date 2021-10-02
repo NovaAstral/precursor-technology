@@ -79,7 +79,7 @@
             <Class>OxygenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -147,7 +147,7 @@
           <Center x="1" y="1" z="1" />
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -257,7 +257,7 @@
             <Class>HydrogenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -341,7 +341,7 @@
             <Class>HydrogenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>

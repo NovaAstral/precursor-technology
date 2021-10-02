@@ -46,7 +46,7 @@
 
           <BlockPairName>PrecursorRC</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>500</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <MirroringY>Z</MirroringY>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.01</RequiredPowerInput>
@@ -179,7 +179,7 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>
             <EnableBuilderCockpit>false</EnableBuilderCockpit>
@@ -245,7 +245,7 @@
             <BlockPairName>PrecursorPassengerSeat</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>
@@ -311,7 +311,7 @@
 
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>

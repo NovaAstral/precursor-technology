@@ -50,7 +50,7 @@
 
           <BlockPairName>PrecursorRefinery</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
           <InventoryMaxVolume>10000</InventoryMaxVolume>
 
@@ -125,7 +125,7 @@
 
           <BlockPairName>PrecursorRefinery</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
           <InventoryMaxVolume>10000</InventoryMaxVolume>
           
@@ -204,7 +204,7 @@
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
-        <BuildTimeSeconds>200</BuildTimeSeconds>
+        <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
         <Upgrades>
           <MyUpgradeModuleInfo>
@@ -283,7 +283,7 @@
         <MirroringY>Z</MirroringY>
         <MirroringZ>Y</MirroringZ>
         <EdgeType>Light</EdgeType>
-        <BuildTimeSeconds>200</BuildTimeSeconds>
+        <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -347,7 +347,7 @@
         <MirroringY>Z</MirroringY>
         <MirroringZ>Y</MirroringZ>
         <EdgeType>Light</EdgeType>
-        <BuildTimeSeconds>200</BuildTimeSeconds>
+        <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -415,7 +415,7 @@
 
           <BlockPairName>PrecursorOxygenFarm</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           
           <PanelOrientation>
             <X>0</X>
@@ -491,7 +491,7 @@
 
         <BlockPairName>PrecursorOxygenFarm</BlockPairName>
         <EdgeType>Light</EdgeType>
-        <BuildTimeSeconds>200</BuildTimeSeconds>
+        <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
         <PanelOrientation>
           <X>0</X>
@@ -570,7 +570,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
           <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
@@ -631,7 +631,7 @@
           <BlockPairName>PrecursorCargo</BlockPairName>
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -696,7 +696,7 @@
 
           <BlockPairName>PrecursorOxygenGenerator</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
           <IceConsumptionPerSecond>0.1</IceConsumptionPerSecond>
@@ -807,7 +807,7 @@
           </BuildProgressModels>
 
           <Center x="1" y="1" z="0" />
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>

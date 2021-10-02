@@ -10,7 +10,7 @@
                     </Id>
 
                     <DisplayName>Small Zei'a Welder</DisplayName>
-                    <Description>Don't use this on big things damnit</Description>
+                    <Description>Really, don't use this on big things.</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
                     <Description></Description>
                     <CubeSize>Small</CubeSize>
@@ -55,7 +55,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
                     <DamagedSound>ParticleElectrical</DamagedSound>
                     <Flare>ShipWelder</Flare>
@@ -75,7 +75,7 @@
                     </Id>
 
                     <DisplayName>Zei'a Welder</DisplayName>
-                    <Description>Don't use this on big things damnit</Description>
+                    <Description>Really, don't use this on big things.</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
                     <Description></Description>
                     <CubeSize>Large</CubeSize>
@@ -132,7 +132,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
                     <DamagedSound>ParticleElectrical</DamagedSound>
                     <Flare>ShipWelderLarge</Flare>
@@ -211,7 +211,7 @@
                     <MirroringY>Z</MirroringY>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>45</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <Center x="0" y="0" z="2"/>
                     <ResourceSinkGroup>Defense</ResourceSinkGroup>
                     <SensorRadius>20</SensorRadius>
@@ -299,7 +299,7 @@
                 <MirroringY>Z</MirroringY>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>200</BuildTimeSeconds>
+                <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
                 <ResourceSinkGroup>Defense</ResourceSinkGroup>
                 <SensorRadius>20</SensorRadius>
@@ -333,7 +333,7 @@
                     </Id>
 
                     <DisplayName>Zei'a Grinder</DisplayName>
-                    <Description>Don't use this on big things damnit</Description>
+                    <Description>Really, don't use this on big things.</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
                     <Description></Description>
@@ -394,7 +394,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
                     <DamagedSound>ParticleHeavyMech</DamagedSound>
                     <Flare></Flare>
@@ -412,7 +412,7 @@
                     </Id>
 
                     <DisplayName>Small Zei'a Grinder</DisplayName>
-                    <Description>Don't use this on big things damnit</Description>
+                    <Description>Really, don't use this on big things.</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
                     <Description></Description>
@@ -474,7 +474,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
                     <DamagedSound>ParticleHeavyMech</DamagedSound>
                     <Flare></Flare>

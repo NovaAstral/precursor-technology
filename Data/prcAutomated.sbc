@@ -61,7 +61,7 @@
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <BuildTimeSeconds>6</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <MaxRange>10000</MaxRange>
@@ -139,7 +139,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>

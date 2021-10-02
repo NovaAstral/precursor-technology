@@ -50,7 +50,7 @@
             <BlockPairName>PrecursorWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>500</ExplosionRadius>
             <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -93,7 +93,7 @@
             <BlockPairName>PrecursorWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>250</ExplosionRadius>
             <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -147,7 +147,7 @@
             <BlockPairName>PrecursorPreciseWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
             <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -190,7 +190,7 @@
             <BlockPairName>PrecursorPreciseWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
             <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -256,7 +256,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
           <WeaponDefinitionId Subtype="LargeInteriorTurret" />
           <InventoryMaxVolume>200</InventoryMaxVolume>
@@ -327,7 +327,7 @@
           <Center x="0" y="0" z="3"/>
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <WeaponDefinitionId Subtype="PrecursorGatlingGun"/>
           <ResourceSinkGroup>Defense</ResourceSinkGroup>
@@ -386,7 +386,7 @@
             <BlockPairName>PrecursorMissileLauncher</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <Center x="0" y="0" z="1" />
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="LargePrecursorMissileLauncher" />
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
@@ -443,7 +443,7 @@
             <MirroringZ>X</MirroringZ>
             <BlockPairName>PrecursorMissileLauncher</BlockPairName>
             <Center x="0" y="0" z="3" />
-            <BuildTimeSeconds>200</BuildTimeSeconds>
+            <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="SmallPrecursorMissileLauncher" />
             <ResourceSinkGroup>Defense</ResourceSinkGroup>

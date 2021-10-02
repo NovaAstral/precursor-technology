@@ -47,7 +47,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.002</RequiredPowerInput>
@@ -114,7 +114,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.002</RequiredPowerInput>
@@ -179,7 +179,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.0002</RequiredPowerInput>
@@ -245,7 +245,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.0002</RequiredPowerInput>

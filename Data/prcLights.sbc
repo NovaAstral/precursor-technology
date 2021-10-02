@@ -47,7 +47,7 @@
                     <BlockPairName>PrecursorSpotlight</BlockPairName>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <LightRadius Min="1" Max="50" Default="5"/>
                     <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                     <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -109,7 +109,7 @@
                 <BlockPairName>PrecursorSpotlight</BlockPairName>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>200</BuildTimeSeconds>
+                <BuildTimeSeconds>9999999</BuildTimeSeconds>
                 <LightRadius Min="1" Max="50" Default="5"/>
                 <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -175,7 +175,7 @@
                 <BlockPairName>PrecursorSearchlight</BlockPairName>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>200</BuildTimeSeconds>
+                <BuildTimeSeconds>9999999</BuildTimeSeconds>
                 <LightRadius Min="1" Max="50" Default="5"/>
                 <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -238,7 +238,7 @@
                     <BlockPairName>PrecursorSearchlight</BlockPairName>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>200</BuildTimeSeconds>
+                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
                     <LightRadius Min="1" Max="50" Default="5"/>
                     <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                     <LightFalloff Min="1" Max="3" Default="1.5"/>

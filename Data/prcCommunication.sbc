@@ -51,7 +51,7 @@
 
           <BlockPairName>PrecursorLaserAntenna</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <MirroringY>Z</MirroringY>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
@@ -123,7 +123,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>

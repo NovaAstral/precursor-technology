@@ -52,7 +52,7 @@
 
           <BlockPairName>PrecursorSolarPanel</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
@@ -123,7 +123,7 @@
 
           <BlockPairName>PrecursorSolarPanel</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
@@ -193,7 +193,7 @@
 
         <BlockPairName>PrecursorWindTurbine</BlockPairName>
         <EdgeType>Light</EdgeType>
-        <BuildTimeSeconds>200</BuildTimeSeconds>
+        <BuildTimeSeconds>9999999</BuildTimeSeconds>
         <DamageEffectId>214</DamageEffectId>
 
         <ActionSound>ArcBlockWindTurbine</ActionSound>
@@ -275,7 +275,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
 
           <InventorySize>
@@ -340,7 +340,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
 
           <InventorySize>
@@ -392,7 +392,7 @@
 
           <BlockPairName>PrecursorCore</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>Battery</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
@@ -453,7 +453,7 @@
 
           <BlockPairName>PrecursorCore</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>Battery</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
@@ -527,7 +527,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
@@ -630,7 +630,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>200</BuildTimeSeconds>
+          <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <MaxPowerOutput>13576132215353</MaxPowerOutput>
