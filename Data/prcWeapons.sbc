@@ -124,7 +124,7 @@
 
                 <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepTurretInteriorFire"/>
                 <DeviateShotAngle>0</DeviateShotAngle>
-                <DamageMultiplier>13576132215353</DamageMultiplier>
+                <DamageMultiplier>20000000</DamageMultiplier>
                 <RangeMultiplier>5</RangeMultiplier>
                 <MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
                 

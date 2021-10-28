@@ -61,15 +61,15 @@
           </InventorySize>
 
           <StandbyPowerConsumption>0</StandbyPowerConsumption>
-          <OperationalPowerConsumption>10000</OperationalPowerConsumption>
+          <OperationalPowerConsumption>20000000</OperationalPowerConsumption>
 
           <BlueprintClasses>
             <Class>Ingots</Class>
           </BlueprintClasses>
 
-          <RefineSpeed>1357613</RefineSpeed>
+          <RefineSpeed>20000</RefineSpeed>
           <MaterialEfficiency>116</MaterialEfficiency>
-          <OreAmountPerPullRequest>13576132215353</OreAmountPerPullRequest>
+          <OreAmountPerPullRequest>20000000</OreAmountPerPullRequest>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <Center x="1" y="0" z="0" />
           <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -137,13 +137,13 @@
 
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
           <StandbyPowerConsumption>0</StandbyPowerConsumption>
-          <OperationalPowerConsumption>10000</OperationalPowerConsumption>
+          <OperationalPowerConsumption>20000000</OperationalPowerConsumption>
           <BlueprintClasses>
           <Class>Ingots</Class>
           </BlueprintClasses>
-          <RefineSpeed>13576132215353</RefineSpeed>
+          <RefineSpeed>20000</RefineSpeed>
           <MaterialEfficiency>116</MaterialEfficiency>
-          <OreAmountPerPullRequest>13576132215353</OreAmountPerPullRequest>
+          <OreAmountPerPullRequest>20000000</OreAmountPerPullRequest>
           <DamageEffectId>212</DamageEffectId>
           <Center x="1" y="0" z="0" />
           <MirroringZ>Y</MirroringZ>
@@ -225,7 +225,7 @@
         </Upgrades>
 
         <StandbyPowerConsumption>0</StandbyPowerConsumption>
-        <OperationalPowerConsumption>10000</OperationalPowerConsumption>
+        <OperationalPowerConsumption>20000000</OperationalPowerConsumption> <!-- This does nothing sadly -->
 
         <PrimarySound>BlockModuleEffectiveness</PrimarySound>
         <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -287,9 +287,9 @@
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
-        <OperationalPowerConsumption>10</OperationalPowerConsumption>
+        <OperationalPowerConsumption>200000</OperationalPowerConsumption>
         <StandbyPowerConsumption>1</StandbyPowerConsumption>
-        <VentilationCapacityPerSecond>13576132215353</VentilationCapacityPerSecond>
+        <VentilationCapacityPerSecond>20000000</VentilationCapacityPerSecond>
 
         <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
         <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -351,9 +351,9 @@
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
-        <OperationalPowerConsumption>10</OperationalPowerConsumption>
+        <OperationalPowerConsumption>200000</OperationalPowerConsumption>
         <StandbyPowerConsumption>1</StandbyPowerConsumption>
-        <VentilationCapacityPerSecond>13576132215353</VentilationCapacityPerSecond>
+        <VentilationCapacityPerSecond>20000000</VentilationCapacityPerSecond>
 
         <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
         <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -433,7 +433,7 @@
               <TypeId>GasProperties</TypeId>
               <SubtypeId>Oxygen</SubtypeId>
             </Id>
-            <MaxOutputPerSecond>13576132215353</MaxOutputPerSecond>
+            <MaxOutputPerSecond>20000000</MaxOutputPerSecond>
           </ProducedGas>
 
           <OperationalPowerConsumption>1000</OperationalPowerConsumption>
@@ -509,7 +509,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
-          <MaxOutputPerSecond>13576132215353</MaxOutputPerSecond>
+          <MaxOutputPerSecond>20000000</MaxOutputPerSecond>
         </ProducedGas>
 
         <OperationalPowerConsumption>1000</OperationalPowerConsumption>
@@ -700,7 +700,7 @@
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
           <IceConsumptionPerSecond>0.1</IceConsumptionPerSecond>
-          <InventoryMaxVolume>4</InventoryMaxVolume>
+          <InventoryMaxVolume>20000000</InventoryMaxVolume>
 
           <InventorySize>
             <X>10000</X>
@@ -712,7 +712,7 @@
           <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
           <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
           <StandbyPowerConsumption>10</StandbyPowerConsumption>
-          <OperationalPowerConsumption>1000</OperationalPowerConsumption>
+          <OperationalPowerConsumption>20000000</OperationalPowerConsumption>
           
           <ProducedGases>
             <GasInfo>
@@ -720,7 +720,7 @@
                 <TypeId>GasProperties</TypeId>
                 <SubtypeId>Oxygen</SubtypeId>
               </Id>
-              <IceToGasRatio>13576132215353</IceToGasRatio>
+              <IceToGasRatio>20000000</IceToGasRatio>
             </GasInfo>
 
             <GasInfo>
@@ -728,7 +728,7 @@
                 <TypeId>GasProperties</TypeId>
                 <SubtypeId>Hydrogen</SubtypeId>
               </Id>
-              <IceToGasRatio>13576132215353</IceToGasRatio>
+              <IceToGasRatio>20000000</IceToGasRatio>
             </GasInfo>
           </ProducedGases>
           
@@ -833,7 +833,7 @@
                 <TypeId>GasProperties</TypeId>
                 <SubtypeId>Oxygen</SubtypeId>
               </Id>
-              <IceToGasRatio>13576132215353</IceToGasRatio>
+              <IceToGasRatio>20000000</IceToGasRatio>
             </GasInfo>
 
             <GasInfo>
@@ -841,7 +841,7 @@
                 <TypeId>GasProperties</TypeId>
                 <SubtypeId>Hydrogen</SubtypeId>
               </Id>
-              <IceToGasRatio>13576132215353</IceToGasRatio>
+              <IceToGasRatio>20000000</IceToGasRatio>
             </GasInfo>
           </ProducedGases>
 

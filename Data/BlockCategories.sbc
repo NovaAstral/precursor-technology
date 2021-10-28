@@ -11,10 +11,6 @@
 		<DisplayName>Kas Zei'a</DisplayName>
 		<Name>Kas Zei'a</Name>
 			<ItemIds>
-				<string>BatteryBlock/LargePrecursorBattery</string>
-				<string>BatteryBlock/SmallPrecursorBattery</string>
-				<string>Reactor/LargeMagPulseReactor</string>
-				<string>Reactor/SmallMagPulseReactor</string>
 				<string>HydrogenEngine/LargeOxygenEngine</string>
 				<string>HydrogenEngine/SmallOxygenEngine</string>
 				<string>OxygenFarm/LargePrecursorOxygenFarm</string>
@@ -75,6 +71,10 @@
 				<string>Cockpit/PrecursorPassengerSeatLarge</string>
 				<string>Cockpit/PrecursorPassengerSeatSmall</string>
 				<string>Cockpit/PrecursorPassengerSeatSmallOffset</string>
+				<string>LandingGear/LargePrecursorMagPlate</string>
+				<string>LandingGear/SmallPrecursorMagPlate</string>
+				<string>Beacon/LargePrecursorPowersink</string>
+				<string>Beacon/SmallPrecursorPowersink</string>
 			</ItemIds>
 	</Category>
 

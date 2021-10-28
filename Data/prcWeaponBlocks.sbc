@@ -52,7 +52,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>500</ExplosionRadius>
-            <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
+            <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
           </Definition>
 
@@ -95,7 +95,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>250</ExplosionRadius>
-            <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
+            <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
           </Definition>
 
@@ -149,7 +149,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
-            <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
+            <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
           </Definition>
 
@@ -192,7 +192,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>9999999</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
-            <WarheadExplosionDamage>13576132215353</WarheadExplosionDamage>
+            <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
           </Definition>
           
@@ -269,7 +269,7 @@
           <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
           <IdleRotation>true</IdleRotation>
           <MaxRangeMeters>1000</MaxRangeMeters>
-          <RotationSpeed>1</RotationSpeed>
+          <RotationSpeed>0.2</RotationSpeed>
           <ElevationSpeed>1</ElevationSpeed>
           <EmissiveColorPreset>Default</EmissiveColorPreset>
           <MinFov>0.1</MinFov>

@@ -50,14 +50,14 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <RequiredPowerInput>0.002</RequiredPowerInput>
+          <RequiredPowerInput>0.001</RequiredPowerInput>
           <TopPart>PistonTop</TopPart>
           <Maximum>1000</Maximum>
           <Public>false</Public>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
-          <SafetyDetach>5</SafetyDetach>
-          <SafetyDetachMax>5</SafetyDetachMax>
+          <SafetyDetach>10</SafetyDetach>
+          <SafetyDetachMax>10</SafetyDetachMax>
           <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
           <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
           <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
@@ -117,13 +117,13 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <PrimarySound>BlockPiston</PrimarySound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <RequiredPowerInput>0.002</RequiredPowerInput>
+          <RequiredPowerInput>0.001</RequiredPowerInput>
           <TopPart>PistonTop</TopPart>
           <Maximum>1000</Maximum>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
-          <SafetyDetach>5</SafetyDetach>
-          <SafetyDetachMax>5</SafetyDetachMax>
+          <SafetyDetach>10</SafetyDetach>
+          <SafetyDetachMax>10</SafetyDetachMax>
           <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
           <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
           <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
@@ -188,8 +188,8 @@
           <Public>false</Public>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
-          <SafetyDetach>5</SafetyDetach>
-          <SafetyDetachMax>5</SafetyDetachMax>
+          <SafetyDetach>10</SafetyDetach>
+          <SafetyDetachMax>10</SafetyDetachMax>
           <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
           <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
           <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
@@ -253,8 +253,8 @@
           <Maximum>1000</Maximum>
           <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
           <DamagedSound>ParticleHeavyMech</DamagedSound>
-          <SafetyDetach>5</SafetyDetach>
-          <SafetyDetachMax>5</SafetyDetachMax>
+          <SafetyDetach>10</SafetyDetach>
+          <SafetyDetachMax>10</SafetyDetachMax>
           <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
           <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
           <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>

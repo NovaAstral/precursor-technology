@@ -115,7 +115,7 @@
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
                 <LightIntensity Min="0.5" Max="20" Default="3"/>
                 <ResourceSinkGroup>Utility</ResourceSinkGroup>
-                <RequiredPowerInput>0.0002</RequiredPowerInput>
+                <RequiredPowerInput>0.0001</RequiredPowerInput>
                 <Flare>SpotlightSmall</Flare>
                 <ReflectorThickness>10</ReflectorThickness>
                 <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>

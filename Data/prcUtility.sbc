@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- Don't delete this, I'm slowly learning SE modeling so I can make this actually work how I want it -->
+
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+      <Id>
+        <TypeId>LandingGear</TypeId>
+        <SubtypeId>LargePrecursorMagPlate</SubtypeId>
+      </Id>
+      <DisplayName>Zei'a Mag-Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
+      <Description></Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="5" z="0" />
+      <Model>Models\Cubes\Large\SimpleMagneticPlate.mwm</Model>
+      <LockSound>ShipLandGearOn</LockSound>
+      <UnlockSound>ShipLandGearOff</UnlockSound>
+      <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+      <Components>
+        <Component Subtype="PrecursorAlloy" Count="50" />
+        <Component Subtype="PrecursorFeor" Count="50" />
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>MagneticPlate</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>9999999</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <MaxLockSeparatingVelocity>5000</MaxLockSeparatingVelocity>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>35</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+
+
+    <Definition xsi:type="MyObjectBuilder_LandingGearDefinition">
+      <Id>
+        <TypeId>LandingGear</TypeId>
+        <SubtypeId>SmallPrecursorMagPlate</SubtypeId>
+      </Id>
+      <DisplayName>Small Zei'a Mag-Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SimpleMagneticPlate.dds</Icon>
+      <Description></Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="1" z="0" />
+      <Model>Models\Cubes\Small\SimpleMagneticPlate.mwm</Model>
+      <LockSound>ShipLandGearOn</LockSound>
+      <UnlockSound>ShipLandGearOff</UnlockSound>
+      <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
+      <Components>
+        <Component Subtype="PrecursorAlloy" Count="50" />
+        <Component Subtype="PrecursorFeor" Count="50" />
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_2.mwm" />
+      </BuildProgressModels>
+			<DeformationRatio>0.272</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
+      <BlockPairName>MagneticPlate</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>9999999</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <MaxLockSeparatingVelocity>5000</MaxLockSeparatingVelocity>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>35</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

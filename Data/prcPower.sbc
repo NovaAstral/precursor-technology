@@ -55,7 +55,7 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
 
           <PanelOrientation>
             <X>0</X>
@@ -126,7 +126,7 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
 
           <PanelOrientation>
             <X>0</X>
@@ -200,7 +200,7 @@
         <DamagedSound>ParticleElectrical</DamagedSound>
 
         <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-        <MaxPowerOutput>13576132215353</MaxPowerOutput>
+        <MaxPowerOutput>1000000000</MaxPowerOutput>
         <EmissiveColorPreset>Default</EmissiveColorPreset>
         <IsAirTight>false</IsAirTight>
 
@@ -225,138 +225,6 @@
         <TurbineRotationSpeed>7</TurbineRotationSpeed>
         <PCU>55</PCU>
       </Definition>
-	
-    <!-- Reactor -->
-      <!-- Large -->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>LargeMagPulseReactor</SubtypeId>
-          </Id>
-
-          <DisplayName>Zei'a Mag-Pulse Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-          <CubeSize>Large</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="1" y="1" z="1" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
-
-          <Components>
-            <Component Subtype="PrecursorAlloy" Count="5" />
-            <Component Subtype="PrecursorFeor" Count="5" />          
-            <Component Subtype="SteelPlate" Count="1" />
-            <Component Subtype="Construction" Count="10" />
-            <Component Subtype="MetalGrid" Count="2" />
-            <Component Subtype="LargeTube" Count="1" />
-            <Component Subtype="Reactor" Count="3" />
-            <Component Subtype="Motor" Count="1" />
-            <Component Subtype="Computer" Count="10" />
-            <Component Subtype="SteelPlate" Count="2" />
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-
-          <MountPoints>
-            <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-            <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-            <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-            <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-            <MountPoint Side="Bottom" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-            <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-          </MountPoints>
-
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorSmallConstruction_1.mwm" />
-            <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
-            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
-          </BuildProgressModels>
-
-          <BlockPairName>PrecursorReactor</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
-
-          <InventorySize>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </InventorySize>
-
-          <FuelId>
-            <TypeId>Component</TypeId>
-            <SubtypeId>PrecursorFeor</SubtypeId>
-          </FuelId>
-
-          <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-          <DamageEffectId>210</DamageEffectId>
-        </Definition>
-
-      <!-- Small -->
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-          <Id>
-            <TypeId>Reactor</TypeId>
-            <SubtypeId>SmallMagPulseReactor</SubtypeId>
-          </Id>
-
-          <DisplayName>Small Zei'a Mag-Pulse Reactor</DisplayName>
-          <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-          <CubeSize>Small</CubeSize>
-          <BlockTopology>TriangleMesh</BlockTopology>
-          <Size x="1" y="1" z="1" />
-          <ModelOffset x="0" y="0" z="0" />
-          <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
-
-          <Components>
-            <Component Subtype="PrecursorAlloy" Count="5" />
-            <Component Subtype="PrecursorFeor" Count="5" />            
-            <Component Subtype="SteelPlate" Count="40" />
-            <Component Subtype="Construction" Count="9" />
-            <Component Subtype="MetalGrid" Count="9" />
-            <Component Subtype="LargeTube" Count="3" />
-            <Component Subtype="Reactor" Count="95" />
-            <Component Subtype="Motor" Count="5" />
-            <Component Subtype="Computer" Count="25" />
-            <Component Subtype="SteelPlate" Count="20" />          
-          </Components>
-          <CriticalComponent Subtype="Computer" Index="0" />
-
-          <MountPoints>
-            <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-            <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-            <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-            <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
-            <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-            <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-          </MountPoints>
-
-          <BuildProgressModels>
-            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
-            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
-          </BuildProgressModels>
-
-          <BlockPairName>PrecursorReactor</BlockPairName>
-          <MirroringY>Z</MirroringY>
-          <MirroringZ>Y</MirroringZ>
-          <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
-
-          <InventorySize>
-            <X>0.5</X>
-            <Y>0.5</Y>
-            <Z>0.5</Z>
-          </InventorySize>
-
-          <FuelId>
-            <TypeId>Component</TypeId>
-            <SubtypeId>PrecursorFeor</SubtypeId>
-          </FuelId>
-
-          <PrimarySound>ShipSmNuclearSm</PrimarySound>
-          <DamageEffectId>210</DamageEffectId>
-        </Definition>
 
     <!-- Battery/Energy Core -->
       <!-- Large -->
@@ -366,9 +234,9 @@
             <SubtypeId>LargePrecursorBattery</SubtypeId>
           </Id>
 
-          <DisplayName>Zei'a Energy Core</DisplayName>
+          <DisplayName>Zei'a Debug Core</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-          <Description>Description_Battery</Description>
+          <Description>If we smell this anywhere in the universe, It will explode. - Kas Zei'a</Description>
           <CubeSize>Large</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="1" y="1" z="1" />
@@ -395,13 +263,13 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>Battery</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
 
           <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-          <RequiredPowerInput>13576132215353</RequiredPowerInput>
+          <RequiredPowerInput>1000000000</RequiredPowerInput>
           <AdaptibleInput>true</AdaptibleInput>
-          <MaxStoredPower>13576132215353</MaxStoredPower>
-          <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+          <MaxStoredPower>1000000000</MaxStoredPower>
+          <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
           <InventorySize>
             <X>1</X>
@@ -428,9 +296,9 @@
             <SubtypeId>SmallPrecursorBattery</SubtypeId>
           </Id>
           
-          <DisplayName>Small Zei'a Energy Core</DisplayName>
+          <DisplayName>Small Zei'a Debug Core</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\Battery1x1.dds</Icon>
-          <Description>Description_Battery</Description>
+          <Description>If we smell this anywhere in the universe, It will explode. - Kas Zei'a</Description>
           <CubeSize>Small</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="1" y="1" z="1" />
@@ -456,12 +324,12 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
 
           <ResourceSourceGroup>Battery</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
 
           <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-          <RequiredPowerInput>13576132215353</RequiredPowerInput>
-          <MaxStoredPower>13576132215353</MaxStoredPower>
-          <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+          <RequiredPowerInput>1000000000</RequiredPowerInput>
+          <MaxStoredPower>1000000000</MaxStoredPower>
+          <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
 
           <InventorySize>
             <X>1</X>
@@ -530,8 +398,8 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
-          <FuelCapacity>13576132215353</FuelCapacity>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
+          <FuelCapacity>1000000000</FuelCapacity>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>
           <IsAirTight>false</IsAirTight>
 
@@ -633,8 +501,8 @@
           <BuildTimeSeconds>9999999</BuildTimeSeconds>
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-          <MaxPowerOutput>13576132215353</MaxPowerOutput>
-          <FuelCapacity>13576132215353</FuelCapacity>
+          <MaxPowerOutput>1000000000</MaxPowerOutput>
+          <FuelCapacity>1000000000</FuelCapacity>
           <IsAirTight>false</IsAirTight>
 
           <InventorySize>
@@ -665,6 +533,109 @@
           <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
           <PCU>50</PCU>      
         </Definition>
+
+    <!-- Powersink -->
+      <!-- Large -->
+   <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>LargePrecursorPowersink</SubtypeId>
+      </Id>
+      <DisplayName>Zei'a Powersink</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>mmm, tasty</Description>
+      <CubeSize>Large</CubeSize>
+       <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+
+      <Components>
+        <Component Subtype="PrecursorFeor" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="PrecursorFeor" Index="0" />
+
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>PrecursorPowersink</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Y</MirroringY>
+      <BuildTimeSeconds>1000000000</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <MaxBroadcastRadius>1</MaxBroadcastRadius>
+      <Flare></Flare>
+      <MaxBroadcastPowerDrainkW>100000000000</MaxBroadcastPowerDrainkW>      
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <!-- Small -->
+     <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>SmallPrecursorPowerSink</SubtypeId>
+      </Id>
+      <DisplayName>Small Zei'a Powersink</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>mmm, tasty</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-1" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+
+      <Components>
+        <Component Subtype="PrecursorFeor" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="PrecursorFeor" Index="0" />
+
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+
+      <BlockPairName>PrecursorPowersink</BlockPairName>
+      <MirroringY>Y</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>1000000000</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <MaxBroadcastRadius>1</MaxBroadcastRadius>
+      <Flare></Flare>
+      <MaxBroadcastPowerDrainkW>100000000000</MaxBroadcastPowerDrainkW>
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
     <!-- prcPower END -->
   </CubeBlocks>
 </Definitions>

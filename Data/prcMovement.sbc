@@ -49,7 +49,7 @@
 					<PrimarySound>BlockGyroscope</PrimarySound>
 
 					<ResourceSinkGroup>Gyro</ResourceSinkGroup>
-					<ForceMagnitude>13576132215353</ForceMagnitude>
+					<ForceMagnitude>20000000</ForceMagnitude>
 					<RequiredPowerInput>50000000</RequiredPowerInput>
 
 					<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -107,7 +107,7 @@
 					<PrimarySound>BlockGyroscope</PrimarySound>
 
 					<ResourceSinkGroup>Gyro</ResourceSinkGroup>
-					<ForceMagnitude>13576132215353</ForceMagnitude>
+					<ForceMagnitude>20000000</ForceMagnitude>
 					<RequiredPowerInput>50000000</RequiredPowerInput>
 
 					<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -170,7 +170,7 @@
 					<BuildTimeSeconds>9999999</BuildTimeSeconds>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
 					<ForceMagnitude>1357613221</ForceMagnitude>
-					<MaxPowerConsumption>100000000</MaxPowerConsumption>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>10</SlowdownFactor>
 					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
@@ -178,8 +178,8 @@
 					<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
 					<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 					<NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
-					<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-					<FlameLengthScale>0.575</FlameLengthScale>
+					<FlameDamageLengthScale>0</FlameDamageLengthScale>
+					<FlameLengthScale>0</FlameLengthScale>
 
 					<FlameIdleColor>
 						<X>0.6</X>
@@ -198,8 +198,8 @@
 					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
 					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
-					<FlameVisibilityDistance>200</FlameVisibilityDistance>
-					<FlameGlareSize>0.391</FlameGlareSize>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
 					<FlameGlareQuerySize>1</FlameGlareQuerySize>
 					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
 					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
@@ -263,7 +263,7 @@
 					<EdgeType>Light</EdgeType>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
 					<ForceMagnitude>1357613221</ForceMagnitude>
-					<MaxPowerConsumption>100000000</MaxPowerConsumption>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>1</SlowdownFactor>
 					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
@@ -271,9 +271,9 @@
 					<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
 					<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 					<NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
-					<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-					<FlameDamage>0.1</FlameDamage>
-					<FlameLengthScale>0.575</FlameLengthScale>
+					<FlameDamageLengthScale>0</FlameDamageLengthScale>
+					<FlameDamage>0</FlameDamage>
+					<FlameLengthScale>0</FlameLengthScale>
 
 					<FlameIdleColor>
 						<X>0.6</X>
@@ -292,8 +292,8 @@
 					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
 					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
-					<FlameVisibilityDistance>200</FlameVisibilityDistance>
-					<FlameGlareSize>0.391</FlameGlareSize>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
 					<FlameGlareQuerySize>1</FlameGlareQuerySize>
 					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
 					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
@@ -360,7 +360,7 @@
 					<BuildTimeSeconds>9999999</BuildTimeSeconds>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
 					<ForceMagnitude>2764800</ForceMagnitude>
-					<MaxPowerConsumption>50000000</MaxPowerConsumption>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>1</SlowdownFactor>
 					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
@@ -368,8 +368,8 @@
 					<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
 					<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
 					<NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
-					<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-					<FlameLengthScale>0.575</FlameLengthScale>
+					<FlameDamageLengthScale>0</FlameDamageLengthScale>
+					<FlameLengthScale>0</FlameLengthScale>
 
 					<FlameIdleColor>
 						<X>0.6</X>
@@ -388,9 +388,9 @@
 					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
 					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
-					<FlameVisibilityDistance>200</FlameVisibilityDistance>
-					<FlameGlareSize>0.391</FlameGlareSize>
-					<FlameGlareQuerySize>1</FlameGlareQuerySize>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
+					<FlameGlareQuerySize>0</FlameGlareQuerySize>
 					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
 					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
 					<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
@@ -453,7 +453,7 @@
 					<EdgeType>Light</EdgeType>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
 					<ForceMagnitude>2764800</ForceMagnitude>
-					<MaxPowerConsumption>50000000</MaxPowerConsumption>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>1</SlowdownFactor>
 					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
@@ -482,9 +482,9 @@
 					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
 					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
 					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
-					<FlameVisibilityDistance>200</FlameVisibilityDistance>
-					<FlameGlareSize>0.391</FlameGlareSize>
-					<FlameGlareQuerySize>1</FlameGlareQuerySize>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
+					<FlameGlareQuerySize>0</FlameGlareQuerySize>
 					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
 					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
 					<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
@@ -553,11 +553,11 @@
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
 
 					<ResourceSinkGroup>Charging</ResourceSinkGroup>
-					<RequiredPowerInput>50000000</RequiredPowerInput>
+					<RequiredPowerInput>20000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
 
-					<MaxJumpDistance>13576132215353</MaxJumpDistance>
-					<MaxJumpMass>13576132215353</MaxJumpMass>
+					<MaxJumpDistance>20000000</MaxJumpDistance>
+					<MaxJumpMass>20000000</MaxJumpMass>
 					<EmissiveColorPreset>N1R-Ext_4</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -619,8 +619,8 @@
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
 					<RequiredPowerInput>50000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
-					<MaxJumpDistance>13576132215353</MaxJumpDistance>
-					<MaxJumpMass>13576132215353</MaxJumpMass>
+					<MaxJumpDistance>20000000</MaxJumpDistance>
+					<MaxJumpMass>20000000</MaxJumpMass>
 					<EmissiveColorPreset>Extended</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>

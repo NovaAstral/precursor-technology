@@ -15,7 +15,7 @@
                     <Z>0.01</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>1</Volume>
+                <Volume>20000000</Volume>
                 <Model>Models\Components\steel_plate_component.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
                 <MaxIntegrity>15</MaxIntegrity>
@@ -36,7 +36,7 @@
                     <Z>0.04</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>1</Volume>
+                <Volume>20000000</Volume>
                 <Model>Models\Components\small_tube_component.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
                 <MaxIntegrity>15</MaxIntegrity>
@@ -58,7 +58,7 @@
                     <Z>0.04</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>1</Volume>
+                <Volume>20000000</Volume>
                 <Model>Models\Components\Cartridge.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
                 <MaxIntegrity>15</MaxIntegrity>
@@ -87,31 +87,6 @@
                 <MaxIntegrity>15</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
-
-		<!-- Hand Core -->
-            <Component>
-                <Id>
-                    <TypeId>PhysicalGunObject</TypeId>
-                    <SubtypeId>PrecursorHandheldBattery</SubtypeId>
-                </Id>
-
-                <DisplayName>Zei'a Handheld Energy Core</DisplayName>
-                <Icon>Textures\GUI\Icons\Cubes\Battery1x1.dds</Icon>
-                <Size>
-                    <X>0.1</X>
-                    <Y>0.1</Y>
-                    <Z>0.1</Z>
-                </Size>
-
-                <Mass>1</Mass>
-                <Volume>1</Volume>
-                <Model>Models\Cubes\small\BatterySmall1x1.mwm</Model>
-                <PhysicalMaterial>Metal</PhysicalMaterial>
-                <MaxIntegrity>1</MaxIntegrity>
-                <DropProbability>0</DropProbability>
-                <Health>15</Health>
-            </Component>
-            
         <!-- Components END -->
     </Components>
 </Definitions>
