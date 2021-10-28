@@ -399,7 +399,7 @@
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <MaxPowerOutput>1000000000</MaxPowerOutput>
-          <FuelCapacity>1000000000</FuelCapacity>
+          <FuelCapacity>13576132215353</FuelCapacity>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>
           <IsAirTight>false</IsAirTight>
 
@@ -502,7 +502,7 @@
           <ResourceSinkGroup>Generators</ResourceSinkGroup>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <MaxPowerOutput>1000000000</MaxPowerOutput>
-          <FuelCapacity>1000000000</FuelCapacity>
+          <FuelCapacity>13576132215353</FuelCapacity>
           <IsAirTight>false</IsAirTight>
 
           <InventorySize>
