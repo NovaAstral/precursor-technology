@@ -426,7 +426,7 @@
           <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
           <DestroySound>WepSmallWarheadExpl</DestroySound>
 
-          <AnimationSpeed>5</AnimationSpeed>
+          <AnimationSpeed>20</AnimationSpeed>
           <PistonAnimationMin>-0.15</PistonAnimationMin>
           <PistonAnimationMax>0.01</PistonAnimationMax>
 
