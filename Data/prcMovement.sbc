@@ -49,7 +49,7 @@
 					<PrimarySound>BlockGyroscope</PrimarySound>
 
 					<ResourceSinkGroup>Gyro</ResourceSinkGroup>
-					<ForceMagnitude>20000000</ForceMagnitude>
+					<ForceMagnitude>50000000000</ForceMagnitude>
 					<RequiredPowerInput>20000000</RequiredPowerInput>
 
 					<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -551,13 +551,11 @@
 					<BuildTimeSeconds>9999999</BuildTimeSeconds>
 					<DamageEffectId>213</DamageEffectId>
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
-
 					<ResourceSinkGroup>Charging</ResourceSinkGroup>
-					<RequiredPowerInput>20000000</RequiredPowerInput>
+					<RequiredPowerInput>100000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
-
-					<MaxJumpDistance>20000000</MaxJumpDistance>
-					<MaxJumpMass>20000000</MaxJumpMass>
+					<MaxJumpDistance>100000000</MaxJumpDistance>
+					<MaxJumpMass>100000000</MaxJumpMass>
 					<EmissiveColorPreset>N1R-Ext_4</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -617,10 +615,10 @@
 					<DamageEffectId>213</DamageEffectId>
 					<ResourceSinkGroup>Charging</ResourceSinkGroup>
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
-					<RequiredPowerInput>50000000</RequiredPowerInput>
+					<RequiredPowerInput>100000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
-					<MaxJumpDistance>20000000</MaxJumpDistance>
-					<MaxJumpMass>20000000</MaxJumpMass>
+					<MaxJumpDistance>100000000</MaxJumpDistance>
+					<MaxJumpMass>100000000</MaxJumpMass>
 					<EmissiveColorPreset>Extended</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>

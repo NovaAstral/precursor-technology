@@ -536,11 +536,12 @@
 
     <!-- Powersink -->
       <!-- Large -->
-   <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
       <Id>
         <TypeId>Beacon</TypeId>
         <SubtypeId>LargePrecursorPowersink</SubtypeId>
       </Id>
+
       <DisplayName>Zei'a Powersink</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
       <Description>mmm, tasty</Description>
@@ -587,11 +588,12 @@
     </Definition>
 
     <!-- Small -->
-     <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
       <Id>
         <TypeId>Beacon</TypeId>
         <SubtypeId>SmallPrecursorPowerSink</SubtypeId>
       </Id>
+
       <DisplayName>Small Zei'a Powersink</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
       <Description>mmm, tasty</Description>
