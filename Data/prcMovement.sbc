@@ -50,7 +50,7 @@
 
 					<ResourceSinkGroup>Gyro</ResourceSinkGroup>
 					<ForceMagnitude>50000000000</ForceMagnitude>
-					<RequiredPowerInput>20000000</RequiredPowerInput>
+					<RequiredPowerInput>100000</RequiredPowerInput>
 
 					<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 					<DamagedSound>ParticleHeavyMech</DamagedSound>
