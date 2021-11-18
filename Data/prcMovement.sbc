@@ -555,7 +555,7 @@
 					<RequiredPowerInput>100000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
 					<MaxJumpDistance>100000000</MaxJumpDistance>
-					<MaxJumpMass>100000000</MaxJumpMass>
+					<MaxJumpMass>13576132215353</MaxJumpMass>
 					<EmissiveColorPreset>N1R-Ext_4</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>
@@ -618,7 +618,7 @@
 					<RequiredPowerInput>100000000</RequiredPowerInput>
 					<PowerNeededForJump>0.1</PowerNeededForJump>
 					<MaxJumpDistance>100000000</MaxJumpDistance>
-					<MaxJumpMass>100000000</MaxJumpMass>
+					<MaxJumpMass>13576132215353</MaxJumpMass>
 					<EmissiveColorPreset>Extended</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
 					<DestroySound>WepLrgWarheadExpl</DestroySound>
