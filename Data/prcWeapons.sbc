@@ -117,7 +117,7 @@
                 <RangeMultiplier>5</RangeMultiplier>
                 <DamageMultiplier>158174201</DamageMultiplier>
 
-                <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+                <MuzzleFlashLifeSpan>2</MuzzleFlashLifeSpan>
                 
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
                 <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
