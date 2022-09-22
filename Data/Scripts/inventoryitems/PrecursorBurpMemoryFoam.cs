@@ -59,15 +59,16 @@ namespace PrecursorBurpMemoryFoam{
 				if(player.Character == null){
 					continue;
 				}
-				var health = MyVisualScriptLogicProvider.GetPlayersHealth(player.IdentityId); //This doesn't work
+
+				var health = MyVisualScriptLogicProvider.GetPlayersHealth(player.IdentityId); //This doesn't work even though it should
 				var oxygen = MyVisualScriptLogicProvider.GetPlayersOxygenLevel(player.IdentityId);
                 var energy = MyVisualScriptLogicProvider.GetPlayersEnergyLevel(player.IdentityId);
 				var hydrogen = MyVisualScriptLogicProvider.GetPlayersHydrogenLevel(player.IdentityId);
 
-				if(health < 0.90f){
+				if(health < 90f){
 					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
-						MyVisualScriptLogicProvider.SetPlayersHealth	(player.IdentityId,1f);
+						MyVisualScriptLogicProvider.SetPlayersHealth(player.IdentityId,100f);
 					}
 				}
 

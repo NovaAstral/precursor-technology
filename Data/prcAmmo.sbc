@@ -7,14 +7,15 @@
           <TypeId>AmmoDefinition</TypeId>
           <SubtypeId>PrecursorMissile</SubtypeId>
         </Id>
-
+        
         <BasicProperties>
-          <DesiredSpeed>200</DesiredSpeed>
+          <DesiredSpeed>500</DesiredSpeed>
           <SpeedVariance>0</SpeedVariance>
-          <MaxTrajectory>1000</MaxTrajectory>
+          <MaxTrajectory>2000</MaxTrajectory>
           <IsExplosive>true</IsExplosive>
           <BackkickForce>0</BackkickForce>
           <PhysicalMaterial>Missile</PhysicalMaterial>
+          <ExplosiveDamageMultiplier>2</ExplosiveDamageMultiplier>
         </BasicProperties>
 
         <MissileProperties>
@@ -22,9 +23,10 @@
           <MissileExplosionRadius>250</MissileExplosionRadius>
           <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
           <MissileAcceleration>600</MissileAcceleration>
-          <MissileInitialSpeed>100</MissileInitialSpeed>
-          <MissileSkipAcceleration>true</MissileSkipAcceleration>
-          <MissileExplosionDamage>13576132215353</MissileExplosionDamage>
+          <MissileInitialSpeed>200</MissileInitialSpeed>
+          <MissileSkipAcceleration>false</MissileSkipAcceleration>
+          <MissileExplosionDamage>158174201</MissileExplosionDamage>
+          <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
         </MissileProperties>
       </Ammo>
     <!-- prcAmmo END-->

@@ -8,17 +8,20 @@
                     <SubtypeId>PrecursorHandLauncher</SubtypeId>
                 </Id>
 
-                <MissileAmmoData RateOfFire="500" ShootSoundName="WepRocketLaunchShot" ShotsInBurst="1" />
+                <MissileAmmoData RateOfFire="500" ShootSoundName="WepRocketLaunchShot" FlightSoundName="MissileFlightSound" ShotsInBurst="1" />
+                
                 <NoAmmoSoundName>WepRocketLaunchNoAmmo</NoAmmoSoundName>
-                <ReloadSoundName>WepRocketLaunchReloadLong</ReloadSoundName>
+                <ReloadSoundName>WepRocketLaunchReload</ReloadSoundName>
+
                 <DeviateShotAngle>0</DeviateShotAngle>
                 <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
-
+                
                 <AmmoMagazines>
                     <AmmoMagazine Subtype="PrecursorMissile" />
                 </AmmoMagazines>
 
                 <ReloadTime>500</ReloadTime>
+
                 <RecoilJetpackVertical>0</RecoilJetpackVertical>
                 <RecoilJetpackHorizontal>0</RecoilJetpackHorizontal>
                 <RecoilGroundVertical>0</RecoilGroundVertical>
@@ -49,12 +52,13 @@
                 </RecoilMultiplierDataHorizontals>
 
                 <ShootDirectionUpdateTime>200</ShootDirectionUpdateTime>
+
                 <EquipDuration>0.5</EquipDuration>
-                <ShakeOnActionPrimary>false</ShakeOnActionPrimary>
+
+                <ShakeOnActionPrimary>true</ShakeOnActionPrimary>
                 <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
                 <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
-            </Weapon>
-            
+        </Weapon>
 		<!-- Small Missile Launcher-->
             <Weapon>
                 <Id>
@@ -63,8 +67,10 @@
                 </Id>
 
                 <MissileAmmoData RateOfFire="500" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="0" />
+
                 <DeviateShotAngle>0</DeviateShotAngle>
                 <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 
                 <AmmoMagazines>
@@ -82,13 +88,16 @@
                 </Id>
 
                 <MissileAmmoData RateOfFire="500" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="19" />
-                <DeviateShotAngle>0.1</DeviateShotAngle>
-                <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 
                 <AmmoMagazines>
                     <AmmoMagazine Subtype="PrecursorMissile" />
                 </AmmoMagazines>
+
                 <ReloadTime>1000</ReloadTime>
             </Weapon>
 
@@ -100,11 +109,16 @@
                 </Id>
 
                 <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepShipGatlingShot" ShotsInBurst="37000"/>
+
                 <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+
                 <DeviateShotAngle>0</DeviateShotAngle>
+
                 <RangeMultiplier>5</RangeMultiplier>
-                <DamageMultiplier>13576132215353</DamageMultiplier>
+                <DamageMultiplier>158174201</DamageMultiplier>
+
                 <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+                
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
                 <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
             
@@ -113,24 +127,6 @@
                 </AmmoMagazines>
 
                 <ReloadTime>500</ReloadTime>
-            </Weapon>
-
-        <!--Interior Turret-->
-            <Weapon>
-                <Id>
-                    <TypeId>WeaponDefinition</TypeId>
-                    <SubtypeId>PrecursorIntTurret</SubtypeId>
-                </Id>
-
-                <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepTurretInteriorFire"/>
-                <DeviateShotAngle>0</DeviateShotAngle>
-                <DamageMultiplier>20000000</DamageMultiplier>
-                <RangeMultiplier>5</RangeMultiplier>
-                <MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
-                
-                <AmmoMagazines>
-                    <AmmoMagazine Subtype="NATO_5p56x45mm"/>
-                </AmmoMagazines>
             </Weapon>
 		<!-- prcWeapons END -->
   </Weapons>
