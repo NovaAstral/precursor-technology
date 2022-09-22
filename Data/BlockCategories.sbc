@@ -31,8 +31,6 @@
 				<string>Warhead/LargePrecursorPreciseWarhead</string>
 				<string>Warhead/SmallPrecursorPreciseWarhead</string>
 				<string>SmallGatlingGun/PrecursorGatlingGun</string>
-				<string>SmallMissileLauncher/SmallPrecursorMissileLauncher</string>
-				<string>SmallMissileLauncher/LargePrecursorMissileLauncher</string>
 				<string>InteriorTurret/PrecursorIntTurret</string>
 				<string>Refinery/LargePrecursorRefinery</string>
 				<string>Refinery/SmallPrecursorRefinery</string>
@@ -69,12 +67,14 @@
 				<string>RemoteControl/LargePrecursorRC</string>
 				<string>RemoteControl/SmallPrecursorRC</string>
 				<string>Cockpit/PrecursorPassengerSeatLarge</string>
+				<string>Cockpit/LargePrecursorControlPassengerSeat</string>
 				<string>Cockpit/PrecursorPassengerSeatSmall</string>
 				<string>Cockpit/PrecursorPassengerSeatSmallOffset</string>
 				<string>LandingGear/LargePrecursorMagPlate</string>
 				<string>LandingGear/SmallPrecursorMagPlate</string>
 				<string>Beacon/LargePrecursorPowersink</string>
 				<string>Beacon/SmallPrecursorPowersink</string>
+				
 			</ItemIds>
 	</Category>
 
@@ -112,8 +112,6 @@
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
 		<string>SmallGatlingGun/PrecursorGatlingGun</string>
-		<string>SmallMissileLauncher/SmallPrecursorMissileLauncher</string>
-		<string>SmallMissileLauncher/LargePrecursorMissileLauncher</string>
 	  </ItemIds>
     </Category>
 

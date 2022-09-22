@@ -19,9 +19,19 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\Sensor.mwm</Model>
 
-          <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />
+					<Components>
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />
@@ -61,7 +71,7 @@
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <MaxRange>10000</MaxRange>
@@ -98,8 +108,18 @@
           <Model>Models\Cubes\Small\Sensor.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />
@@ -139,7 +159,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>

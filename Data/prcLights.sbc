@@ -20,8 +20,18 @@
                     <Model>Models\Cubes\Large\light.mwm</Model>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" />
-                        <Component Subtype="PrecursorFeor" Count="50" />                    
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>               
                         <Component Subtype="SteelPlate" Count="12"/>
                         <Component Subtype="LargeTube" Count="3"/>
                         <Component Subtype="InteriorPlate" Count="30"/>
@@ -47,7 +57,7 @@
                     <BlockPairName>PrecursorSpotlight</BlockPairName>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <LightRadius Min="1" Max="50" Default="5"/>
                     <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                     <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -83,8 +93,18 @@
                 <ModelOffset x="0" y="0" z="0"/>
                 <Model>Models\Cubes\Small\light.mwm</Model>
                 <Components>
-                    <Component Subtype="PrecursorAlloy" Count="50" />
-                    <Component Subtype="PrecursorFeor" Count="50" />                 
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                              
                     <Component Subtype="SteelPlate" Count="2"/>
                     <Component Subtype="LargeTube" Count="2"/>
                     <Component Subtype="InteriorPlate" Count="2"/>
@@ -109,7 +129,7 @@
                 <BlockPairName>PrecursorSpotlight</BlockPairName>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                <BuildTimeSeconds>120</BuildTimeSeconds>
                 <LightRadius Min="1" Max="50" Default="5"/>
                 <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -148,8 +168,18 @@
                 <Model>Models\Cubes\Large\light.mwm</Model>
 
                 <Components>
-                    <Component Subtype="PrecursorAlloy" Count="50" />
-                    <Component Subtype="PrecursorFeor" Count="50" />                
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                              
                     <Component Subtype="SteelPlate" Count="12"/>
                     <Component Subtype="LargeTube" Count="3"/>
                     <Component Subtype="InteriorPlate" Count="30"/>
@@ -175,7 +205,7 @@
                 <BlockPairName>PrecursorSearchlight</BlockPairName>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                <BuildTimeSeconds>120</BuildTimeSeconds>
                 <LightRadius Min="1" Max="50" Default="5"/>
                 <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
@@ -212,8 +242,18 @@
                     <Model>Models\Cubes\Small\light.mwm</Model>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" />
-                        <Component Subtype="PrecursorFeor" Count="50" />                    
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                             
                         <Component Subtype="SteelPlate" Count="2"/>
                         <Component Subtype="LargeTube" Count="2"/>
                         <Component Subtype="InteriorPlate" Count="2"/>
@@ -238,7 +278,7 @@
                     <BlockPairName>PrecursorSearchlight</BlockPairName>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <LightRadius Min="1" Max="50" Default="5"/>
                     <LightReflectorRadius Min="1" Max="2000" Default="120"/>
                     <LightFalloff Min="1" Max="3" Default="1.5"/>

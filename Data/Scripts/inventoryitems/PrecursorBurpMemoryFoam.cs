@@ -59,12 +59,17 @@ namespace PrecursorBurpMemoryFoam{
 				if(player.Character == null){
 					continue;
 				}
-
-				// Health isn't here because it doesn't work and the visual scripting tool is trash so I don't know how to make it work
+				var health = MyVisualScriptLogicProvider.GetPlayersHealth(player.IdentityId); //This doesn't work
 				var oxygen = MyVisualScriptLogicProvider.GetPlayersOxygenLevel(player.IdentityId);
                 var energy = MyVisualScriptLogicProvider.GetPlayersEnergyLevel(player.IdentityId);
 				var hydrogen = MyVisualScriptLogicProvider.GetPlayersHydrogenLevel(player.IdentityId);
 
+				if(health < 0.90f){
+					var Inv = player.Character.GetInventory();
+					if(Inv.ContainItems(1, energyHalf) == true){
+						MyVisualScriptLogicProvider.SetPlayersHealth	(player.IdentityId,1f);
+					}
+				}
 
 				if(oxygen < 0.90f){
 					var Inv = player.Character.GetInventory();
@@ -86,6 +91,7 @@ namespace PrecursorBurpMemoryFoam{
 						MyVisualScriptLogicProvider.SetPlayersHydrogenLevel(player.IdentityId,1f);
 					}
 				}
+
 			}
 		}
 	}

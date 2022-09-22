@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Fonts>
+	   <Font>
+            <Id>
+                <TypeId>FontDefinition</TypeId>
+                <SubtypeId>KasZeia</SubtypeId>
+            </Id>
+            <Path>Fonts\Kas Zeia OG\FontDataPA.xml</Path>
+            <Default>false</Default>
+       </Font>
+    </Fonts>
+</Definitions>

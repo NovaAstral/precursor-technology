@@ -20,8 +20,18 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />            
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>            
               <Component Subtype="SteelPlate" Count="60" />
               <Component Subtype="Girder" Count="144" />
               <Component Subtype="Construction" Count="72" />
@@ -50,7 +60,7 @@
             <BlockPairName>PrecursorWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <ExplosionRadius>500</ExplosionRadius>
             <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -73,8 +83,18 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>     
               <Component Subtype="SteelPlate" Count="6" />
               <Component Subtype="Girder" Count="6" />
               <Component Subtype="Construction" Count="6" />
@@ -93,7 +113,7 @@
             <BlockPairName>PrecursorWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <ExplosionRadius>250</ExplosionRadius>
             <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -117,8 +137,18 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>     
               <Component Subtype="SteelPlate" Count="120" />
               <Component Subtype="Girder" Count="188" />
               <Component Subtype="Construction" Count="144" />
@@ -147,7 +177,7 @@
             <BlockPairName>PrecursorPreciseWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
             <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -170,8 +200,18 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
               <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />                  
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                 
               <Component Subtype="SteelPlate" Count="12" />
               <Component Subtype="Girder" Count="12" />
               <Component Subtype="Construction" Count="12" />
@@ -190,7 +230,7 @@
             <BlockPairName>PrecursorPreciseWarhead</BlockPairName>
             <ActionSound>WepLrgWarheadExpl</ActionSound>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <ExplosionRadius>1</ExplosionRadius>
             <WarheadExplosionDamage>20000000</WarheadExplosionDamage>
             <EmissiveColorPreset>Timer</EmissiveColorPreset>
@@ -217,8 +257,18 @@
           <UseModelIntersection>true</UseModelIntersection>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />             
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>             
             <Component Subtype="InteriorPlate" Count="6" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="SmallTube" Count="1" />
@@ -256,7 +306,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
           <WeaponDefinitionId Subtype="LargeInteriorTurret" />
           <InventoryMaxVolume>200</InventoryMaxVolume>
@@ -298,8 +348,18 @@
           <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />             
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                 
             <Component Subtype="SteelPlate" Count="4"/>
             <Component Subtype="Construction" Count="4"/>
             <Component Subtype="MetalGrid" Count="7"/>
@@ -327,7 +387,7 @@
           <Center x="0" y="0" z="3"/>
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <WeaponDefinitionId Subtype="PrecursorGatlingGun"/>
           <ResourceSinkGroup>Defense</ResourceSinkGroup>
@@ -357,8 +417,18 @@
             <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
 
             <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />             
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>            
               <Component Subtype="SteelPlate" Count="20" />
               <Component Subtype="Construction" Count="8" />
               <Component Subtype="MetalGrid" Count="30" />
@@ -386,7 +456,7 @@
             <BlockPairName>PrecursorMissileLauncher</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <Center x="0" y="0" z="1" />
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="LargePrecursorMissileLauncher" />
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
@@ -415,8 +485,18 @@
             <Model>Models\Cubes\Small\RocketLauncher.mwm</Model>
 
             <Components>
-              <Component Subtype="PrecursorAlloy" Count="50" />
-              <Component Subtype="PrecursorFeor" Count="50" />            
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                 
               <Component Subtype="SteelPlate" Count="1" />
               <Component Subtype="Construction" Count="2" />
               <Component Subtype="MetalGrid" Count="1" />
@@ -443,7 +523,7 @@
             <MirroringZ>X</MirroringZ>
             <BlockPairName>PrecursorMissileLauncher</BlockPairName>
             <Center x="0" y="0" z="3" />
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="SmallPrecursorMissileLauncher" />
             <ResourceSinkGroup>Defense</ResourceSinkGroup>

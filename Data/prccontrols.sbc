@@ -18,8 +18,18 @@
           <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />          
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="Motor" Count="1" />
@@ -46,7 +56,7 @@
 
           <BlockPairName>PrecursorRC</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <MirroringY>Z</MirroringY>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.01</RequiredPowerInput>
@@ -79,8 +89,18 @@
           <Model>Models\Cubes\Small\RemoteControl.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />          
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
             <Component Subtype="InteriorPlate" Count="1" />
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="Motor" Count="1" />
@@ -107,7 +127,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
           <RequiredPowerInput>0.01</RequiredPowerInput>
           <EnableFirstPerson>false</EnableFirstPerson>
@@ -123,7 +143,79 @@
           <IsAirTight>false</IsAirTight>      
         </Definition>
 
-      <!-- Passenger seat -->
+    <!-- Passenger seat -->
+            <!-- Control Passenger Seat -->
+          <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+            <Id>
+              <TypeId>Cockpit</TypeId>
+              <SubtypeId>LargePrecursorControlPassengerSeat</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Passenger Control Seat</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+            <Description>Note: is actually a just passenger seat.</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0.5" z="0" />
+            <Model>Models\Cubes\Small\OpenCockpitSmall.mwm</Model>
+            <CharacterAnimation>FighterCockpitPosture</CharacterAnimation>
+            <UsesDeformation>false</UsesDeformation>
+
+            <Components>
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
+                <DeconstructId>
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>
+              </Component>
+              <Component Subtype="InteriorPlate" Count="10" />
+              <Component Subtype="Construction" Count="20" />
+              <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="InteriorPlate" Index="0" />
+
+            <MountPoints>
+              <MountPoint Side="Bottom" StartX="0.3" StartY="0.6" EndX="0.7" EndY="1" Default="true"/>
+              <MountPoint Side="Back" StartX="0.3" StartY="0" EndX="0.7" EndY="0.4" />
+            </MountPoints>
+
+            <BuildProgressModels>
+              <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PassengerSeatConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassengerSeatConstruction_2.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassengerSeatConstruction_3.mwm" />
+            </BuildProgressModels>
+
+            <VoxelPlacement>
+              <StaticMode>
+                <PlacementMode>Volumetric</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </StaticMode>
+
+              <DynamicMode>
+                <PlacementMode>Volumetric</PlacementMode>
+                <MaxAllowed>0.2</MaxAllowed>
+                <MinAllowed>0</MinAllowed>
+              </DynamicMode>
+            </VoxelPlacement>
+
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
+            <EnableFirstPerson>true</EnableFirstPerson>
+            <EnableShipControl>false</EnableShipControl>
+            <EnableBuilderCockpit>false</EnableBuilderCockpit>
+            <IsPressurized>false</IsPressurized>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+            <DestroySound>PoofExplosionCat2</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>false</IsAirTight>      
+          </Definition>
+          
         <!-- Large -->
           <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
@@ -143,7 +235,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" />
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
+                <DeconstructId>
+                  <TypeId>Ore</TypeId>
+                  <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>
+              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -179,7 +276,7 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>
             <EnableBuilderCockpit>false</EnableBuilderCockpit>
@@ -211,7 +308,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" />
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>
+              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -245,7 +347,7 @@
             <BlockPairName>PrecursorPassengerSeat</BlockPairName>
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>
@@ -278,7 +380,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" />            
+              <Component Subtype="PrecursorMemoryFoam" Count="2000" >          
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>  
+              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -311,7 +418,7 @@
 
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>9999999</BuildTimeSeconds>
+            <BuildTimeSeconds>120</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <EnableFirstPerson>true</EnableFirstPerson>
             <EnableShipControl>false</EnableShipControl>
@@ -325,7 +432,7 @@
             <IsAirTight>false</IsAirTight>      
           </Definition>
 
-      <!-- prccontrols END -->
+    <!-- prccontrols END -->
 
   </CubeBlocks>
 </Definitions>

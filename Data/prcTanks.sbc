@@ -19,8 +19,18 @@
           <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>     
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
@@ -79,7 +89,7 @@
             <Class>OxygenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -114,8 +124,18 @@
           <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />              
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>     
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="LargeTube" Count="8" />
             <Component Subtype="SmallTube" Count="10" />
@@ -147,7 +167,7 @@
           <Center x="1" y="1" z="1" />
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -206,8 +226,18 @@
           <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />             
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>           
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
@@ -257,7 +287,7 @@
             <Class>HydrogenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>
@@ -290,8 +320,18 @@
           <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
           
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />             
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>            
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="LargeTube" Count="1" />
             <Component Subtype="SmallTube" Count="2" />
@@ -341,7 +381,7 @@
             <Class>HydrogenBottles</Class>
           </BlueprintClasses>
 
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <EmissiveColorPreset>Extended</EmissiveColorPreset>

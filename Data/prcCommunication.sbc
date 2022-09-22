@@ -21,8 +21,18 @@
           <PlaceDecals>false</PlaceDecals>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="Motor" Count="16" />
@@ -51,7 +61,7 @@
 
           <BlockPairName>PrecursorLaserAntenna</BlockPairName>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <MirroringY>Z</MirroringY>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
@@ -91,8 +101,18 @@
           <PlaceDecals>false</PlaceDecals>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" />
-            <Component Subtype="PrecursorFeor" Count="50" />          
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>          
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="SmallTube" Count="10" />
             <Component Subtype="Construction" Count="10" />
@@ -123,7 +143,7 @@
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
           <EdgeType>Light</EdgeType>
-          <BuildTimeSeconds>9999999</BuildTimeSeconds>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>

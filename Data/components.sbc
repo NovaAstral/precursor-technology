@@ -10,15 +10,15 @@
                 <DisplayName>Zei'a Alloy</DisplayName>
                 <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
                 <Size>
-                    <X>0.5</X>
-                    <Y>0.5</Y>
-                    <Z>0.01</Z>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>20000000</Volume>
+                <Volume>1</Volume>
                 <Model>Models\Components\steel_plate_component.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
-                <MaxIntegrity>15</MaxIntegrity>
+                <MaxIntegrity>1000</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
 		
@@ -32,14 +32,14 @@
                 <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
                 <Size>
                     <X>1</X>
-                    <Y>0.04</Y>
-                    <Z>0.04</Z>
+                    <Y>1</Y>
+                    <Z>1</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>20000000</Volume>
+                <Volume>1</Volume>
                 <Model>Models\Components\small_tube_component.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
-                <MaxIntegrity>15</MaxIntegrity>
+                <MaxIntegrity>1000</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
 
@@ -53,15 +53,15 @@
                 <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :(-->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
-                    <X>0.04</X>
-                    <Y>0.04</Y>
-                    <Z>0.04</Z>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
                 </Size>
                 <Mass>1</Mass>
-                <Volume>20000000</Volume>
+                <Volume>1</Volume>
                 <Model>Models\Components\Cartridge.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
-                <MaxIntegrity>15</MaxIntegrity>
+                <MaxIntegrity>1000</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
 
@@ -76,15 +76,15 @@
                 <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't actually work and I'm sad :( - Also B-Urp -->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
-                    <X>0.04</X>
-                    <Y>0.04</Y>
-                    <Z>0.04</Z>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
                 </Size>
                 <Mass>1</Mass>
                 <Volume>1</Volume>
                 <Model>Models\Components\Cartridge.mwm</Model>
                 <PhysicalMaterial>Metal</PhysicalMaterial>
-                <MaxIntegrity>15</MaxIntegrity>
+                <MaxIntegrity>1000</MaxIntegrity>
                 <DropProbability>0</DropProbability>
             </Component>
         <!-- Components END -->

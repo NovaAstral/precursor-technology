@@ -23,8 +23,18 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" />
-                        <Component Subtype="PrecursorFeor" Count="50" />                    
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                                
                         <Component Subtype="SteelPlate" Count="10"/>
                         <Component Subtype="Construction" Count="15"/>
                         <Component Subtype="SmallTube" Count="6"/>
@@ -55,14 +65,14 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
                     <DamagedSound>ParticleElectrical</DamagedSound>
                     <Flare>ShipWelder</Flare>
                     <EmissiveColorPreset>Welder</EmissiveColorPreset>
                     <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
                     <DestroySound>WepSmallWarheadExpl</DestroySound>
-                    <SensorRadius>50</SensorRadius>
+                    <SensorRadius>60</SensorRadius>
                     <PCU>150</PCU>
                     <IsAirTight>false</IsAirTight>
                 </Definition>
@@ -88,8 +98,18 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" />
-                        <Component Subtype="PrecursorFeor" Count="50" />                    
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                                  
                         <Component Subtype="SteelPlate" Count="15"/>
                         <Component Subtype="Construction" Count="25"/>
                         <Component Subtype="LargeTube" Count="1"/>
@@ -132,14 +152,14 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
                     <DamagedSound>ParticleElectrical</DamagedSound>
                     <Flare>ShipWelderLarge</Flare>
                     <EmissiveColorPreset>Welder</EmissiveColorPreset>
                     <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
                     <DestroySound>WepSmallWarheadExpl</DestroySound>
-                    <SensorRadius>50</SensorRadius>
+                    <SensorRadius>60</SensorRadius>
                     <PCU>150</PCU>
                 </Definition>
 
@@ -165,8 +185,18 @@
                     <UsesDeformation>false</UsesDeformation>
                     
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50"/>
-                        <Component Subtype="PrecursorFeor" Count="50"/>
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>            
                         <Component Subtype="SteelPlate" Count="270"/>
                         <Component Subtype="Construction" Count="60"/>
                         <Component Subtype="LargeTube" Count="18"/>
@@ -211,7 +241,7 @@
                     <MirroringY>Z</MirroringY>
                     <MirroringZ>Y</MirroringZ>
                     <EdgeType>Light</EdgeType>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <Center x="0" y="0" z="2"/>
                     <ResourceSinkGroup>Defense</ResourceSinkGroup>
                     <SensorRadius>20</SensorRadius>
@@ -255,8 +285,18 @@
                 <UseModelIntersection>true</UseModelIntersection>
 
                 <Components>
-                    <Component Subtype="PrecursorAlloy" Count="50" />
-                    <Component Subtype="PrecursorFeor" Count="50" />                
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                        
                     <Component Subtype="SteelPlate" Count="30"/>
                     <Component Subtype="Construction" Count="45"/>
                     <Component Subtype="LargeTube" Count="6"/>
@@ -299,7 +339,7 @@
                 <MirroringY>Z</MirroringY>
                 <MirroringZ>Y</MirroringZ>
                 <EdgeType>Light</EdgeType>
-                <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                <BuildTimeSeconds>120</BuildTimeSeconds>
 
                 <ResourceSinkGroup>Defense</ResourceSinkGroup>
                 <SensorRadius>20</SensorRadius>
@@ -347,8 +387,18 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50"/>
-                        <Component Subtype="PrecursorFeor" Count="50"/>            
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                      
                         <Component Subtype="SteelPlate" Count="23"/>
                         <Component Subtype="Construction" Count="38"/>
                         <Component Subtype="LargeTube" Count="2"/>
@@ -394,7 +444,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
                     <DamagedSound>ParticleHeavyMech</DamagedSound>
                     <Flare></Flare>
@@ -426,8 +476,18 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50"/>
-                        <Component Subtype="PrecursorFeor" Count="50"/>
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>             
                         <Component Subtype="SteelPlate" Count="15"/>
                         <Component Subtype="Construction" Count="23"/>
                         <Component Subtype="SmallTube" Count="6"/>
@@ -474,7 +534,7 @@
                     <MirroringZ>X</MirroringZ>
                     <EdgeType>Light</EdgeType>
                     <Public>true</Public>
-                    <BuildTimeSeconds>9999999</BuildTimeSeconds>
+                    <BuildTimeSeconds>120</BuildTimeSeconds>
                     <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
                     <DamagedSound>ParticleHeavyMech</DamagedSound>
                     <Flare></Flare>
