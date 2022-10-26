@@ -29,6 +29,62 @@
           <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
         </MissileProperties>
       </Ammo>
+
+      <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>LargePrecursorRailgunSlug</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2000</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>60000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>0</BackkickForce>
+                <PhysicalMaterial>LargeShell</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>2000</MissileMass>
+                <MissileExplosionRadius>5</MissileExplosionRadius>
+                <MissileModelName>Models\Weapons\RailgunAmmoLarge.mwm</MissileModelName>
+                <MissileAcceleration>0</MissileAcceleration>
+                <MissileInitialSpeed>2000</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileExplosionDamage>1000</MissileExplosionDamage>
+                <MissileHealthPool>50000</MissileHealthPool>
+                <MissileTrailEffect>RailGunTrail</MissileTrailEffect>
+                <MissileGravityEnabled>false</MissileGravityEnabled>
+            </MissileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>SmallPrecursorRailgunSlug</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2000</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>60000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>0</BackkickForce>
+                <PhysicalMaterial>MediumShell</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>1</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>2000</MissileMass>
+                <MissileExplosionRadius>5</MissileExplosionRadius>
+                <MissileModelName>Models\Weapons\RailgunAmmo.mwm</MissileModelName>
+                <MissileAcceleration>0</MissileAcceleration>
+                <MissileInitialSpeed>2000</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileExplosionDamage>1000</MissileExplosionDamage>
+                <MissileHealthPool>50000</MissileHealthPool>
+                <MissileTrailEffect>RailGunTrailSmall</MissileTrailEffect>
+                <MissileGravityEnabled>false</MissileGravityEnabled>
+            </MissileProperties>
+        </Ammo>
     <!-- prcAmmo END-->
     
   </Ammos>

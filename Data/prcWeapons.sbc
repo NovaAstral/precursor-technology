@@ -128,6 +128,46 @@
 
                 <ReloadTime>500</ReloadTime>
             </Weapon>
+
+            <!-- Large Railgun -->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>LargePrecursorRailgun</SubtypeId>
+                </Id>
+                <MissileAmmoData RateOfFire="20" ShootSoundName="WepRailgunLargeShot" PreShotSoundName="WepRailgunLargeCharge" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <ShotDelay>100</ShotDelay>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+                <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="LargePrecursorRailgunAmmo" />
+                </AmmoMagazines>
+                <ReloadTime>120</ReloadTime>
+                <Effects>
+                    <Effect Action="BeforeShoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0" OffsetZ="-9"/>
+                </Effects>
+            </Weapon>
+
+            <!-- Small Railgun -->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>SmallPrecursorRailgun</SubtypeId>
+                </Id>
+                <MissileAmmoData RateOfFire="20" ShootSoundName="WepRailgunSmallShot" PreShotSoundName="WepRailgunSmallCharge" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <ShotDelay>100</ShotDelay>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+                <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="SmallPrecursorRailgunAmmo" />
+                </AmmoMagazines>
+                <ReloadTime>120</ReloadTime>
+                <Effects>
+                    <Effect Action="BeforeShoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunSmall" Loop="false" InstantStop="false" OffsetX="0" OffsetY="0.1" OffsetZ="-1.8"/>
+                </Effects>
+            </Weapon>
 		<!-- prcWeapons END -->
   </Weapons>
 </Definitions>
