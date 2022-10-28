@@ -11,7 +11,7 @@
 
           <DisplayName>Zei'a Sensor</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
-          <Description>Description_Sensor</Description>
+          <Description>10km Range</Description>
           <CubeSize>Large</CubeSize>
           <GuiVisible>false</GuiVisible>
           <BlockTopology>TriangleMesh</BlockTopology>
@@ -99,7 +99,7 @@
 
           <DisplayName>Zei'a Small Sensor</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\Sensor.dds</Icon>
-          <Description>Description_Sensor</Description>
+          <Description>8km Range</Description>
           <CubeSize>Small</CubeSize>
           <GuiVisible>false</GuiVisible>
           <BlockTopology>TriangleMesh</BlockTopology>

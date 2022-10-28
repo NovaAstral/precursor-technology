@@ -11,7 +11,7 @@
 
           <DisplayName>Zei'a Refinery</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
-          <Description>Description_Refinery</Description>
+          <Description></Description>
           <CubeSize>Large</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="2" y="4" z="2" />
@@ -185,7 +185,7 @@
 
         <DisplayName>Zei'a Upgrade Module</DisplayName>
         <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectiveness.dds</Icon>
-        <Description>Description_EffectivenessModule</Description>
+        <Description></Description>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
         <BlockTopology>TriangleMesh</BlockTopology>
@@ -230,7 +230,7 @@
           <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
         </BuildProgressModels>
 
-        <BlockPairName>EffectivenessModule</BlockPairName>
+        <BlockPairName>PrecursorUpgradeModule</BlockPairName>
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>

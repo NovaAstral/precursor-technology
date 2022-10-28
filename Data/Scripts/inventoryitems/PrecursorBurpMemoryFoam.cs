@@ -60,7 +60,7 @@ namespace PrecursorBurpMemoryFoam{
 					continue;
 				}
 
-				var health = MyVisualScriptLogicProvider.GetPlayersHealth(player.IdentityId); //This doesn't work even though it should
+				var health = MyVisualScriptLogicProvider.GetPlayersHealth(player.IdentityId); 
 				var oxygen = MyVisualScriptLogicProvider.GetPlayersOxygenLevel(player.IdentityId);
                 var energy = MyVisualScriptLogicProvider.GetPlayersEnergyLevel(player.IdentityId);
 				var hydrogen = MyVisualScriptLogicProvider.GetPlayersHydrogenLevel(player.IdentityId);

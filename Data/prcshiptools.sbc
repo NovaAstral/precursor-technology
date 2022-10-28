@@ -12,7 +12,6 @@
                     <DisplayName>Small Zei'a Welder</DisplayName>
                     <Description>Really, don't use this on big things.</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
-                    <Description></Description>
                     <CubeSize>Small</CubeSize>
                     <BlockTopology>TriangleMesh</BlockTopology>
                     <Size x="3" y="3" z="6"/>
@@ -87,7 +86,6 @@
                     <DisplayName>Zei'a Welder</DisplayName>
                     <Description>Really, don't use this on big things.</Description>
                     <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
-                    <Description></Description>
                     <CubeSize>Large</CubeSize>
                     <BlockTopology>TriangleMesh</BlockTopology>
                     <Size x="1" y="1" z="2"/>
@@ -376,7 +374,6 @@
                     <Description>Really, don't use this on big things.</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
-                    <Description></Description>
                     <CubeSize>Large</CubeSize>
                     <BlockTopology>TriangleMesh</BlockTopology>
                     <Size x="1" y="1" z="2"/>
@@ -465,7 +462,6 @@
                     <Description>Really, don't use this on big things.</Description>
                     <GuiVisible>false</GuiVisible>
                     <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
-                    <Description></Description>
                     <CubeSize>Small</CubeSize>
                     <BlockTopology>TriangleMesh</BlockTopology>
                     <Size x="3" y="3" z="6"/>

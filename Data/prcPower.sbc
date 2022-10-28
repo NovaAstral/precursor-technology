@@ -11,7 +11,7 @@
           
           <DisplayName>Zei'a Solar Panel</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-          <Description>Description_SolarPanel</Description>
+          <Description></Description>
           <CubeSize>Large</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="4" y="2" z="1" />
@@ -94,7 +94,7 @@
 
           <DisplayName>Small Zei'a Solar Panel</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-          <Description>Description_SolarPanel</Description>
+          <Description></Description>
           <CubeSize>Small</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="10" y="5" z="1" />
@@ -176,7 +176,7 @@
         </Id>
 
         <DisplayName>Zei'a Wind Turbine</DisplayName>
-        <Description>Description_WindTurbine</Description>
+        <Description></Description>
         <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
         <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
@@ -408,7 +408,7 @@
           </Id>
 
           <DisplayName>Zei'a Oxygen Engine</DisplayName>
-          <Description>Zei'a Oxygen Engine</Description>
+          <Description>Generates Power from Oxygen</Description>
           <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
           <CubeSize>Large</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
@@ -517,7 +517,7 @@
           </Id>
 
           <DisplayName>Small Zei'a Oxygen Engine</DisplayName>
-          <Description>Zei'a Oxygen Engine</Description>
+          <Description>Generates Power from Oxygen</Description>
           <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineSmall.dds</Icon>
           <CubeSize>Small</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>

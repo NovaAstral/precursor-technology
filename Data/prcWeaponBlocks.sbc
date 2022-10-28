@@ -246,7 +246,7 @@
 
           <DisplayName>Zei'a Turret</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\interior_turret.dds</Icon>
-          <Description>Description_InteriorTurret</Description>
+          <Description>1km Range</Description>
           <CubeSize>Large</CubeSize>
           <GuiVisible>false</GuiVisible>
           <PlaceDecals>false</PlaceDecals>
@@ -340,7 +340,7 @@
           <DisplayName>Zei'a Gatling Gun</DisplayName>
           <GuiVisible>false</GuiVisible>
           <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
-          <Description>Description_GatlingGun</Description>
+          <Description>800m Range</Description>
           <CubeSize>Small</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="1" y="1" z="4"/>
@@ -408,7 +408,7 @@
 
             <DisplayName>Large Zei'a Missile Launcher</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
-            <Description>Description_RocketLauncher</Description>
+            <Description>2km Range</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -476,7 +476,7 @@
 
             <DisplayName>Small Zei'a Missile Launcher</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\missile_launcher_small.dds</Icon>
-            <Description>Description_RocketLauncher</Description>
+            <Description>2km Range</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -544,7 +544,7 @@
 
             <DisplayName>Zei'a Railgun</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\RailGun.dds</Icon>
-            <Description>Description_Railgun</Description>
+            <Description>60km Range</Description>
 
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -623,7 +623,7 @@
             </Id>
             <DisplayName>Small Zei'a Railgun</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\RailGun.dds</Icon>
-            <Description>Description_SmallRailgun</Description>
+            <Description>60km Range</Description>
 
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>

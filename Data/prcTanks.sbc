@@ -11,7 +11,7 @@
 
           <DisplayName>Zei'a Oxygen Tank</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
-          <Description>Description_OxygenTank</Description>
+          <Description></Description>
           <CubeSize>Large</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="1" y="2" z="1" />
@@ -116,7 +116,7 @@
 
           <DisplayName>Small Zei'a Oxygen Tank</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
-          <Description>Description_OxygenTank</Description>
+          <Description></Description>
           <CubeSize>Small</CubeSize>
           <BlockTopology>TriangleMesh</BlockTopology>
           <Size x="3" y="3" z="3" />
@@ -216,7 +216,7 @@
 
           <DisplayName>Zei'a Hydrogen Tank</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
-          <Description>Description_HydrogenTank</Description>
+          <Description></Description>
           <Public>true</Public>
           <CubeSize>Large</CubeSize>
           <GuiVisible>false</GuiVisible>
@@ -310,7 +310,7 @@
           </Id>
           <DisplayName>Small Zei'a Hydrogen Tank</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall.dds</Icon>
-          <Description>Description_HydrogenTank</Description>
+          <Description></Description>
           <Public>true</Public>
           <CubeSize>Small</CubeSize>
           <GuiVisible>false</GuiVisible>

@@ -11,7 +11,7 @@
 
           <DisplayName>Zei'a Laser Antenna</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\LaserAntenna.dds</Icon>
-          <Description>Description_LaserAntenna</Description>
+          <Description></Description>
           <CubeSize>Large</CubeSize>
           <GuiVisible>false</GuiVisible>
           <BlockTopology>TriangleMesh</BlockTopology>
@@ -91,7 +91,7 @@
 
           <DisplayName>Small Zei'a Laser Antenna</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\LaserAntennaSmall.dds</Icon>
-          <Description>Description_LaserAntenna</Description>
+          <Description></Description>
           <CubeSize>Small</CubeSize>
           <GuiVisible>false</GuiVisible>
           <BlockTopology>TriangleMesh</BlockTopology>
