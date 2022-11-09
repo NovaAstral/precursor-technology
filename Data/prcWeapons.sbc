@@ -59,6 +59,66 @@
                 <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
                 <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
         </Weapon>
+
+        <!-- Handheld Railgun -->
+            <Weapon>
+                <Id>
+                    <TypeId>WeaponDefinition</TypeId>
+                    <SubtypeId>PrecursorHandRailgun</SubtypeId>
+                </Id>
+
+                <MissileAmmoData RateOfFire="500" ShootSoundName="WepRocketLaunchShot" FlightSoundName="MissileFlightSound" ShotsInBurst="1" />
+                
+                <NoAmmoSoundName>WepRocketLaunchNoAmmo</NoAmmoSoundName>
+                <ReloadSoundName>WepRocketLaunchReload</ReloadSoundName>
+
+                <DeviateShotAngle>0</DeviateShotAngle>
+                <DeviateShotAngleAiming>0</DeviateShotAngleAiming>
+                
+                <AmmoMagazines>
+                    <AmmoMagazine Subtype="LargePrecursorRailgunAmmo" />
+                </AmmoMagazines>
+
+                <ReloadTime>120</ReloadTime>
+
+                <RecoilJetpackVertical>0</RecoilJetpackVertical>
+                <RecoilJetpackHorizontal>0</RecoilJetpackHorizontal>
+                <RecoilGroundVertical>0</RecoilGroundVertical>
+                <RecoilGroundHorizontal>0</RecoilGroundHorizontal>
+
+                <RecoilMultiplierDataNames>
+                    <string>Standing</string>
+                    <string>Walking</string>
+                    <string>Running</string>
+                    <string>Crouching</string>
+                    <string>Aiming</string>
+                </RecoilMultiplierDataNames>
+
+                <RecoilMultiplierDataVerticals>
+                    <float>1</float>
+                    <float>1</float>
+                    <float>1.5</float>
+                    <float>.75</float>
+                    <float>.75</float>
+                </RecoilMultiplierDataVerticals>
+
+                <RecoilMultiplierDataHorizontals>
+                    <float>1</float>
+                    <float>1</float>
+                    <float>1.5</float>
+                    <float>.75</float>
+                    <float>.75</float>
+                </RecoilMultiplierDataHorizontals>
+
+                <ShootDirectionUpdateTime>200</ShootDirectionUpdateTime>
+
+                <EquipDuration>0.5</EquipDuration>
+
+                <ShakeOnActionPrimary>true</ShakeOnActionPrimary>
+                <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+                <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+        </Weapon>
+
 		<!-- Small Missile Launcher-->
             <Weapon>
                 <Id>

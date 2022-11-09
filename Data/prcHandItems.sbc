@@ -188,6 +188,194 @@
                 <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
                 <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
             </HandItem>
+
+            <!-- Handheld Railgun -->
+            <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+                <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="PrecursorHandRailgun" />
+
+                <WeaponType>RocketLauncher</WeaponType>
+
+                <LeftHandOrientation>
+                    <X>0.324681967</X>
+                    <Y>-0.183467492</Y>
+                    <Z>0.9276521</Z>
+                    <W>0.019565843</W>
+                </LeftHandOrientation>
+
+                <LeftHandPosition>
+                    <X>-0.08030498</X>
+                    <Y>-0.0408572555</Y>
+                    <Z>-0.1366592</Z>
+                </LeftHandPosition>
+
+                <RightHandOrientation>
+                    <X>0.5393601</X>
+                    <Y>0.4787084</Y>
+                    <Z>0.5059813</Z>
+                    <W>-0.4731932</W>
+                </RightHandOrientation>
+
+                <RightHandPosition>
+                    <X>0.0267670155</X>
+                    <Y>-0.0352222323</Y>
+                    <Z>0.180000067</Z>
+                </RightHandPosition>
+
+                <ItemOrientation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>1</W>
+                </ItemOrientation>
+
+                <ItemPosition>
+                    <X>0.0887568</X>
+                    <Y>-0.137324154</Y>
+                    <Z>-0.131492972</Z>
+                </ItemPosition>
+
+                <ItemWalkingOrientation>
+                    <X>0.03635861</X>
+                    <Y>-0.07427699</Y>
+                    <Z>0.0164107047</Z>
+                    <W>0.9964395</W>
+                </ItemWalkingOrientation>
+
+                <ItemWalkingPosition>
+                    <X>0.11</X>
+                    <Y>-0.25</Y>
+                    <Z>-0.2</Z>
+                </ItemWalkingPosition>
+
+                <ItemShootOrientation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>1</W>
+                </ItemShootOrientation>
+
+                <ItemShootPosition>
+                    <X>0.0887568</X>
+                    <Y>-0.137324154</Y>
+                    <Z>-0.220000029</Z>
+                </ItemShootPosition>
+
+                <ItemIronsightOrientation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>1</W>
+                </ItemIronsightOrientation>
+
+                <ItemIronsightPosition>
+                    <X>0.1629</X>
+                    <Y>-0.168</Y>
+                    <Z>-0.22</Z>
+                </ItemIronsightPosition>
+
+                <ItemOrientation3rd>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>1</W>
+                </ItemOrientation3rd>
+
+                <ItemPosition3rd>
+                    <X>0.177927881</X>
+                    <Y>-0.137324154</Y>
+                    <Z>-0.15</Z>
+                </ItemPosition3rd>
+
+                <ItemWalkingOrientation3rd>
+                    <X>0.20348683</X>
+                    <Y>0.419610828</Y>
+                    <Z>0.0971112847</Z>
+                    <W>0.879254937</W>
+                </ItemWalkingOrientation3rd>
+
+                <ItemWalkingPosition3rd>
+                    <X>-0.082455866</X>
+                    <Y>-0.167324156</Y>
+                    <Z>-0.153434753</Z>
+                </ItemWalkingPosition3rd>
+
+                <ItemShootOrientation3rd>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>1</W>
+                </ItemShootOrientation3rd>
+
+                <ItemShootPosition3rd>
+                    <X>0.177927852</X>
+                    <Y>-0.137324154</Y>
+                    <Z>-0.199999988</Z>
+                </ItemShootPosition3rd>
+
+                <BlendTime>0.15</BlendTime>
+                <ShootBlend>0.100000009</ShootBlend>
+
+                <XAmplitudeOffset>-0.455334216</XAmplitudeOffset>
+                <YAmplitudeOffset>0.06504716</YAmplitudeOffset>
+                <ZAmplitudeOffset>-1.61173737</ZAmplitudeOffset>
+                <XAmplitudeScale>0.104075037</XAmplitudeScale>
+                <YAmplitudeScale>0.219715342</YAmplitudeScale>
+                <ZAmplitudeScale>0</ZAmplitudeScale>
+
+                <RunMultiplier>3.22636747</RunMultiplier>
+
+                <AmplitudeMultiplier3rd>1</AmplitudeMultiplier3rd>
+
+                <SimulateLeftHandFps xsi:nil="true" />
+                <SimulateRightHandFps xsi:nil="true" />
+                
+                <FingersAnimation>HoldingWeapon</FingersAnimation>
+
+                <MuzzlePosition>
+                    <X>0</X>
+                    <Y>0.08000004</Y>
+                    <Z>-0.44</Z>
+                </MuzzlePosition>
+
+                <ShootScatter>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                </ShootScatter>
+
+                <ScatterSpeed>0</ScatterSpeed>
+
+                <PhysicalItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PrecursorHandRailgunItem" />
+                
+                <LightColor>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <W>0</W>
+                </LightColor>
+
+                <LightFalloff>0</LightFalloff>
+                <LightRadius>0</LightRadius>
+                <LightGlareSize>0</LightGlareSize>
+                <LightGlareIntensity>1</LightGlareIntensity>
+                <LightIntensityLower>0</LightIntensityLower>
+                <LightIntensityUpper>0</LightIntensityUpper>
+
+                <ShakeAmountTarget>0</ShakeAmountTarget>
+                <ShakeAmountNoTarget>0</ShakeAmountNoTarget>
+
+                <ToolSounds />
+                <ToolMaterial>Rifle</ToolMaterial>
+
+                <ItemPositioning>TransformFromAnim</ItemPositioning>
+                <ItemPositioning3rd>TransformFromAnim</ItemPositioning3rd>
+                <ItemPositioningWalk>TransformFromAnim</ItemPositioningWalk>
+                <ItemPositioningWalk3rd>TransformFromAnim</ItemPositioningWalk3rd>
+                <ItemPositioningShoot>TransformFromAnim</ItemPositioningShoot>
+                <ItemPositioningShoot3rd>TransformFromAnim</ItemPositioningShoot3rd>
+                <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
+                <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
+            </HandItem>
         <!-- prcHandItems END -->
     </HandItems>
 </Definitions>
