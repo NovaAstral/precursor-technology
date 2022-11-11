@@ -774,18 +774,6 @@
           <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>      
             <Component Subtype="SteelPlate" Count="110" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="LargeTube" Count="2" />
@@ -892,19 +880,7 @@
           <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
           <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>          
+          <Components>      
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="Construction" Count="8" />
             <Component Subtype="LargeTube" Count="2" />
