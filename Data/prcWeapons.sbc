@@ -134,7 +134,7 @@
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 
                 <AmmoMagazines>
-                    <AmmoMagazine Subtype="PrecursorMissile" />
+                    <AmmoMagazine Subtype="SmallPrecursorRailgunAmmo" />
                 </AmmoMagazines>
 
                 <ReloadTime>1000</ReloadTime>
@@ -155,7 +155,7 @@
                 <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
 
                 <AmmoMagazines>
-                    <AmmoMagazine Subtype="PrecursorMissile" />
+                    <AmmoMagazine Subtype="LargePrecursorRailgunAmmo" />
                 </AmmoMagazines>
 
                 <ReloadTime>1000</ReloadTime>
