@@ -29,7 +29,7 @@
           <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
         </MissileProperties>
       </Ammo>
-
+    <!-- Railgun Slugs -->
       <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>

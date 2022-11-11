@@ -18,18 +18,6 @@
           <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="Motor" Count="1" />
@@ -59,7 +47,7 @@
           <BuildTimeSeconds>120</BuildTimeSeconds>
           <MirroringY>Z</MirroringY>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <RequiredPowerInput>0.01</RequiredPowerInput>
+          <RequiredPowerInput>1000000</RequiredPowerInput>
           <EnableFirstPerson>true</EnableFirstPerson>
           <EnableShipControl>true</EnableShipControl>
           <EnableBuilderCockpit>false</EnableBuilderCockpit>
@@ -88,19 +76,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Small\RemoteControl.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+          <Components> 
             <Component Subtype="InteriorPlate" Count="1" />
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="Motor" Count="1" />
@@ -129,7 +105,7 @@
           <EdgeType>Light</EdgeType>
           <BuildTimeSeconds>120</BuildTimeSeconds>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <RequiredPowerInput>0.01</RequiredPowerInput>
+          <RequiredPowerInput>1000000</RequiredPowerInput>
           <EnableFirstPerson>false</EnableFirstPerson>
           <EnableShipControl>true</EnableShipControl>
           <EnableBuilderCockpit>false</EnableBuilderCockpit>
@@ -163,12 +139,6 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
-                <DeconstructId>
-                  <TypeId>Ore</TypeId>
-                  <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -235,12 +205,6 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
-                <DeconstructId>
-                  <TypeId>Ore</TypeId>
-                  <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -308,12 +272,6 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" >
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -380,12 +338,6 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
-              <Component Subtype="PrecursorMemoryFoam" Count="2000" >          
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>  
-              </Component>
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />

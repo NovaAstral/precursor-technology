@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
+    <!-- Turret Controller -->
+      <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
             <Id>
                 <TypeId>TurretControlBlock</TypeId>
                 <SubtypeId>LargePrecursorTurretControlBlock</SubtypeId>
             </Id>
+
             <Public>true</Public>
             <DisplayName>Zei'a Custom Turret Controller</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\TurretControlBlockLarge.dds</Icon>
@@ -15,21 +17,8 @@
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\TurretControlBlock.mwm</Model>
-            <Components>
-                <Component Subtype="PrecursorAlloy" Count="50" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>      
-				</Component>    
-				
-                <Component Subtype="PrecursorFeor" Count="50" >    
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>      
-				</Component>
 
+            <Components>
                 <Component Subtype="InteriorPlate" Count="20" />
                 <Component Subtype="Construction" Count="30" />
                 <Component Subtype="Detector" Count="20" />
@@ -49,7 +38,6 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <EdgeType>Light</EdgeType>
-
             <BuildTimeSeconds>24</BuildTimeSeconds>
 
             <MountPoints>
@@ -76,7 +64,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PlayerInputDivider>50</PlayerInputDivider>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <PowerInputIdle>0.0005</PowerInputIdle>
+            <PowerInputIdle>1000000</PowerInputIdle>
             <PCU>100</PCU>
             <MaxRangeMeters>10000</MaxRangeMeters>
             <ScreenAreas>
@@ -93,6 +81,7 @@
                 <TypeId>TurretControlBlock</TypeId>
                 <SubtypeId>SmallPrecursorTurretControlBlock</SubtypeId>
             </Id>
+
             <Public>true</Public>
             <DisplayName>Small Zei'a Custom Turret Controller</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\TurretControlBlockSmall.dds</Icon>
@@ -102,21 +91,8 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\TurretControlBlock.mwm</Model>
+
             <Components>
-                <Component Subtype="PrecursorAlloy" Count="50" >
-					<DeconstructId>
-					    <TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>      
-				</Component> 
-
-				<Component Subtype="PrecursorFeor" Count="50" >    
-					<DeconstructId>
-					    <TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>      
-				</Component>
-
                 <Component Subtype="InteriorPlate" Count="4" />
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="Detector" Count="4" />
@@ -132,12 +108,10 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TurretControlBlockConstruction_2.mwm" />
             
             </BuildProgressModels>
-            
+        
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
-            
             <EdgeType>Light</EdgeType>
-            
             <BuildTimeSeconds>10</BuildTimeSeconds>
             
             <MountPoints>
@@ -159,13 +133,16 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PlayerInputDivider>50</PlayerInputDivider>
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <PowerInputIdle>0.0005</PowerInputIdle>
+            <PowerInputIdle>1000000</PowerInputIdle>
             <PCU>100</PCU>
             <MaxRangeMeters>10000</MaxRangeMeters>
             <IsAirTight>true</IsAirTight>
+
             <ScreenAreas>
                 <ScreenArea Name="CockpitScreen_01" DisplayName="" TextureResolution="256" ScreenWidth="5" ScreenHeight="4" />
             </ScreenAreas>
         </Definition>
+
+    <!-- prcUtility END -->
   </CubeBlocks>
 </Definitions>

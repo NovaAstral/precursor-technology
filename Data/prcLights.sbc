@@ -19,19 +19,7 @@
                     <ModelOffset x="0" y="0" z="0"/>
                     <Model>Models\Cubes\Large\light.mwm</Model>
 
-                    <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>               
+                    <Components>    
                         <Component Subtype="SteelPlate" Count="12"/>
                         <Component Subtype="LargeTube" Count="3"/>
                         <Component Subtype="InteriorPlate" Count="30"/>
@@ -63,7 +51,7 @@
                     <LightFalloff Min="1" Max="3" Default="1.5"/>
                     <LightIntensity Min="0.5" Max="20" Default="1"/>
                     <ResourceSinkGroup>Utility</ResourceSinkGroup>
-                    <RequiredPowerInput>0.001</RequiredPowerInput>
+                    <RequiredPowerInput>1000000</RequiredPowerInput>
                     <Flare>SpotlightLarge</Flare>
                     <ReflectorThickness>10</ReflectorThickness>
                     <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
@@ -92,19 +80,7 @@
                 <Size x="1" y="1" z="1"/>
                 <ModelOffset x="0" y="0" z="0"/>
                 <Model>Models\Cubes\Small\light.mwm</Model>
-                <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                              
+                <Components>                          
                     <Component Subtype="SteelPlate" Count="2"/>
                     <Component Subtype="LargeTube" Count="2"/>
                     <Component Subtype="InteriorPlate" Count="2"/>
@@ -135,7 +111,7 @@
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
                 <LightIntensity Min="0.5" Max="20" Default="3"/>
                 <ResourceSinkGroup>Utility</ResourceSinkGroup>
-                <RequiredPowerInput>0.0001</RequiredPowerInput>
+                <RequiredPowerInput>1000000</RequiredPowerInput>
                 <Flare>SpotlightSmall</Flare>
                 <ReflectorThickness>10</ReflectorThickness>
                 <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
@@ -167,19 +143,7 @@
                 <ModelOffset x="0" y="0" z="0"/>
                 <Model>Models\Cubes\Large\light.mwm</Model>
 
-                <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                              
+                <Components>                          
                     <Component Subtype="SteelPlate" Count="12"/>
                     <Component Subtype="LargeTube" Count="3"/>
                     <Component Subtype="InteriorPlate" Count="30"/>
@@ -211,7 +175,7 @@
                 <LightFalloff Min="1" Max="3" Default="1.5"/>
                 <LightIntensity Min="0.5" Max="20" Default="1"/>
                 <ResourceSinkGroup>Utility</ResourceSinkGroup>
-                <RequiredPowerInput>0.001</RequiredPowerInput>
+                <RequiredPowerInput>1000000</RequiredPowerInput>
                 <Flare>SpotlightLarge</Flare>
                 <ReflectorThickness>10</ReflectorThickness>
                 <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
@@ -241,19 +205,7 @@
                     <ModelOffset x="0" y="0" z="0"/>
                     <Model>Models\Cubes\Small\light.mwm</Model>
 
-                    <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                             
+                    <Components>                          
                         <Component Subtype="SteelPlate" Count="2"/>
                         <Component Subtype="LargeTube" Count="2"/>
                         <Component Subtype="InteriorPlate" Count="2"/>
@@ -284,7 +236,7 @@
                     <LightFalloff Min="1" Max="3" Default="1.5"/>
                     <LightIntensity Min="0.5" Max="20" Default="3"/>
                     <ResourceSinkGroup>Utility</ResourceSinkGroup>
-                    <RequiredPowerInput>0.0002</RequiredPowerInput>
+                    <RequiredPowerInput>1000000</RequiredPowerInput>
                     <Flare>SpotlightSmall</Flare>
                     <ReflectorThickness>10</ReflectorThickness>
                     <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>

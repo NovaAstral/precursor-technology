@@ -27,50 +27,50 @@
                 <CanPlayerOrder>false</CanPlayerOrder>
             </AmmoMagazine>
 
-            <!-- Railgun Ammos -->
+        <!-- Railgun Ammos -->
             <AmmoMagazine>
-            <Id>
-                <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>LargePrecursorRailgunAmmo</SubtypeId>
-            </Id>
-            <DisplayName>Zei'a Railgun Slug</DisplayName>
-            <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
-            <Size>
-                <X>0.1</X>
-                <Y>0.1</Y>
-                <Z>0.1</Z>
-            </Size>
-            <Mass>1</Mass>
-            <Volume>1</Volume>
-            <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
-            <PhysicalMaterial>Ammo</PhysicalMaterial>
-            <Capacity>100</Capacity>
-            <AmmoDefinitionId Subtype="LargePrecursorRailgunSlug" />
+                <Id>
+                    <TypeId>AmmoMagazine</TypeId>
+                    <SubtypeId>LargePrecursorRailgunAmmo</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Railgun Slug</DisplayName>
+                <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
+                <Size>
+                    <X>0.1</X>
+                    <Y>0.1</Y>
+                    <Z>0.1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Weapons\RailgunAmmoLarge.mwm</Model>
+                <PhysicalMaterial>Ammo</PhysicalMaterial>
+                <Capacity>100</Capacity>
+                <AmmoDefinitionId Subtype="LargePrecursorRailgunSlug" />
 
-            <CanPlayerOrder>false</CanPlayerOrder>
-        </AmmoMagazine>
+                <CanPlayerOrder>false</CanPlayerOrder>
+            </AmmoMagazine>
 
-        <AmmoMagazine>
-            <Id>
-                <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>SmallPrecursorRailgunAmmo</SubtypeId>
-            </Id>
-            <DisplayName>Zei'a Small Railgun Slug</DisplayName>
-            <Icon>Textures\GUI\Icons\ammo\RailgunAmmo.dds</Icon>
-            <Size>
-                <X>0.1</X>
-                <Y>0.1</Y>
-                <Z>0.1</Z>
-            </Size>
-            <Mass>1</Mass>
-            <Volume>1</Volume>
-            <Model>Models\Weapons\RailgunAmmo.mwm</Model>
-            <PhysicalMaterial>Ammo</PhysicalMaterial>
-            <Capacity>100</Capacity>
-            <AmmoDefinitionId Subtype="SmallPrecursorRailgunSlug" />
-            
-            <CanPlayerOrder>false</CanPlayerOrder>
-        </AmmoMagazine>
+            <AmmoMagazine>
+                <Id>
+                    <TypeId>AmmoMagazine</TypeId>
+                    <SubtypeId>SmallPrecursorRailgunAmmo</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Small Railgun Slug</DisplayName>
+                <Icon>Textures\GUI\Icons\ammo\RailgunAmmo.dds</Icon>
+                <Size>
+                    <X>0.1</X>
+                    <Y>0.1</Y>
+                    <Z>0.1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Weapons\RailgunAmmo.mwm</Model>
+                <PhysicalMaterial>Ammo</PhysicalMaterial>
+                <Capacity>100</Capacity>
+                <AmmoDefinitionId Subtype="SmallPrecursorRailgunSlug" />
+                
+                <CanPlayerOrder>false</CanPlayerOrder>
+            </AmmoMagazine>
         <!-- prcAmmoMagazines END-->
     </AmmoMagazines>
 </Definitions>

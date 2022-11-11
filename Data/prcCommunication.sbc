@@ -20,19 +20,7 @@
           <Model>Models\Cubes\Large\LaserComBase.mwm</Model>
           <PlaceDecals>false</PlaceDecals>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+          <Components>   
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="Motor" Count="16" />
@@ -66,9 +54,9 @@
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <PowerInputIdle>1</PowerInputIdle>
-          <PowerInputTurning>10</PowerInputTurning>
-          <PowerInputLasing>20000</PowerInputLasing>
+          <PowerInputIdle>100</PowerInputIdle>
+          <PowerInputTurning>1000</PowerInputTurning>
+          <PowerInputLasing>1000000</PowerInputLasing>
           <MinElevationDegrees>-180</MinElevationDegrees>
           <MaxElevationDegrees>180</MaxElevationDegrees>
           <MinAzimuthDegrees>-180</MinAzimuthDegrees>
@@ -100,19 +88,7 @@
           <Model>Models\Cubes\Small\LaserComBase.mwm</Model>
           <PlaceDecals>false</PlaceDecals>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>          
+          <Components>         
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="SmallTube" Count="10" />
             <Component Subtype="Construction" Count="10" />
@@ -147,9 +123,9 @@
           <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
           <DamagedSound>ParticleElectrical</DamagedSound>
           <ResourceSinkGroup>Utility</ResourceSinkGroup>
-          <PowerInputIdle>1</PowerInputIdle>
-          <PowerInputTurning>10</PowerInputTurning>
-          <PowerInputLasing>20000</PowerInputLasing>
+          <PowerInputIdle>100</PowerInputIdle>
+          <PowerInputTurning>1000</PowerInputTurning>
+          <PowerInputLasing>1000000</PowerInputLasing>
           <MinElevationDegrees>-180</MinElevationDegrees>
           <MaxElevationDegrees>180</MaxElevationDegrees>
           <MinAzimuthDegrees>-180</MinAzimuthDegrees>

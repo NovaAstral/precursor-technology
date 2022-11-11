@@ -18,19 +18,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>     
+          <Components>   
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
@@ -69,8 +57,8 @@
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <OperationalPowerConsumption>10</OperationalPowerConsumption>
-          <StandbyPowerConsumption>1</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
           <Capacity>13576132215353</Capacity>
           <InventoryMaxVolume>4</InventoryMaxVolume>
 
@@ -123,19 +111,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>     
+          <Components>  
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="LargeTube" Count="8" />
             <Component Subtype="SmallTube" Count="10" />
@@ -180,8 +156,8 @@
             <Z>2</Z>
           </InventorySize>
 
-          <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-          <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
 
           <StoredGasId>
             <TypeId>GasProperties</TypeId>
@@ -225,19 +201,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>           
+          <Components>   
             <Component Subtype="SteelPlate" Count="60" />
             <Component Subtype="LargeTube" Count="40" />
             <Component Subtype="SmallTube" Count="60" />
@@ -267,8 +231,8 @@
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-          <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
           <Capacity>13576132215353</Capacity>
           <InventoryMaxVolume>0.75</InventoryMaxVolume>
 
@@ -319,19 +283,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
           
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>            
+          <Components>        
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="LargeTube" Count="1" />
             <Component Subtype="SmallTube" Count="2" />
@@ -361,8 +313,8 @@
           <EdgeType>Light</EdgeType>
           <ResourceSourceGroup>Reactors</ResourceSourceGroup>
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <OperationalPowerConsumption>0.0002</OperationalPowerConsumption>
-          <StandbyPowerConsumption>0.0000002</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
           <Capacity>13576132215353</Capacity>
           <InventoryMaxVolume>0.12</InventoryMaxVolume>
           

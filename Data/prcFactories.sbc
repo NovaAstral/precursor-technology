@@ -18,19 +18,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\Refinery.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+          <Components>  
             <Component Subtype="SteelPlate" Count="1100" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="LargeTube" Count="20" />
@@ -70,8 +58,8 @@
             <Z>2.5</Z>
           </InventorySize>
 
-          <StandbyPowerConsumption>0</StandbyPowerConsumption>
-          <OperationalPowerConsumption>20000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
 
           <BlueprintClasses>
             <Class>Ingots</Class>
@@ -106,19 +94,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Small\Production\Refinery.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>           
+          <Components>        
             <Component Subtype="SteelPlate" Count="440" />
             <Component Subtype="Construction" Count="16" />
             <Component Subtype="LargeTube" Count="8" />
@@ -156,8 +132,8 @@
           </InventorySize>
 
           <ResourceSinkGroup>Factory</ResourceSinkGroup>
-          <StandbyPowerConsumption>0</StandbyPowerConsumption>
-          <OperationalPowerConsumption>20000000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
           <BlueprintClasses>
           <Class>Ingots</Class>
           </BlueprintClasses>
@@ -256,7 +232,7 @@
           </MyUpgradeModuleInfo>
         </Upgrades>
 
-        <StandbyPowerConsumption>0</StandbyPowerConsumption>
+        <StandbyPowerConsumption>1000000</StandbyPowerConsumption>
         <OperationalPowerConsumption>20000000</OperationalPowerConsumption> <!-- This does nothing sadly, I'm also keeping it so I don't go "What if this makes it use power" later -->
 
         <PrimarySound>BlockModuleEffectiveness</PrimarySound>
@@ -343,7 +319,7 @@
           </MyUpgradeModuleInfo>
         </Upgrades>
 
-        <StandbyPowerConsumption>0</StandbyPowerConsumption>
+        <StandbyPowerConsumption>1000000</StandbyPowerConsumption>
         <OperationalPowerConsumption>20000000</OperationalPowerConsumption> <!-- This does nothing sadly, I'm also keeping it so I don't go "What if this makes it use power" later-->
 
         <PrimarySound>BlockModuleEffectiveness</PrimarySound>
@@ -373,19 +349,7 @@
         <ModelOffset x="0" y="0" z="0" />
         <Model>Models\Cubes\Large\OxygenPressurizer.mwm</Model>
         
-        <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+        <Components>   
           <Component Subtype="SteelPlate" Count="30" />
           <Component Subtype="Construction" Count="20" />
           <Component Subtype="Motor" Count="10" />
@@ -416,8 +380,8 @@
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
-        <OperationalPowerConsumption>2000</OperationalPowerConsumption>
-        <StandbyPowerConsumption>1</StandbyPowerConsumption>
+        <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+        <StandbyPowerConsumption>1000</StandbyPowerConsumption>
         <VentilationCapacityPerSecond>20000000</VentilationCapacityPerSecond>
 
         <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
@@ -447,19 +411,7 @@
         <ModelOffset x="0" y="0" z="0" />
         <Model>Models\Cubes\Small\OxygenPressurizer.mwm</Model>
 
-        <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>          
+        <Components>       
           <Component Subtype="SteelPlate" Count="5" />
           <Component Subtype="Construction" Count="10" />
           <Component Subtype="Motor" Count="2" />
@@ -490,8 +442,8 @@
 
         <ResourceSourceGroup>Battery</ResourceSourceGroup>
         <ResourceSinkGroup>Factory</ResourceSinkGroup>
-        <OperationalPowerConsumption>2000</OperationalPowerConsumption>
-        <StandbyPowerConsumption>1</StandbyPowerConsumption>
+        <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
+        <StandbyPowerConsumption>1000</StandbyPowerConsumption>
         <VentilationCapacityPerSecond>13576132215353</VentilationCapacityPerSecond>
 
         <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
@@ -523,19 +475,7 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
 
-          <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>      
+          <Components> 
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="BulletproofGlass" Count="60" />
             <Component Subtype="LargeTube" Count="20" />
@@ -585,7 +525,7 @@
             <MaxOutputPerSecond>13576132215353</MaxOutputPerSecond>
           </ProducedGas>
 
-          <OperationalPowerConsumption>1000</OperationalPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
           <DamagedSound>ParticleWeapExpl</DamagedSound>
           <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -610,19 +550,7 @@
         <Model>Models\Cubes\Small\Production\SolarHydroponics.mwm</Model>
         <IsAirTight>true</IsAirTight>
 
-        <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>       
+        <Components>   
           <Component Subtype="SteelPlate" Count="5" />
           <Component Subtype="BulletproofGlass" Count="3" />
           <Component Subtype="LargeTube" Count="5" />
@@ -672,7 +600,7 @@
           <MaxOutputPerSecond>13576132215353</MaxOutputPerSecond>
         </ProducedGas>
 
-        <OperationalPowerConsumption>1000</OperationalPowerConsumption>
+        <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
         <DamageEffectId>213</DamageEffectId>
         <DamagedSound>ParticleWeapExpl</DamagedSound>
         <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -901,8 +829,8 @@
           <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
           <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
           <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
-          <StandbyPowerConsumption>10</StandbyPowerConsumption>
-          <OperationalPowerConsumption>1000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
           
           <ProducedGases>
             <GasInfo>
@@ -1024,8 +952,8 @@
           <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
           <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
           <FuelPullAmountFromConveyorInMinutes>2.75</FuelPullAmountFromConveyorInMinutes>
-          <StandbyPowerConsumption>1</StandbyPowerConsumption>
-          <OperationalPowerConsumption>1000</OperationalPowerConsumption>
+          <StandbyPowerConsumption>1000</StandbyPowerConsumption>
+          <OperationalPowerConsumption>1000000</OperationalPowerConsumption>
 
           <ProducedGases>
             <GasInfo>
