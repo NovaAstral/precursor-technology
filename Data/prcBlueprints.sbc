@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PrecursorAlloy</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Alloy</DisplayName>
+
+            <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
+
+            <Prerequisites>
+                <Item Amount="0" TypeId="Component" SubtypeId="PrecursorAlloy" />
+            </Prerequisites>
+
+            <Result Amount="0" TypeId="Component" SubtypeId="PrecursorAlloy" />
+
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PrecursorFeor</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Feo'r</DisplayName>
+
+            <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
+
+            <Prerequisites>
+                <Item Amount="0" TypeId="Component" SubtypeId="PrecursorFeor" />
+            </Prerequisites>
+
+            <Result Amount="0" TypeId="Component" SubtypeId="PrecursorFeor" />
+            
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PrecursorBurpMemoryFoam</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a B-Urp's Memory Foam</DisplayName>
+
+            <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
+
+            <Prerequisites>
+                <Item Amount="0" TypeId="Component" SubtypeId="PrecursorBurpMemoryFoam" />
+            </Prerequisites>
+
+            <Result Amount="0" TypeId="Component" SubtypeId="PrecursorBurpMemoryFoam" />
+            
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PrecursorMemoryFoam</SubtypeId>
+            </Id>
+
+            <DisplayName>Zei'a Memory Foam</DisplayName>
+
+            <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
+
+            <Prerequisites>
+                <Item Amount="0" TypeId="Component" SubtypeId="PrecursorMemoryFoam" />
+            </Prerequisites>
+
+            <Result Amount="0" TypeId="Component" SubtypeId="PrecursorMemoryFoam7" />
+            
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+    </Blueprints>
+</Definitions>

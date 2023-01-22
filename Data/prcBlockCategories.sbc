@@ -27,7 +27,7 @@
 				<string>Thrust/LargePrecursorWeakThruster</string>
 				<string>Thrust/SmallPrecursorWeakThruster</string>
 				<string>Warhead/LargePrecursorWarhead</string>
-				<string>Warhead/SmalPrecursorWarhead</string>
+				<string>Warhead/SmallPrecursorWarhead</string>
 				<string>Warhead/LargePrecursorPreciseWarhead</string>
 				<string>Warhead/SmallPrecursorPreciseWarhead</string>
 				<string>SmallGatlingGun/PrecursorGatlingGun</string>
@@ -75,8 +75,7 @@
 				<string>SmallMissileLauncherReload/LargePrecursorRailgun</string>
 				<string>SmallMissileLauncherReload/SmallPrecursorRailgun</string>
 				<string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
-				<string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
-				
+				<string>TurretControlBlock/SmallPrecursorTurretControlBlock</string>
 			</ItemIds>
 	</Category>
 
