@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+            <Id>
+                <TypeId>AutopilotComponent</TypeId>
+                <SubtypeId>SmallPrecursorRC</SubtypeId>
+            </Id>
+            <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+            <CoastingTestEnabled>false</CoastingTestEnabled>
+            <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+            <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+            <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+            <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+            <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+            <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+            <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+            <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+            <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+        </EntityComponent>
+
+        <EntityComponent xsi:type="MyObjectBuilder_AutopilotComponentDefinition">
+            <Id>
+                <TypeId>AutopilotComponent</TypeId>
+                <SubtypeId>LargePrecursorRC</SubtypeId>
+            </Id>
+            <MinHeightAlignmentEnabled>false</MinHeightAlignmentEnabled>
+            <CoastingTestEnabled>false</CoastingTestEnabled>
+            <CourseCorrectionMaxDistanceSmallGrid>5</CourseCorrectionMaxDistanceSmallGrid>
+            <CourseCorrectionMaxDistanceLargeGrid>10</CourseCorrectionMaxDistanceLargeGrid>
+            <CourseCorrectionMaxThrustPercentage>50</CourseCorrectionMaxThrustPercentage>
+            <CourseCorrectionMaxRemainingRotationBeforeThrust>0.5</CourseCorrectionMaxRemainingRotationBeforeThrust>
+            <CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>0.2</CourseCorrectionMaxRemainingRotationBeforeThrustInPrecisionMode>
+            <CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>0.3</CourseCorrectionMaxDistanceInPrecisionModeGridSizeMultiple>
+            <PrecisionModeRotationVelocitySlowFactor>4</PrecisionModeRotationVelocitySlowFactor>
+            <RotationVelocitySlowFactorAutomaticBehavior>3</RotationVelocitySlowFactorAutomaticBehavior>
+            <RotationVelocitySlowFactorAutomaticBehaviorTreshold>0.1</RotationVelocitySlowFactorAutomaticBehaviorTreshold>
+
+        </EntityComponent>       
+
+    </EntityComponents>
+
+</Definitions>
