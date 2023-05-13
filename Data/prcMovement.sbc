@@ -540,7 +540,7 @@
 					<ResourceSinkGroup>Charging</ResourceSinkGroup>
 					<RequiredPowerInput>500000000</RequiredPowerInput>
 					<PowerNeededForJump>5000000</PowerNeededForJump>
-					<MaxJumpDistance>100000000</MaxJumpDistance>
+					<MaxJumpDistance>1000000000</MaxJumpDistance>
 					<MaxJumpMass>13576132215353</MaxJumpMass>
 					<EmissiveColorPreset>N1R-Ext_4</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
@@ -601,7 +601,7 @@
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
 					<RequiredPowerInput>500000000</RequiredPowerInput>
 					<PowerNeededForJump>5000000</PowerNeededForJump>
-					<MaxJumpDistance>100000000</MaxJumpDistance>
+					<MaxJumpDistance>1000000000</MaxJumpDistance>
 					<MaxJumpMass>13576132215353</MaxJumpMass>
 					<EmissiveColorPreset>Extended</EmissiveColorPreset>
 					<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
