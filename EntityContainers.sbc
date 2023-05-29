@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityContainers>
+
+    <!-- Remote Controls -->
+        <Container>
+            <Id>
+                <TypeId>RemoteControl</TypeId>
+                <SubtypeId>LargePrecursorRC</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="LargePrecursorRC" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>RemoteControl</TypeId>
+                <SubtypeId>SmallPrecursorRC</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_AutopilotComponent" SubtypeId="SmallPrecursorRC" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+    <!-- Custom Turret Controller -->
+        <Container>
+            <Id>
+                <TypeId>TurretControlBlock</TypeId>
+                <SubtypeId>LargePrecursorTurretControlBlock</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_SunTrackingComponent" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+        <Container>
+            <Id>
+                <TypeId>TurretControlBlock</TypeId>
+                <SubtypeId>SmallPrecursorTurretControlBlock</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_SunTrackingComponent" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+
+    </EntityContainers>
+</Definitions>
