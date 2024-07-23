@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Anti-Electron Casters (WC) -->
+      <!-- Large -->
+      <!-- Small -->
+		    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+		    	<Id>
+		    		<TypeId>ConveyorSorter</TypeId>
+		    		<SubtypeId>SmallPrecursorAntiElectron</SubtypeId>
+		    	</Id>
+
+          <DisplayName>Zei'a Small Anti-Electron Caster</DisplayName>
+          <GuiVisible>false</GuiVisible>
+          <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
+          <Description>Needs Weaponcore / Coresystems, doesn't work otherwise. 60km range.</Description>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="1" z="4"/>
+          <ModelOffset x="0" y="0" z="0"/>
+          <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
+
+          <Components>
+						<Component Subtype="PrecursorAlloy" Count="50" >
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>    
+						<Component Subtype="PrecursorFeor" Count="50" >    
+							<DeconstructId>
+								<TypeId>Ore</TypeId>
+								<SubtypeId>Scrap</SubtypeId>
+							</DeconstructId>      
+						</Component>                 
+            <Component Subtype="SteelPlate" Count="4"/>
+            <Component Subtype="Construction" Count="4"/>
+            <Component Subtype="MetalGrid" Count="7"/>
+            <Component Subtype="SmallTube" Count="21"/>
+            <Component Subtype="Motor" Count="4"/>
+            <Component Subtype="Computer" Count="4"/>
+            <Component Subtype="SteelPlate" Count="11"/>         
+          </Components>
+          <CriticalComponent Subtype="Computer" Index="0"/>
+
+          <MountPoints>
+            <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            <MountPoint Side="Bottom" StartX="0" StartY="3" EndX="1" EndY="4"/>
+            <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1"/>
+            <MountPoint Side="Left" StartX="3" StartY="0" EndX="4" EndY="1"/>
+          </MountPoints>
+
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GatlingGunConstruction_1.mwm"/>
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GatlingGunConstruction_2.mwm"/>
+          </BuildProgressModels>
+
+          <BlockPairName>PrecursorAntiElectronCaster</BlockPairName>
+          <Center x="0" y="0" z="3"/>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <BuildTimeSeconds>120</BuildTimeSeconds>
+          <EdgeType>Light</EdgeType>
+          <WeaponDefinitionId Subtype="PrecursorAntiElectronCaster"/>
+          <ResourceSinkGroup>Defense</ResourceSinkGroup>
+          <InventoryMaxVolume>13576132215353</InventoryMaxVolume>
+          <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+          <DamagedSound>ParticleWeapExpl</DamagedSound>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+          <PCU>80</PCU>
+
+          <TargetingGroups>
+				    <string>Weapons</string>
+			    </TargetingGroups>
+        </Definition>
+    <!-- prcWeaponCoreBlocks END -->
+  </CubeBlocks>
+</Definitions>

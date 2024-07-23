@@ -397,6 +397,10 @@
           <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
           <DestroySound>WepSmallWarheadExpl</DestroySound>
           <PCU>80</PCU>
+
+          <TargetingGroups>
+				    <string>Weapons</string>
+			    </TargetingGroups>
         </Definition>
       <!-- Missile Launcher -->
         <!-- Large -->
@@ -535,7 +539,8 @@
             <PCU>425</PCU>      
           </Definition>
 
-          <!-- Large Railgun -->  
+      <!-- Railguns -->
+        <!-- Large Railgun -->  
           <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
               <TypeId>SmallMissileLauncherReload</TypeId>
@@ -554,17 +559,19 @@
 
             <Components>
               <Component Subtype="PrecursorAlloy" Count="50" >
-							  <DeconstructId>
-								  <TypeId>Ore</TypeId>
-								  <SubtypeId>Scrap</SubtypeId>
-							  </DeconstructId>      
+               <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+               </DeconstructId>      
               </Component>    
+
               <Component Subtype="PrecursorFeor" Count="50" >    
                 <DeconstructId>
                   <TypeId>Ore</TypeId>
                   <SubtypeId>Scrap</SubtypeId>
                 </DeconstructId>      
               </Component>
+
               <Component Subtype="SteelPlate" Count="50" />
               <Component Subtype="Construction" Count="150" />
               <Component Subtype="Superconductor" Count="150" />
@@ -574,29 +581,28 @@
               <Component Subtype="SteelPlate" Count="300" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
-            
+
             <MountPoints>
-                <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
-                <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
-                <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
-                <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
-                <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
-                <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
-                <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
+              <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+              <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+              <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+              <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+              <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+              <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+              <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
             </MountPoints>
-            
+
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\RailGunConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\RailGunConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RailGunConstruction_3.mwm" />
-            
+             <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\RailGunConstruction_1.mwm" />
+             <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\RailGunConstruction_2.mwm" />
+             <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RailGunConstruction_3.mwm" />
             </BuildProgressModels>
             <BlockPairName>PrecursorRailgun</BlockPairName>
-            
+
             <Center x="0" y="1" z="6" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            
+
             <BuildTimeSeconds>100</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="LargePrecursorRailgun" />
@@ -611,16 +617,16 @@
             <IsAirTight>false</IsAirTight>
             <InventoryFillFactorMin>.6</InventoryFillFactorMin>
             <TargetingGroups>
-                <string>Weapons</string>
+            <string>Weapons</string>
             </TargetingGroups>
-        </Definition>
-
+          </Definition>
         <!-- Small Railgun -->
-        <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+          <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
-                <TypeId>SmallMissileLauncherReload</TypeId>
-                <SubtypeId>SmallPrecursorRailgun</SubtypeId>
+              <TypeId>SmallMissileLauncherReload</TypeId>
+              <SubtypeId>SmallPrecursorRailgun</SubtypeId>
             </Id>
+            
             <DisplayName>Small Zei'a Railgun</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\RailGun.dds</Icon>
             <Description>60km Range</Description>
@@ -637,13 +643,13 @@
                   <TypeId>Ore</TypeId>
                   <SubtypeId>Scrap</SubtypeId>
                 </DeconstructId>      
-              </Component>    
-              <Component Subtype="PrecursorFeor" Count="50" >    
-                <DeconstructId>
-                  <TypeId>Ore</TypeId>
-                  <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>      
-              </Component>
+             </Component>    
+               <Component Subtype="PrecursorFeor" Count="50" >    
+                 <DeconstructId>
+                   <TypeId>Ore</TypeId>
+                   <SubtypeId>Scrap</SubtypeId>
+                 </DeconstructId>      
+             </Component>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="Superconductor" Count="20" />
@@ -653,29 +659,27 @@
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
-            
+
             <MountPoints>
-                <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
-                <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
-                <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
-                <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
-                <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
-                <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
-                <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
-            
+              <MountPoint Side="Back" StartX="0.1" StartY="0.6" EndX="0.9" EndY="1.9" Default="true" />
+              <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="3.3" />
+              <MountPoint Side="Bottom" StartX="0.3" StartY="4.9" EndX="0.7" EndY="6.5" />
+              <MountPoint Side="Right" StartX="0.1" StartY="1" EndX="3.3" EndY="1.8" />
+              <MountPoint Side="Right" StartX="0.1" StartY="0.6" EndX="2.1" EndY="1" />
+              <MountPoint Side="Left" StartX="4.7" StartY="1" EndX="7.9" EndY="1.8" />
+              <MountPoint Side="Left" StartX="5.9" StartY="0.6" EndX="7.9" EndY="1" />
             </MountPoints>
+
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RailGunConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RailGunConstruction_2.mwm" />
-            
+              <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RailGunConstruction_1.mwm" />
+              <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RailGunConstruction_2.mwm" />
             </BuildProgressModels>
-            
+
             <BlockPairName>PrecursorRailgun</BlockPairName>
-            
             <Center x="0" y="1" z="6" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
-            
+
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
             <WeaponDefinitionId Subtype="SmallPrecursorRailgun" />
@@ -689,9 +693,9 @@
             <IsAirTight>false</IsAirTight>
             <InventoryFillFactorMin>.6</InventoryFillFactorMin>
             <TargetingGroups>
-                <string>Weapons</string>
+            <string>Weapons</string>
             </TargetingGroups>
-        </Definition>
+          </Definition>
     <!-- prcWeaponBlocks END -->
   </CubeBlocks>
 </Definitions>

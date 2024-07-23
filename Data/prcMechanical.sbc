@@ -304,6 +304,138 @@
           <PCU>100</PCU>
         </Definition>
 
+    <!--- Rotors -->
+
+      <!-- Large -->
+        <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+          <Id>
+            <TypeId>MotorStator</TypeId>
+            <SubtypeId>LargePrecursorStator</SubtypeId>
+          </Id>
+          <DisplayName>Large Zei'a Rotor</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
+          <Description>speen :)</Description>
+          <CubeSize>Large</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="2" z="1" />
+          <ModelOffset x="0" y="-1.25" z="0" />
+          <Model>Models\Cubes\Large\MotorStator.mwm</Model>
+          <Components>
+            <Component Subtype="SteelPlate" Count="10" />
+            <Component Subtype="Construction" Count="10" />
+            <Component Subtype="LargeTube" Count="4" />
+            <Component Subtype="Motor" Count="4" />
+            <Component Subtype="Computer" Count="2" />
+            <Component Subtype="SteelPlate" Count="5" />
+          </Components>
+          <CriticalComponent Subtype="Computer" Index="0" />
+          <MountPoints>
+            <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+            <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+          </MountPoints>
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorStatorConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorStatorConstruction_2.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorStatorConstruction_3.mwm" />
+          </BuildProgressModels>
+          <BlockPairName>PrecursorRotor</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>20</BuildTimeSeconds>
+          <PrimarySound>BlockRotor</PrimarySound>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <RequiredPowerInput>1000</RequiredPowerInput>
+          <MaxForceMagnitude>10000000000</MaxForceMagnitude>
+          <DangerousTorqueThreshold>10000000000</DangerousTorqueThreshold>
+          <PropulsionForce>8000</PropulsionForce>
+          <RotorPart>MotorRotor</RotorPart>
+          <RotorDisplacementMin>-0.4</RotorDisplacementMin>
+          <RotorDisplacementMax>0.2</RotorDisplacementMax>
+          <RotorDisplacementMinSmall>-0.11</RotorDisplacementMinSmall>
+          <RotorDisplacementMaxSmall>0.11</RotorDisplacementMaxSmall>
+          <RotorDisplacementInModel>0.0</RotorDisplacementInModel>
+          <GuiVisible>false</GuiVisible>
+          <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+          <DamagedSound>ParticleHeavyMech</DamagedSound>
+          <SafetyDetach>5</SafetyDetach>
+          <SafetyDetachMax>5</SafetyDetachMax>
+          <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+          <RotorType>Rotor</RotorType>
+          <PCU>100</PCU>
+          <IsAirTight>false</IsAirTight>      
+        </Definition>
+
+      <!-- Small -->
+
+        <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
+          <Id>
+            <TypeId>MotorStator</TypeId>
+            <SubtypeId>SmallPrecursorStator</SubtypeId>
+          </Id>
+
+          <DisplayName>Small Zei'a Rotor</DisplayName>
+          <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
+          <Description>speen :)</Description>
+          <CubeSize>Small</CubeSize>
+          <BlockTopology>TriangleMesh</BlockTopology>
+          <Size x="1" y="2" z="1" />
+          <ModelOffset x="0" y="-0.25" z="0" />
+          <Model>Models\Cubes\Small\MotorStator.mwm</Model>
+
+          <Components>
+            <Component Subtype="SteelPlate" Count="3" />
+            <Component Subtype="Construction" Count="5" />
+            <Component Subtype="SmallTube" Count="1" />
+            <Component Subtype="Motor" Count="1" />
+            <Component Subtype="Computer" Count="1" />
+            <Component Subtype="SteelPlate" Count="2" />
+          </Components>
+          <CriticalComponent Subtype="Motor" Index="0" />
+
+          <MountPoints>
+            <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+            <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+            <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
+          </MountPoints>
+
+          <BuildProgressModels>
+            <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorStatorConstruction_1.mwm" />
+            <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorStatorConstruction_2.mwm" />
+          </BuildProgressModels>
+
+          <BlockPairName>PrecursorRotor</BlockPairName>
+          <MirroringY>Z</MirroringY>
+          <MirroringZ>Y</MirroringZ>
+          <EdgeType>Light</EdgeType>
+          <BuildTimeSeconds>10</BuildTimeSeconds>
+          <PrimarySound>BlockRotorSmall</PrimarySound>
+          <ResourceSinkGroup>Utility</ResourceSinkGroup>
+          <RequiredPowerInput>1000</RequiredPowerInput>
+          <MaxForceMagnitude>10000000000</MaxForceMagnitude>
+          <DangerousTorqueThreshold>10000000000</DangerousTorqueThreshold>
+          <RotorPart>MotorRotor</RotorPart>
+          <RotorDisplacementMin>-0.11</RotorDisplacementMin>
+          <RotorDisplacementMax>0.11</RotorDisplacementMax>
+          <RotorDisplacementMinSmall>-0.11</RotorDisplacementMinSmall>
+          <RotorDisplacementMaxSmall>0.11</RotorDisplacementMaxSmall>
+          <RotorDisplacementInModel>0.045</RotorDisplacementInModel>
+          <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+          <DamagedSound>ParticleHeavyMech</DamagedSound>
+          <SafetyDetach>5</SafetyDetach>
+          <SafetyDetachMax>5</SafetyDetachMax>
+          <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+          <DestroySound>WepSmallWarheadExpl</DestroySound>
+          <RotorType>Rotor</RotorType>
+          <PCU>100</PCU>
+          <IsAirTight>false</IsAirTight>      
+        </Definition>
     <!-- prcMechanical END -->  
   </CubeBlocks>
 </Definitions>

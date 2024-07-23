@@ -8,7 +8,6 @@
             <TypeId>RemoteControl</TypeId>
             <SubtypeId>LargePrecursorRC</SubtypeId>
           </Id>
-
           <DisplayName>Zei'a Remote Control</DisplayName>
           <Icon>Textures\GUI\Icons\Cubes\RemoteControl.dds</Icon>
           <Description></Description>
@@ -17,6 +16,7 @@
           <Size x="1" y="1" z="1" />
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
+
           <Components>
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="10" />
@@ -25,7 +25,7 @@
             <Component Subtype="InteriorPlate" Count="5" />
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
-            
+
           <MountPoints>
             <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -41,7 +41,7 @@
             <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RemoteControlConstruction_1.mwm" />
             <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteControlConstruction_2.mwm" />
           </BuildProgressModels>
-            
+
           <BlockPairName>PrecursorRC</BlockPairName>
           <EdgeType>Light</EdgeType>
           <BuildTimeSeconds>120</BuildTimeSeconds>
@@ -57,7 +57,7 @@
           <EmissiveColorPreset>Extended</EmissiveColorPreset>
           <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
           <DestroySound>WepSmallWarheadExpl</DestroySound>
-          <PCU>25</PCU>
+          <PCU>25</PCU>      
         </Definition>
 
       <!-- Small -->
@@ -116,7 +116,7 @@
           <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
           <DestroySound>WepSmallWarheadExpl</DestroySound>
           <PCU>25</PCU>
-          <IsAirTight>false</IsAirTight>
+          <IsAirTight>false</IsAirTight>      
         </Definition>
 
     <!-- Passenger seat -->

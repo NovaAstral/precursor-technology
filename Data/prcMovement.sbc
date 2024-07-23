@@ -301,6 +301,191 @@
 					<Public>true</Public>
 				</Definition>
 
+		<!-- Medium Thrust -->
+			<!-- Large -->
+				<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+					<Id>
+						<TypeId>Thrust</TypeId>
+						<SubtypeId>LargePrecursorMediumThruster</SubtypeId>
+					</Id>
+
+					<DisplayName>Zei'a Medium Thruster</DisplayName>
+					<Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+					<CubeSize>Large</CubeSize>
+					<BlockTopology>TriangleMesh</BlockTopology>
+					<Size x="1" y="1" z="1" />
+					<ModelOffset x="0" y="0" z="0" />
+					<Model>Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1.mwm</Model>
+					<ThrusterType>Atmospheric</ThrusterType>
+
+					<Components>           				
+						<Component Subtype="SteelPlate" Count="10" />
+						<Component Subtype="Construction" Count="30" />
+						<Component Subtype="LargeTube" Count="8" />
+						<Component Subtype="MetalGrid" Count="10" />
+						<Component Subtype="Motor" Count="113" />
+						<Component Subtype="Construction" Count="20" />
+						<Component Subtype="SteelPlate" Count="31" />						
+					</Components>        
+					<CriticalComponent Subtype="Motor" Index="0" />
+
+					<MountPoints>
+						<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+					</MountPoints>
+
+					<BuildProgressModels>
+						<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1_Constr1.mwm" />
+						<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1_Constr2.mwm" />
+						<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1_Constr3.mwm" />
+					</BuildProgressModels>
+
+					<BlockPairName>PrecursorMediumThrust</BlockPairName>
+					<Center x="0" y="0" z="0" />
+					<GuiVisible>false</GuiVisible>
+					<MirroringZ>Y</MirroringZ>
+					<EdgeType>Light</EdgeType>
+					<BuildTimeSeconds>120</BuildTimeSeconds>
+					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+					<ForceMagnitude>250000000</ForceMagnitude>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
+					<MinPowerConsumption>10</MinPowerConsumption>
+					<SlowdownFactor>1</SlowdownFactor>
+					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
+					<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+					<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+					<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+					<NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+					<FlameDamageLengthScale>0</FlameDamageLengthScale>
+					<FlameLengthScale>0</FlameLengthScale>
+
+					<FlameIdleColor>
+						<X>0.6</X>
+						<Y>0.6</Y>
+						<Z>0.6</Z>
+						<W>0.75</W>
+					</FlameIdleColor>
+
+					<FlameFullColor>
+						<X>0.7</X>
+						<Y>0.7</Y>
+						<Z>0.7</Z>
+						<W>0.75</W>
+					</FlameFullColor>
+
+					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
+					<FlameGlareQuerySize>0</FlameGlareQuerySize>
+					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+					<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+					<PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+					<PropellerAccelerationTime>3</PropellerAccelerationTime>
+					<PropellerDecelerationTime>6</PropellerDecelerationTime>
+					<PropellerMaxVisibleDistance>100</PropellerMaxVisibleDistance>
+					<PrimarySound>ArcSmShipSmJetAtmo</PrimarySound>
+					<DamageEffectId>1</DamageEffectId>     <PCU>15</PCU>
+					<DamagedSound>ParticleWeapExpl</DamagedSound>
+					<Public>true</Public>
+				</Definition>
+				
+			<!-- Small -->
+				<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+					<Id>
+						<TypeId>Thrust</TypeId>
+						<SubtypeId>SmallPrecursorMediumThruster</SubtypeId>
+					</Id>
+
+					<DisplayName>Small Zei'a Medium Thruster</DisplayName>
+					<Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+					<CubeSize>Small</CubeSize>
+					<BlockTopology>TriangleMesh</BlockTopology>
+					<Size x="1" y="1" z="1" />
+					<ModelOffset x="0" y="0" z="0" />
+					<Model>Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1.mwm</Model>
+					<ThrusterType>Atmospheric</ThrusterType>
+
+					<Components>            					
+						<Component Subtype="SteelPlate" Count="2" />
+						<Component Subtype="LargeTube" Count="1" />
+						<Component Subtype="MetalGrid" Count="1" />
+						<Component Subtype="Motor" Count="18" />
+						<Component Subtype="Construction" Count="2" />
+						<Component Subtype="SteelPlate" Count="8" />						
+					</Components>        
+					<CriticalComponent Subtype="Motor" Index="0" />
+
+					<MountPoints>
+						<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+						<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+					</MountPoints>
+
+					<BuildProgressModels>
+						<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1_Constr1.mwm" />
+						<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1_Constr2.mwm" />
+						<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1_Constr3.mwm" />
+					</BuildProgressModels>
+
+					<BlockPairName>PrecursorMediumThrust</BlockPairName>
+					<Center x="0" y="0" z="0" />
+					<GuiVisible>false</GuiVisible>
+					<MirroringZ>Y</MirroringZ>
+					<BuildTimeSeconds>120</BuildTimeSeconds>
+					<EdgeType>Light</EdgeType>
+					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+					<ForceMagnitude>250000000</ForceMagnitude>
+					<MaxPowerConsumption>20000000</MaxPowerConsumption>
+					<MinPowerConsumption>10</MinPowerConsumption>
+					<SlowdownFactor>1</SlowdownFactor>
+					<MinPlanetaryInfluence>0.99</MinPlanetaryInfluence>
+					<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+					<EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+					<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+					<NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+					<FlameDamageLengthScale>0.1</FlameDamageLengthScale>
+					<FlameDamage>0.1</FlameDamage>
+					<FlameLengthScale>0.575</FlameLengthScale>
+
+					<FlameIdleColor>
+						<X>0.6</X>
+						<Y>0.6</Y>
+						<Z>0.6</Z>
+						<W>0.75</W>
+					</FlameIdleColor>
+
+					<FlameFullColor>
+						<X>0.7</X>
+						<Y>0.7</Y>
+						<Z>0.7</Z>
+						<W>0.75</W>
+					</FlameFullColor>
+
+					<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+					<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+					<FlameGlareMaterial>GlareSsThrustSmall</FlameGlareMaterial>
+					<FlameVisibilityDistance>0</FlameVisibilityDistance>
+					<FlameGlareSize>0</FlameGlareSize>
+					<FlameGlareQuerySize>0</FlameGlareQuerySize>
+					<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+					<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+					<PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+					<PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+					<PropellerAccelerationTime>3</PropellerAccelerationTime>
+					<PropellerDecelerationTime>6</PropellerDecelerationTime>
+					<PropellerMaxVisibleDistance>100</PropellerMaxVisibleDistance>
+					<PrimarySound>ArcSmShipSmJetAtmo</PrimarySound>
+					<DamageEffectId>1</DamageEffectId>     <PCU>15</PCU>
+					<DamagedSound>ParticleWeapExpl</DamagedSound>
+					<Public>true</Public>
+				</Definition>
+
 		<!-- Weak Thrust -->
 			<!-- Large -->
 				<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
@@ -349,7 +534,7 @@
 					<EdgeType>Light</EdgeType>
 					<BuildTimeSeconds>120</BuildTimeSeconds>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-					<ForceMagnitude>2764800</ForceMagnitude>
+					<ForceMagnitude>5000000</ForceMagnitude>
 					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>1</SlowdownFactor>
@@ -440,7 +625,7 @@
 					<BuildTimeSeconds>120</BuildTimeSeconds>
 					<EdgeType>Light</EdgeType>
 					<ResourceSinkGroup>Thrust</ResourceSinkGroup>
-					<ForceMagnitude>2764800</ForceMagnitude>
+					<ForceMagnitude>5000000</ForceMagnitude>
 					<MaxPowerConsumption>20000000</MaxPowerConsumption>
 					<MinPowerConsumption>10</MinPowerConsumption>
 					<SlowdownFactor>1</SlowdownFactor>
@@ -485,7 +670,7 @@
 					<DamagedSound>ParticleWeapExpl</DamagedSound>
 					<Public>true</Public>
 				</Definition>
-
+				
 		<!-- Jump Drives -->
 			<!-- Large -->
 				<Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">

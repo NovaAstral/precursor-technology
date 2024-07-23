@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+        <!-- Alloy -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>PrecursorAlloy</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Alloy</DisplayName>
+                <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+                <Size>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\steel_plate_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>1000</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+		
+        <!-- Feo'r -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>PrecursorFeor</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Feo'r</DisplayName>
+                <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+                <Size>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\small_tube_component.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>1000</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+
+        <!-- Memory Foam -->
+            <Component>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>PrecursorMemoryFoam</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a Memory Foam</DisplayName>
+                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :(-->
+                <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+                <Size>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\Cartridge.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>1000</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+
+            
+        <!-- B-Urp's Memory Foam -->
+            <Component>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>PrecursorBurpMemoryFoam</SubtypeId>
+                </Id>
+                <DisplayName>Zei'a B-Urp's Memory Foam</DisplayName>
+                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't actually work and I'm sad :( - Also B-Urp -->
+                <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+                <Size>
+                    <X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+                </Size>
+                <Mass>1</Mass>
+                <Volume>1</Volume>
+                <Model>Models\Components\Cartridge.mwm</Model>
+                <PhysicalMaterial>Metal</PhysicalMaterial>
+                <MaxIntegrity>1000</MaxIntegrity>
+                <DropProbability>0</DropProbability>
+            </Component>
+        <!-- Components END -->
+    </Components>
+</Definitions>
+
