@@ -19,19 +19,19 @@
           <ModelOffset x="0" y="0" z="0" />
           <Model>Models\Cubes\Large\Sensor.mwm</Model>
 
-					<Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+          <Components>
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />
@@ -108,18 +108,18 @@
           <Model>Models\Cubes\Small\Sensor.mwm</Model>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="Computer" Count="6" />

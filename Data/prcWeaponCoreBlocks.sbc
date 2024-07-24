@@ -4,11 +4,11 @@
     <!-- Anti-Electron Casters (WC) -->
       <!-- Large -->
       <!-- Small -->
-		    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
-		    	<Id>
-		    		<TypeId>ConveyorSorter</TypeId>
-		    		<SubtypeId>SmallPrecursorAntiElectron</SubtypeId>
-		    	</Id>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+          <Id>
+            <TypeId>ConveyorSorter</TypeId>
+            <SubtypeId>SmallPrecursorAntiElectron</SubtypeId>
+          </Id>
 
           <DisplayName>Zei'a Small Anti-Electron Caster</DisplayName>
           <GuiVisible>false</GuiVisible>
@@ -21,18 +21,18 @@
           <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                 
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>                 
             <Component Subtype="SteelPlate" Count="4"/>
             <Component Subtype="Construction" Count="4"/>
             <Component Subtype="MetalGrid" Count="7"/>
@@ -72,8 +72,8 @@
           <PCU>80</PCU>
 
           <TargetingGroups>
-				    <string>Weapons</string>
-			    </TargetingGroups>
+            <string>Weapons</string>
+          </TargetingGroups>
         </Definition>
     <!-- prcWeaponCoreBlocks END -->
   </CubeBlocks>

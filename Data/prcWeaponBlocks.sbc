@@ -20,18 +20,18 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>            
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>            
               <Component Subtype="SteelPlate" Count="60" />
               <Component Subtype="Girder" Count="144" />
               <Component Subtype="Construction" Count="72" />
@@ -83,18 +83,18 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
             <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>     
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>     
               <Component Subtype="SteelPlate" Count="6" />
               <Component Subtype="Girder" Count="6" />
               <Component Subtype="Construction" Count="6" />
@@ -137,18 +137,18 @@
             <Model>Models\Cubes\Large\warhead.mwm</Model>
 
             <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>     
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>     
               <Component Subtype="SteelPlate" Count="120" />
               <Component Subtype="Girder" Count="188" />
               <Component Subtype="Construction" Count="144" />
@@ -200,18 +200,18 @@
             <Model>Models\Cubes\Small\warhead.mwm</Model>
 
               <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                 
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>                 
               <Component Subtype="SteelPlate" Count="12" />
               <Component Subtype="Girder" Count="12" />
               <Component Subtype="Construction" Count="12" />
@@ -257,18 +257,18 @@
           <UseModelIntersection>true</UseModelIntersection>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>             
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>             
             <Component Subtype="InteriorPlate" Count="6" />
             <Component Subtype="Construction" Count="15" />
             <Component Subtype="SmallTube" Count="1" />
@@ -348,18 +348,18 @@
           <Model>Models\Cubes\Small\GatlingGun.mwm</Model>
 
           <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>                 
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>                 
             <Component Subtype="SteelPlate" Count="4"/>
             <Component Subtype="Construction" Count="4"/>
             <Component Subtype="MetalGrid" Count="7"/>
@@ -399,8 +399,8 @@
           <PCU>80</PCU>
 
           <TargetingGroups>
-				    <string>Weapons</string>
-			    </TargetingGroups>
+            <string>Weapons</string>
+          </TargetingGroups>
         </Definition>
       <!-- Missile Launcher -->
         <!-- Large -->
@@ -421,18 +421,18 @@
             <Model>Models\Cubes\Large\RocketLauncher.mwm</Model>
 
             <Components>
-						<Component Subtype="PrecursorAlloy" Count="50" >
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>    
-						<Component Subtype="PrecursorFeor" Count="50" >    
-							<DeconstructId>
-								<TypeId>Ore</TypeId>
-								<SubtypeId>Scrap</SubtypeId>
-							</DeconstructId>      
-						</Component>            
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>            
               <Component Subtype="SteelPlate" Count="20" />
               <Component Subtype="Construction" Count="8" />
               <Component Subtype="MetalGrid" Count="30" />
