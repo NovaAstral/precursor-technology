@@ -11,7 +11,7 @@ using static Scripts.Structure.WeaponDefinition.HardPointDef.HardwareDef.Hardwar
 namespace Scripts {   
     partial class Parts {
         // Don't edit above this line  
-        WeaponDefinition SmallPrecursorAntiElectron => new WeaponDefinition
+        WeaponDefinition SmallPrecursorAntiElectronWep => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {

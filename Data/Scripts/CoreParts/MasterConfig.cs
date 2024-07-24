@@ -10,7 +10,7 @@ namespace Scripts
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
-                SmallPrecursorAntiElectron
+                SmallPrecursorAntiElectronWep
 			);
             //ArmorDefinitions(Armor1, Armor2);
             //SupportDefinitions(ArmorEnhancer1A);

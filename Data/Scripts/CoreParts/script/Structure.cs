@@ -286,6 +286,8 @@ namespace Scripts
                 [ProtoMember(19)] internal CommunicationDef Communications;
                 [ProtoMember(20)] internal bool FocusOnly;
                 [ProtoMember(21)] internal bool EvictUniqueTargets;
+                [ProtoMember(22)] internal int CycleTargets;
+                [ProtoMember(23)] internal int CycleBlocks;
 
                 [ProtoContract]
                 public struct CommunicationDef
@@ -510,6 +512,10 @@ namespace Scripts
                     [ProtoMember(22)] internal int MaxReloads;
                     [ProtoMember(23)] internal bool GoHomeToReload;
                     [ProtoMember(24)] internal bool DropTargetUntilLoaded;
+                    [ProtoMember(25)] internal bool ProhibitCoolingWhenOff;
+                    [ProtoMember(26)] internal float InventoryFillAmount;
+                    [ProtoMember(27)] internal float InventoryLowAmount;
+                    [ProtoMember(28)] internal bool UseWorldInventoryVolumeMultiplier;
                 }
 
 
@@ -522,6 +528,10 @@ namespace Scripts
                     [ProtoMember(4)] internal bool EnableOverload;
                     [ProtoMember(5)] internal bool AlternateUi;
                     [ProtoMember(6)] internal bool DisableStatus;
+                    [ProtoMember(7)] internal float RateOfFireMin;
+                    [ProtoMember(8)] internal bool DisableSupportingPD;
+                    [ProtoMember(9)] internal bool ProhibitShotDelay;
+                    [ProtoMember(10)] internal bool ProhibitBurstCount;
                 }
 
 
@@ -645,6 +655,17 @@ namespace Scripts
                 [ProtoMember(27)] internal bool Synchronize;
                 [ProtoMember(28)] internal double HeatModifier;
                 [ProtoMember(29)] internal bool NpcSafe;
+                [ProtoMember(30)] internal SynchronizeDef Sync;
+                [ProtoMember(31)] internal bool NoGridOrArmorScaling;
+                [ProtoMember(32)] internal string TerminalName;
+
+                [ProtoContract]
+                public struct SynchronizeDef
+                {
+                    [ProtoMember(1)] internal bool Full;
+                    [ProtoMember(2)] internal bool PointDefense;
+                    [ProtoMember(3)] internal bool OnHitDeath;
+                }
 
                 [ProtoContract]
                 public struct DamageScaleDef
@@ -732,6 +753,7 @@ namespace Scripts
                         [ProtoMember(1)] internal float Modifier;
                         [ProtoMember(2)] internal ShieldType Type;
                         [ProtoMember(3)] internal float BypassModifier;
+                        [ProtoMember(4)] internal double HeatModifier;
                     }
 
                     [ProtoContract]
@@ -767,6 +789,7 @@ namespace Scripts
                 {
                     [ProtoMember(1)] internal int MaxObjectsHit;
                     [ProtoMember(2)] internal bool CountBlocks;
+                    [ProtoMember(3)] internal bool SkipBlocksForAOE;
                 }
 
 
@@ -793,6 +816,7 @@ namespace Scripts
                         [ProtoMember(1)] internal ParticleDef Ammo;
                         [ProtoMember(2)] internal ParticleDef Hit;
                         [ProtoMember(3)] internal ParticleDef Eject;
+                        [ProtoMember(4)] internal ParticleDef WeaponEffect1Override;
                     }
 
                     [ProtoContract]
@@ -806,12 +830,21 @@ namespace Scripts
                             Wave,
                         }
 
+                        public enum FactionColor
+                        {
+                            DontUse,
+                            Foreground,
+                            Background,
+                        }
+
                         [ProtoMember(1)] internal TracerBaseDef Tracer;
                         [ProtoMember(2)] internal string TracerMaterial;
                         [ProtoMember(3)] internal Randomize ColorVariance;
                         [ProtoMember(4)] internal Randomize WidthVariance;
                         [ProtoMember(5)] internal TrailDef Trail;
                         [ProtoMember(6)] internal OffsetEffectDef OffsetEffect;
+                        [ProtoMember(7)] internal bool DropParentVelocity;
+
 
                         [ProtoContract]
                         public struct OffsetEffectDef
@@ -833,6 +866,8 @@ namespace Scripts
                             [ProtoMember(7)] internal SegmentDef Segmentation;
                             [ProtoMember(8)] internal string[] Textures;
                             [ProtoMember(9)] internal Texture TextureMode;
+                            [ProtoMember(10)] internal bool AlwaysDraw;
+                            [ProtoMember(11)] internal FactionColor FactionColor;
 
                             [ProtoContract]
                             public struct SegmentDef
@@ -849,6 +884,7 @@ namespace Scripts
                                 [ProtoMember(10)] internal Randomize WidthVariance;
                                 [ProtoMember(11)] internal string[] Textures;
                                 [ProtoMember(12)] internal bool Enable;
+                                [ProtoMember(13)] internal FactionColor FactionColor;
                             }
                         }
 
@@ -865,7 +901,8 @@ namespace Scripts
                             [ProtoMember(8)] internal bool UseColorFade;
                             [ProtoMember(9)] internal string[] Textures;
                             [ProtoMember(10)] internal Texture TextureMode;
-
+                            [ProtoMember(11)] internal bool AlwaysDraw;
+                            [ProtoMember(12)] internal FactionColor FactionColor;
                         }
                     }
 
@@ -912,7 +949,8 @@ namespace Scripts
                     [ProtoMember(11)] internal TimedSpawnDef TimedSpawns;
                     [ProtoMember(12)] internal bool FireSound; // not used, can remove
                     [ProtoMember(13)] internal Vector3D AdvOffset;
-
+                    [ProtoMember(14)] internal bool ArmWhenHit;
+                        
                     [ProtoContract]
                     public struct TimedSpawnDef
                     {
@@ -971,6 +1009,10 @@ namespace Scripts
                     [ProtoMember(2)] internal float SpawnChance;
                     [ProtoMember(3)] internal SpawnType Type;
                     [ProtoMember(4)] internal ComponentDef CompDef;
+                    [ProtoMember(5)] internal Randomize SpeedVariance;
+                    [ProtoMember(6)] internal Randomize DirectionVariance;
+                    [ProtoMember(7)] internal Vector3D Rotation;
+                    [ProtoMember(8)] internal Randomize RotationVariance;
 
                     [ProtoContract]
                     public struct ComponentDef
@@ -1052,6 +1094,7 @@ namespace Scripts
                         Push,
                         Pull,
                         Tractor,
+                        AntiSmartv2
                     }
 
                     public enum EwarMode
@@ -1257,6 +1300,8 @@ namespace Scripts
                     [ProtoMember(14)] internal uint MaxTrajectoryTime;
                     [ProtoMember(15)] internal ApproachDef[] Approaches;
                     [ProtoMember(16)] internal double TotalAcceleration;
+                    [ProtoMember(17)] internal OnHitDef OnHit;
+                    [ProtoMember(18)] internal float DragPerSecond;
 
                     [ProtoContract]
                     public struct SmartsDef
@@ -1277,47 +1322,104 @@ namespace Scripts
                         [ProtoMember(14)] internal double NavAcceleration;
                         [ProtoMember(15)] internal bool AccelClearance;
                         [ProtoMember(16)] internal double SteeringLimit;
+                        [ProtoMember(17)] internal bool FocusOnly;
+                        [ProtoMember(18)] internal double OffsetMinRange;
+                        [ProtoMember(19)] internal bool FocusEviction;
+                        [ProtoMember(20)] internal double ScanRange;
+                        [ProtoMember(21)] internal bool NoSteering;
+                        [ProtoMember(22)] internal double FutureIntersectionRange;
+                        [ProtoMember(23)] internal double MinTurnSpeed;
+                        [ProtoMember(24)] internal bool NoTargetApproach;
+                        [ProtoMember(25)] internal bool AltNavigation;
                     }
 
                     [ProtoContract]
                     public struct ApproachDef
                     {
-                        public enum StartFailure
+                        public enum ReInitCondition
                         {
                             Wait,
                             MoveToPrevious,
                             MoveToNext,
-                            ForceReset,
+                            ForceRestart,
                         }
 
                         public enum Conditions
                         {
                             Ignore,
                             Spawn,
-                            DistanceFromTarget,
+                            DistanceFromPositionC,
                             Lifetime,
                             DesiredElevation,
                             MinTravelRequired,
                             MaxTravelRequired,
                             Deadtime,
+                            DistanceToPositionC,
+                            NextTimedSpawn,
+                            RelativeLifetime,
+                            RelativeDeadtime,
+                            SinceTimedSpawn,
+                            RelativeSpawns,
+                            EnemyTargetLoss,
+                            RelativeHealthLost,
+                            HealthRemaining,
+                            DistanceFromPositionB,
+                            DistanceToPositionB,
+                            DistanceFromTarget,
                             DistanceToTarget,
+                            DistanceFromEndTrajectory,
+                            DistanceToEndTrajectory,
                         }
 
                         public enum UpRelativeTo
                         {
-                            RelativeToBlock,
-                            RelativeToGravity,
-                            TargetDirection,
-                            TargetVelocity,
+                            UpRelativeToBlock,
+                            UpRelativeToGravity,
+                            UpTargetDirection,
+                            UpTargetVelocity,
+                            UpStoredStartDontUse,
+                            UpStoredEndDontUse,
+                            UpStoredStartPosition,
+                            UpStoredEndPosition,
+                            UpStoredStartLocalPosition,
+                            UpStoredEndLocalPosition,
+                            UpRelativeToShooter,
+                            UpOriginDirection,
+                            UpElevationDirection,
                         }
 
-                        public enum VantagePointRelativeTo
+                        public enum FwdRelativeTo
+                        {
+                            ForwardElevationDirection,
+                            ForwardRelativeToBlock,
+                            ForwardRelativeToGravity,
+                            ForwardTargetDirection,
+                            ForwardTargetVelocity,
+                            ForwardStoredStartDontUse,
+                            ForwardStoredEndDontUse,
+                            ForwardStoredStartPosition,
+                            ForwardStoredEndPosition,
+                            ForwardStoredStartLocalPosition,
+                            ForwardStoredEndLocalPosition,
+                            ForwardRelativeToShooter,
+                            ForwardOriginDirection,
+                        }
+
+                        public enum RelativeTo
                         {
                             Origin,
                             Shooter,
                             Target,
                             Surface,
                             MidPoint,
+                            PositionA,
+                            Nothing,
+                            StoredStartDontUse,
+                            StoredEndDontUse,
+                            StoredStartPosition,
+                            StoredEndPosition,
+                            StoredStartLocalPosition,
+                            StoredEndLocalPosition,
                         }
 
                         public enum ConditionOperators
@@ -1332,15 +1434,32 @@ namespace Scripts
                         {
                             DoNothing,
                             EndProjectile,
-                            EndProjectileOnFailure,
+                            EndProjectileOnRestart,
+                            StoreDontUse,
+                            StorePositionDontUse,
+                            Refund,
+                            StorePositionA,
+                            StorePositionB,
+                            StorePositionC,
                         }
 
+                        [ProtoContract]
+                        public struct WeightedIdListDef
+                        {
 
-                        [ProtoMember(1)] internal StartFailure Failure;
+                            [ProtoMember(1)] public int ApproachId;
+                            [ProtoMember(2)] public Randomize Weight;
+                            [ProtoMember(3)] public double End1WeightMod;
+                            [ProtoMember(4)] public double End2WeightMod;
+                            [ProtoMember(5)] public int MaxRuns;
+                            [ProtoMember(6)] public double End3WeightMod;
+                        }
+
+                        [ProtoMember(1)] internal ReInitCondition RestartCondition;
                         [ProtoMember(2)] internal Conditions StartCondition1;
                         [ProtoMember(3)] internal Conditions EndCondition1;
-                        [ProtoMember(4)] internal UpRelativeTo UpDirection;
-                        [ProtoMember(5)] internal VantagePointRelativeTo VantagePoint;
+                        [ProtoMember(4)] internal UpRelativeTo Up;
+                        [ProtoMember(5)] internal RelativeTo PositionB;
                         [ProtoMember(6)] internal double AngleOffset;
                         [ProtoMember(7)] internal double Start1Value;
                         [ProtoMember(8)] internal double End1Value;
@@ -1348,31 +1467,63 @@ namespace Scripts
                         [ProtoMember(10)] internal double DesiredElevation;
                         [ProtoMember(11)] internal double AccelMulti;
                         [ProtoMember(12)] internal double SpeedCapMulti;
-                        [ProtoMember(13)] internal bool AdjustDestinationPosition;
+                        [ProtoMember(13)] internal bool AdjustPositionC;
                         [ProtoMember(14)] internal bool CanExpireOnceStarted;
                         [ProtoMember(15)] internal ParticleDef AlternateParticle;
                         [ProtoMember(16)] internal string AlternateSound;
                         [ProtoMember(17)] internal string AlternateModel;
-                        [ProtoMember(18)] internal int OnFailureRevertTo;
+                        [ProtoMember(18)] internal int OnRestartRevertTo;
                         [ProtoMember(19)] internal ParticleDef StartParticle;
-                        [ProtoMember(20)] internal bool AdjustVantagePoint;
-                        [ProtoMember(21)] internal bool AdjustUpDir;
+                        [ProtoMember(20)] internal bool AdjustPositionB;
+                        [ProtoMember(21)] internal bool AdjustUp;
                         [ProtoMember(22)] internal bool PushLeadByTravelDistance;
                         [ProtoMember(23)] internal double TrackingDistance;
                         [ProtoMember(24)] internal Conditions StartCondition2;
                         [ProtoMember(25)] internal double Start2Value;
                         [ProtoMember(26)] internal Conditions EndCondition2;
                         [ProtoMember(27)] internal double End2Value;
-                        [ProtoMember(28)] internal VantagePointRelativeTo AdjustElevation;
+                        [ProtoMember(28)] internal RelativeTo Elevation;
                         [ProtoMember(29)] internal double ElevationTolerance;
                         [ProtoMember(30)] internal ConditionOperators Operators;
                         [ProtoMember(31)] internal StageEvents StartEvent;
                         [ProtoMember(32)] internal StageEvents EndEvent;
                         [ProtoMember(33)] internal double TotalAccelMulti;
                         [ProtoMember(34)] internal double DeAccelMulti;
+                        [ProtoMember(35)] internal bool Orbit;
+                        [ProtoMember(36)] internal double OrbitRadius;
+                        [ProtoMember(37)] internal int OffsetTime;
+                        [ProtoMember(38)] internal double OffsetMinRadius;
+                        [ProtoMember(39)] internal bool NoTimedSpawns;
+                        [ProtoMember(40)] internal double OffsetMaxRadius;
+                        [ProtoMember(41)] internal bool ForceRestart;
+                        [ProtoMember(42)] internal RelativeTo PositionC;
+                        [ProtoMember(43)] internal bool DisableAvoidance;
+                        [ProtoMember(44)] internal int StoredStartId;
+                        [ProtoMember(45)] internal int StoredEndId;
+                        [ProtoMember(46)] internal WeightedIdListDef[] RestartList;
+                        [ProtoMember(47)] internal RelativeTo StoredStartType;
+                        [ProtoMember(48)] internal RelativeTo StoredEndType;
+                        [ProtoMember(49)] internal bool LeadRotateElevatePositionB;
+                        [ProtoMember(50)] internal bool LeadRotateElevatePositionC;
+                        [ProtoMember(51)] internal bool NoElevationLead;
+                        [ProtoMember(52)] internal bool IgnoreAntiSmart;
+                        [ProtoMember(53)] internal double HeatRefund;
+                        [ProtoMember(54)] internal Randomize AngleVariance;
+                        [ProtoMember(55)] internal bool ReloadRefund;
+                        [ProtoMember(56)] internal int ModelRotateTime;
+                        [ProtoMember(57)] internal FwdRelativeTo Forward;
+                        [ProtoMember(58)] internal bool AdjustForward;
+                        [ProtoMember(59)] internal bool ToggleIngoreVoxels;
+                        [ProtoMember(60)] internal bool SelfAvoidance;
+                        [ProtoMember(61)] internal bool TargetAvoidance;
+                        [ProtoMember(62)] internal bool SelfPhasing;
+                        [ProtoMember(63)] internal bool TrajectoryRelativeToB;
+                        [ProtoMember(64)] internal Conditions EndCondition3;
+                        [ProtoMember(65)] internal double End3Value;
+                        [ProtoMember(66)] internal bool SwapNavigationType;
+                        [ProtoMember(67)] internal bool ElevationRelativeToC;
                     }
-
-
+                    
                     [ProtoContract]
                     public struct MinesDef
                     {
@@ -1381,6 +1532,21 @@ namespace Scripts
                         [ProtoMember(3)] internal int FieldTime;
                         [ProtoMember(4)] internal bool Cloak;
                         [ProtoMember(5)] internal bool Persist;
+                    }
+
+                    [ProtoContract]
+                    public struct OnHitDef
+                    {
+                        /*
+                        [ProtoMember(1)] internal int Duration;
+                        [ProtoMember(2)] internal int ProcInterval;
+                        [ProtoMember(3)] internal double ProcAmount;
+                        [ProtoMember(4)] internal bool ProcOnVoxels;
+                        [ProtoMember(5)] internal bool FragOnProc;
+                        [ProtoMember(6)] internal bool DieOnEnd;
+                        [ProtoMember(7)] internal bool StickOnHit;
+                        [ProtoMember(8)] internal bool AlignFragtoImpactAngle;
+                        */
                     }
                 }
 

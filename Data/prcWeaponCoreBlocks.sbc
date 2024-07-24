@@ -62,7 +62,7 @@
           <MirroringZ>Y</MirroringZ>
           <BuildTimeSeconds>120</BuildTimeSeconds>
           <EdgeType>Light</EdgeType>
-          <WeaponDefinitionId Subtype="PrecursorAntiElectronCaster"/>
+          <WeaponDefinitionId Subtype="SmallPrecursorAntiElectronDef"/>
           <ResourceSinkGroup>Defense</ResourceSinkGroup>
           <InventoryMaxVolume>13576132215353</InventoryMaxVolume>
           <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>

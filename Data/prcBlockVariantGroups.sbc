@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <!-- Module Group -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="prcModules" />
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectiveness.dds</Icon>
+            <DisplayName>Zei'a Upgrade Modules</DisplayName>
+            <Description>The funny Zei'a upgrade modules</Description>
+            <Blocks>
+                <Block Type="UpgradeModule" Subtype="PrecursorUpgradeModule" />
+                <Block Type="UpgradeModule" Subtype="PrecursorSpeedModule" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <!-- Thruster Group -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="prcThrusters" />
+            <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
+            <DisplayName>Zei'a Thrusters</DisplayName>
+            <Description>The funny Zei'a thrusters</Description>
+            <Blocks>
+                <Block Type="Thrust" Subtype="LargePrecursorThruster" />
+                <Block Type="Thrust" Subtype="SmallPrecursorThruster" />
+                <Block Type="Thrust" Subtype="LargePrecursorMediumThruster" />
+                <Block Type="Thrust" Subtype="SmallPrecursorMediumThruster" />
+                <Block Type="Thrust" Subtype="LargePrecursorWeakThruster" />
+                <Block Type="Thrust" Subtype="SmallPrecursorWeakThruster" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
+        <!-- Weapons Group -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="prcWeapons" />
+            <Icon>Textures\GUI\Icons\Cubes\missile_launcher.dds</Icon>
+            <DisplayName>Zei'a Weapons</DisplayName>
+            <Description>The funny Zei'a weapons</Description>
+            <Blocks>
+                <Block Type="Warhead" Subtype="LargePrecursorWarhead" />
+                <Block Type="Warhead" Subtype="SmallPrecursorWarhead" />
+                <Block Type="Warhead" Subtype="LargePrecursorPreciseWarhead" />
+                <Block Type="Warhead" Subtype="SmallPrecursorPreciseWarhead" />
+                <Block Type="InteriorTurret" Subtype="PrecursorIntTurret" />
+                <Block Type="SmallGatlingGun" Subtype="PrecursorGatlingGun" />
+                <Block Type="SmallMissileLauncher" Subtype="LargePrecursorMissileLauncher" />
+                <Block Type="SmallMissileLauncher" Subtype="SmallPrecursorMissileLauncher" />
+                <Block Type="SmallMissileLauncherReload" Subtype="LargePrecursorRailgun" />
+                <Block Type="SmallMissileLauncherReload" Subtype="SmallPrecursorRailgun" />
+                
+            </Blocks>
+        </BlockVariantGroup>
+
+    </BlockVariantGroups>
+</Definitions>
