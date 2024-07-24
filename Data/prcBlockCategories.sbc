@@ -71,18 +71,21 @@
                 <string>Cockpit/LargePrecursorControlPassengerSeat</string>
                 <string>Cockpit/PrecursorPassengerSeatSmall</string>
                 <string>Cockpit/PrecursorPassengerSeatSmallOffset</string>
-                <string>Beacon/LargePrecursorPowersink</string>
-                <string>Beacon/SmallPrecursorPowersink</string>
-                <string>SmallMissileLauncherReload/LargePrecursorRailgun</string>
-                <string>SmallMissileLauncherReload/SmallPrecursorRailgun</string>
-                <string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
-                <string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
                 <string>LandingGear/LargePrecursorMagplate</string>
                 <string>LandingGear/SmallPrecursorMagplate</string>
+                <string>Beacon/LargePrecursorPowersink</string>
+                <string>Beacon/SmallPrecursorPowersink</string>
+                <string>MotorStator/LargePrecursorStator</string>
+                <string>MotorStator/SmallPrecursorStator</string>
+                <string>SmallMissileLauncherReload/LargePrecursorRailgun</string>
+                <string>SmallMissileLauncherReload/SmallPrecursorRailgun</string>
+                <string>Thrust/LargePrecursorMediumThruster</string>
+                <string>Thrust/SmallPrecursorMediumThruster</string>
+                <string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
+                <string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
 
                 <!-- WC Stuff -->
                 <string>ConveyorSorter/SmallPrecursorAntiElectron</string>
-                
             </ItemIds>
     </Category>
 

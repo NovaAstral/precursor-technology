@@ -50,7 +50,7 @@
                     <SubtypeId>PrecursorMemoryFoam</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a Memory Foam</DisplayName>
-                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description>
+                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :(-->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
                     <X>1</X>
@@ -73,7 +73,7 @@
                     <SubtypeId>PrecursorBurpMemoryFoam</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a B-Urp's Memory Foam</DisplayName>
-                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description>
+                <Description>"I finally fucking fixed this scam shit, it works now, I'm happy." - B-Urp</Description> <!-- Sadly this doesn't actually work and I'm sad :( - Also B-Urp -->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
                     <X>1</X>
