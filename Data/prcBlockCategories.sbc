@@ -35,6 +35,7 @@
                 <string>Refinery/LargePrecursorRefinery</string>
                 <string>Refinery/SmallPrecursorRefinery</string>
                 <string>UpgradeModule/PrecursorUpgradeModule</string>
+                <string>UpgradeModule/PrecursorSpeedModule</string>
                 <string>OxygenGenerator/PrecursorO2H2Gen</string>
                 <string>AirVent/LargePrecursorAirVent</string>
                 <string>AirVent/SmallPrecursorAirVent</string>
@@ -76,6 +77,8 @@
                 <string>SmallMissileLauncherReload/SmallPrecursorRailgun</string>
                 <string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
                 <string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
+                <string>LandingGear/LargePrecursorMagplate</string>
+                <string>LandingGear/SmallPrecursorMagplate</string>
 
                 <!-- WC Stuff -->
                 <string>ConveyorSorter/SmallPrecursorAntiElectron</string>
