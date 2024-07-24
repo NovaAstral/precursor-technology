@@ -170,18 +170,18 @@
         <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
 
         <Components>
-          <Component Subtype="PrecursorAlloy" Count="50" >
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>      
-          </Component>    
-          <Component Subtype="PrecursorFeor" Count="50" >    
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>      
-          </Component>     
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>     
           <Component Subtype="SteelPlate" Count="80" />
           <Component Subtype="Construction" Count="50" />
           <Component Subtype="SmallTube" Count="15" />
@@ -263,18 +263,18 @@
         <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
 
         <Components>
-          <Component Subtype="PrecursorAlloy" Count="50" >
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>      
-          </Component>    
-          <Component Subtype="PrecursorFeor" Count="50" >    
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>      
-          </Component>     
+            <Component Subtype="PrecursorAlloy" Count="50" >
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>    
+            <Component Subtype="PrecursorFeor" Count="50" >    
+              <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+              </DeconstructId>      
+            </Component>     
           <Component Subtype="SteelPlate" Count="80" />
           <Component Subtype="Construction" Count="50" />
           <Component Subtype="SmallTube" Count="15" />
@@ -299,7 +299,7 @@
           <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
         </BuildProgressModels>
 
-        <BlockPairName>PrecursorSpeedModule</BlockPairName>
+        <BlockPairName>PrecursorSpeed</BlockPairName>
         <MirroringX>Z</MirroringX>
         <MirroringZ>X</MirroringZ>
         <EdgeType>Light</EdgeType>
