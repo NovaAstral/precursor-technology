@@ -51,8 +51,8 @@ namespace Scripts
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
             DecayPerShot = 0f, // Damage to the firing weapon itself. 
-			       //float.MaxValue will drop the weapon to the first build state and destroy all components used for construction
-			       //If greater than cube integrity it will remove the cube upon firing, without causing deformation (makes it look like the whole "block" flew away)
+                   //float.MaxValue will drop the weapon to the first build state and destroy all components used for construction
+                   //If greater than cube integrity it will remove the cube upon firing, without causing deformation (makes it look like the whole "block" flew away)
             HardPointUsable = true, // Whether this is a primary ammo type fired directly by the turret. Set to false if this is a shrapnel ammoType and you don't want the turret to be able to select it directly.
             EnergyMagazineSize = 13576, // For energy weapons, how many shots to fire before reloading.
             IgnoreWater = true, // Whether the projectile should be able to penetrate water when using WaterMod.
@@ -163,8 +163,8 @@ namespace Scripts
                 Deform = new DeformDef
                 {
                     DeformType = HitBlock, // HitBlock- applies deformation to the block that was hit
-					   // AllDamagedBlocks- applies deformation to all blocks damaged (for AOE)
-					   // NoDeform- applies no deformation
+                       // AllDamagedBlocks- applies deformation to all blocks damaged (for AOE)
+                       // NoDeform- applies no deformation
                     DeformDelay = 30, // Time in ticks to wait before applying another deformation event (prevents excess calls for deformation every tick or from multiple sources)
                 },
                 Custom = new CustomScalesDef
@@ -223,7 +223,7 @@ namespace Scripts
                     NoSound = false,
                     ParticleScale = 1,
                     CustomParticle = "particleName", // Particle SubtypeID, from your Particle SBC
-					             // If you need to set a custom offset, specify it in the "Hit" particle
+                                 // If you need to set a custom offset, specify it in the "Hit" particle
                     CustomSound = "soundName", // SubtypeID from your Audio SBC, not a filename
                     Shape = Diamond, // Round or Diamond shape.  Diamond is more performance friendly.
                 }, 
@@ -561,8 +561,8 @@ namespace Scripts
                         Name = "MaterialHit_Metal_GatlingGun",
                         ApplyToShield = true,
                         Offset = Vector(x: 0, y: 0, z: 0), // Note you can alter the directionality by passing different options:
-			    				   // Vector(double.MinValue, double.MinValue, double.MinValue), will align the "Up" direction of the particle opposite gravity.  Note this is computationally expensive and should not be used with rapid fire weapons
-			    				   // Vector(double.MaxValue, double.MaxValue, double.MaxValue), will align the "Forward" direction of the particle opposite the trajectory it was going when it hit
+                                   // Vector(double.MinValue, double.MinValue, double.MinValue), will align the "Up" direction of the particle opposite gravity.  Note this is computationally expensive and should not be used with rapid fire weapons
+                                   // Vector(double.MaxValue, double.MaxValue, double.MaxValue), will align the "Forward" direction of the particle opposite the trajectory it was going when it hit
                         DisableCameraCulling = false, // If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
                         Extras = new ParticleOptionDef
                         {
@@ -647,7 +647,7 @@ namespace Scripts
                         Color = Color(red: 0, green: 1, blue: 1, alpha: 1),
                         FactionColor = DontUse, // DontUse, Foreground, Background.
                         Back = false,
-                        CustomWidth = 0.2,
+                        CustomWidth = 0.2f,
                         UseWidthVariance = false,
                         UseColorFade = true,
                     },

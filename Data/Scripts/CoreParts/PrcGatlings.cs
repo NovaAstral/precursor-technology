@@ -52,7 +52,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "Small Fixed Zei'a Anti-Electron Caster", // name of weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons)
+                PartName = "Small Fixed Anti-Electron Caster", // name of weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons)
                 DeviateShotAngle = 0.2f,
                 AimingTolerance = 4f, // 0 - 180 firing angle
                 AimLeadingPrediction = Accurate, // Off, Basic, Accurate, Advanced

@@ -11,7 +11,7 @@ namespace Scripts
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
                 SmallPrecursorAntiElectronWep
-			);
+            );
             //ArmorDefinitions(Armor1, Armor2);
             //SupportDefinitions(ArmorEnhancer1A);
             //UpgradeDefinitions(Upgrade75a, Upgrade75b);
