@@ -83,9 +83,6 @@
                 <string>Thrust/SmallPrecursorMediumThruster</string>
                 <string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
                 <string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
-
-                <!-- WC Stuff -->
-                <string>ConveyorSorter/SmallPrecursorAntiElectron</string>
             </ItemIds>
     </Category>
 
