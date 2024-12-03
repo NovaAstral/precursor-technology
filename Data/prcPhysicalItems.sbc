@@ -10,7 +10,7 @@
 
                 <DisplayName>Zei'a Handheld Rocket Launcher</DisplayName>
                 <Icon>Textures\GUI\Icons\WeaponRocketLauncher_Regular.dds</Icon>
-                <Description>oh no</Description>
+                <Description>oh no (Must be aimed) [Massive radius, more like a bunker buster than an actual rocket launcher] </Description>
 
                 <Size>
                     <X>0.1</X>
@@ -36,7 +36,7 @@
 
                 <DisplayName>Zei'a Handheld Railgun</DisplayName>
                 <Icon>Textures\GUI\Icons\WeaponRocketLauncher_Regular.dds</Icon>
-                <Description>oh no 2: electric boogaloo</Description>
+                <Description>oh no 2: electric boogaloo (Must be aimed) [the funny]</Description>
 
                 <Size>
                     <X>0.1</X>
