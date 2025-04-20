@@ -173,6 +173,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -359,6 +360,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -449,9 +451,9 @@
                     <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
-                    <FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-                    <FlameDamage>0.1</FlameDamage>
-                    <FlameLengthScale>0.575</FlameLengthScale>
+                    <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
+                    <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
                         <X>0.6</X>
@@ -544,6 +546,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -634,9 +637,9 @@
                     <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
-                    <FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-                    <FlameDamage>0.1</FlameDamage>
-                    <FlameLengthScale>0.575</FlameLengthScale>
+                    <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
+                    <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
                         <X>0.6</X>
