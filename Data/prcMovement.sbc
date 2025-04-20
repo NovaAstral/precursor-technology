@@ -173,6 +173,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -359,6 +360,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -450,7 +452,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-                    <FlameDamage>0.1</FlameDamage>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0.575</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -544,6 +546,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0</FlameDamageLengthScale>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0</FlameLengthScale>
 
                     <FlameIdleColor>
@@ -635,7 +638,7 @@
                     <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
                     <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
                     <FlameDamageLengthScale>0.1</FlameDamageLengthScale>
-                    <FlameDamage>0.1</FlameDamage>
+                    <FlameDamage>0</FlameDamage>
                     <FlameLengthScale>0.575</FlameLengthScale>
 
                     <FlameIdleColor>
