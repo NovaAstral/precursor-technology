@@ -40,7 +40,7 @@ namespace PrecursorBurpMemoryFoam{
 				energyHalf = (MyObjectBuilder_PhysicalGunObject)MyObjectBuilderSerializer.CreateNewObject(definitionId);
 			}
 			tickTimer++;
-			if(tickTimer < 180){
+			if(tickTimer < 60){
 				return;
 			}
 			tickTimer = 0;
@@ -65,28 +65,28 @@ namespace PrecursorBurpMemoryFoam{
                 var energy = MyVisualScriptLogicProvider.GetPlayersEnergyLevel(player.IdentityId);
 				var hydrogen = MyVisualScriptLogicProvider.GetPlayersHydrogenLevel(player.IdentityId);
 
-				if(health < 90f){
+				if(health < 100f){
 					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersHealth(player.IdentityId,100f);
 					}
 				}
 
-				if(oxygen < 0.90f){
+				if(oxygen < 1f){
 					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersOxygenLevel(player.IdentityId,1f);
 					}
 				}
 
-                if(energy < 0.90f){
+                if(energy < 1f){
 					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersEnergyLevel(player.IdentityId,1f);
 					}
 				}
 
-				if(hydrogen < 0.90f){
+				if(hydrogen < 1f){
 					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersHydrogenLevel(player.IdentityId,1f);

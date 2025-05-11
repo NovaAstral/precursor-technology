@@ -9,5 +9,14 @@
             <Path>Fonts\Kas Zeia OG\FontDataPA.xml</Path>
             <Default>false</Default>
        </Font>
+
+       <Font>
+            <Id>
+                <TypeId>FontDefinition</TypeId>
+                <SubtypeId>Antiquetas</SubtypeId>
+            </Id>
+            <Path>Fonts\Antiquetas\FontDataPA.xml</Path>
+            <Default>false</Default>
+       </Font>
     </Fonts>
 </Definitions>

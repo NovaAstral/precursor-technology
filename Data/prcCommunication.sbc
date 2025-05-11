@@ -21,6 +21,12 @@
           <PlaceDecals>false</PlaceDecals>
 
           <Components>   
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="Motor" Count="16" />
@@ -88,7 +94,13 @@
           <Model>Models\Cubes\Small\LaserComBase.mwm</Model>
           <PlaceDecals>false</PlaceDecals>
 
-          <Components>         
+          <Components>      
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>      
             <Component Subtype="SteelPlate" Count="6" />
             <Component Subtype="SmallTube" Count="10" />
             <Component Subtype="Construction" Count="10" />

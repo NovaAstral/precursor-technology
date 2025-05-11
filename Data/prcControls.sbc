@@ -18,6 +18,12 @@
           <Model>Models\Cubes\Large\RemoteControl.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
             <Component Subtype="InteriorPlate" Count="5" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="Motor" Count="1" />
@@ -77,6 +83,12 @@
           <Model>Models\Cubes\Small\RemoteControl.mwm</Model>
 
           <Components> 
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
             <Component Subtype="InteriorPlate" Count="1" />
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="Motor" Count="1" />
@@ -139,6 +151,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -205,6 +223,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -272,6 +296,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />
@@ -338,6 +368,12 @@
             <UsesDeformation>false</UsesDeformation>
 
             <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>   
               <Component Subtype="InteriorPlate" Count="10" />
               <Component Subtype="Construction" Count="20" />
               <Component Subtype="InteriorPlate" Count="10" />

@@ -11,8 +11,6 @@
         <DisplayName>Kas Zei'a</DisplayName>
         <Name>Kas Zei'a</Name>
             <ItemIds>
-                <string>HydrogenEngine/LargeOxygenEngine</string>
-                <string>HydrogenEngine/SmallOxygenEngine</string>
                 <string>OxygenFarm/LargePrecursorOxygenFarm</string>
                 <string>OxygenFarm/SmallPrecursorOxygenFarm</string>
                 <string>SolarPanel/LargePrecursorSolarPanel</string>
@@ -83,6 +81,13 @@
                 <string>Thrust/SmallPrecursorMediumThruster</string>
                 <string>TurretControlBlock/LargePrecursorTurretControlBlock</string>
                 <string>TurretControlBlock/SmallrecursorTurretControlBlock</string>
+                <string>Reactor/RiberaSBYUNCFDimensionalWaveEngineTypeI400</string>
+                <string>Reactor/RiberaSBYUNCFDimensionalWaveEngineTypeRo300</string>
+                <string>Reactor/RiberaSBYUNCFDimensionalWaveEngineTypeHa150</string>
+                <string>Assembler/PrecursorAssembler</string>
+                <string>OxygenGenerator/PrecursorZPMRecharger</string>
+                <string>BatteryBlock/LargeZPMEngine</string>
+                <string>Thrust/ZPMLeak</string>
             </ItemIds>
     </Category>
 

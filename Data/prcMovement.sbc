@@ -18,7 +18,13 @@
                     <ModelOffset x="0" y="0" z="0" />
                     <Model>Models\Cubes\Large\gyroscope.mwm</Model>
 
-                    <Components>         				
+                    <Components>
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>         				
                         <Component Subtype="SteelPlate" Count="750" />
                         <Component Subtype="Construction" Count="60" />
                         <Component Subtype="LargeTube" Count="6" />
@@ -76,7 +82,13 @@
                     <Model>Models\Cubes\Small\gyroscope.mwm</Model>
                     <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
 
-                    <Components>              					
+                    <Components>
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>  
                         <Component Subtype="SteelPlate" Count="27" />
                         <Component Subtype="Construction" Count="11" />
                         <Component Subtype="LargeTube" Count="2" />
@@ -133,6 +145,12 @@
                     <ThrusterType>Atmospheric</ThrusterType>
 
                     <Components>    				
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>  
                         <Component Subtype="SteelPlate" Count="10" />
                         <Component Subtype="Construction" Count="30" />
                         <Component Subtype="LargeTube" Count="8" />
@@ -226,7 +244,13 @@
                     <Model>Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1.mwm</Model>
                     <ThrusterType>Atmospheric</ThrusterType>
 
-                    <Components>          			
+                    <Components>     
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>       			
                         <Component Subtype="SteelPlate" Count="2" />
                         <Component Subtype="LargeTube" Count="1" />
                         <Component Subtype="MetalGrid" Count="1" />
@@ -320,7 +344,13 @@
                     <Model>Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1.mwm</Model>
                     <ThrusterType>Atmospheric</ThrusterType>
 
-                    <Components>           				
+                    <Components>  
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>           				
                         <Component Subtype="SteelPlate" Count="10" />
                         <Component Subtype="Construction" Count="30" />
                         <Component Subtype="LargeTube" Count="8" />
@@ -413,7 +443,13 @@
                     <Model>Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1.mwm</Model>
                     <ThrusterType>Atmospheric</ThrusterType>
 
-                    <Components>            					
+                    <Components> 
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>             					
                         <Component Subtype="SteelPlate" Count="2" />
                         <Component Subtype="LargeTube" Count="1" />
                         <Component Subtype="MetalGrid" Count="1" />
@@ -506,7 +542,13 @@
                     <Model>Models\Cubes\Large\Thrusters\LBSArmorAtmos1x1x1.mwm</Model>
                     <ThrusterType>Atmospheric</ThrusterType>
 
-                    <Components>           				
+                    <Components>   
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>          				
                         <Component Subtype="SteelPlate" Count="10" />
                         <Component Subtype="Construction" Count="30" />
                         <Component Subtype="LargeTube" Count="8" />
@@ -599,7 +641,13 @@
                     <Model>Models\Cubes\Small\Thrusters\SBSArmorAtmos1x1x1.mwm</Model>
                     <ThrusterType>Atmospheric</ThrusterType>
 
-                    <Components>            					
+                    <Components>            		
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>  			
                         <Component Subtype="SteelPlate" Count="2" />
                         <Component Subtype="LargeTube" Count="1" />
                         <Component Subtype="MetalGrid" Count="1" />
@@ -691,7 +739,13 @@
                     <ModelOffset x="0" y="0" z="0" />
                     <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
 
-                    <Components>         					
+                    <Components>  
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>         					
                         <Component Subtype="SteelPlate" Count="20" />
                         <Component Subtype="LargeTube" Count="40" />
                         <Component Subtype="MetalGrid" Count="100" />
@@ -752,7 +806,13 @@
                     <ModelOffset x="0" y="0" z="0" />
                     <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
 
-                    <Components>       
+                    <Components> 
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>        
                         <Component Subtype="SteelPlate" Count="20" />
                         <Component Subtype="MetalGrid" Count="25" />
                         <Component Subtype="GravityGenerator" Count="10" />

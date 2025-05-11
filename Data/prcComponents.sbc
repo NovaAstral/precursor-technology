@@ -50,7 +50,7 @@
                     <SubtypeId>PrecursorMemoryFoam</SubtypeId>
                 </Id>
                 <DisplayName>Zei'a Memory Foam</DisplayName>
-                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :(-->
+                <Description>Mmm, so comfy, so soft. Memory Foam is magical.</Description> <!-- Sadly this doesn't work :( - B-Urp -->
                 <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
                 <Size>
                     <X>1</X>

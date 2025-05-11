@@ -20,6 +20,12 @@
                     <Model>Models\Cubes\Large\light.mwm</Model>
 
                     <Components>    
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component> 
                         <Component Subtype="SteelPlate" Count="12"/>
                         <Component Subtype="LargeTube" Count="3"/>
                         <Component Subtype="InteriorPlate" Count="30"/>
@@ -80,7 +86,13 @@
                 <Size x="1" y="1" z="1"/>
                 <ModelOffset x="0" y="0" z="0"/>
                 <Model>Models\Cubes\Small\light.mwm</Model>
-                <Components>                          
+                <Components>    
+                    <Component Subtype="PrecursorFeor" Count="50" >    
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                    </Component>                       
                     <Component Subtype="SteelPlate" Count="2"/>
                     <Component Subtype="LargeTube" Count="2"/>
                     <Component Subtype="InteriorPlate" Count="2"/>
@@ -143,7 +155,13 @@
                 <ModelOffset x="0" y="0" z="0"/>
                 <Model>Models\Cubes\Large\light.mwm</Model>
 
-                <Components>                          
+                <Components>    
+                    <Component Subtype="PrecursorFeor" Count="50" >    
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                    </Component>                           
                     <Component Subtype="SteelPlate" Count="12"/>
                     <Component Subtype="LargeTube" Count="3"/>
                     <Component Subtype="InteriorPlate" Count="30"/>
@@ -205,7 +223,13 @@
                     <ModelOffset x="0" y="0" z="0"/>
                     <Model>Models\Cubes\Small\light.mwm</Model>
 
-                    <Components>                          
+                    <Components>    
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>                           
                         <Component Subtype="SteelPlate" Count="2"/>
                         <Component Subtype="LargeTube" Count="2"/>
                         <Component Subtype="InteriorPlate" Count="2"/>

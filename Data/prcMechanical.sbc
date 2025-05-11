@@ -18,18 +18,12 @@
           <Model>Models\Cubes\Large\PistonBase.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>                               
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>                             
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="100" />
             <Component Subtype="LargeTube" Count="40" />
@@ -95,17 +89,11 @@
           <Model>Models\Cubes\Large\PistonBase.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
             </Component>                        
             <Component Subtype="SteelPlate" Count="100" />
             <Component Subtype="Construction" Count="100" />
@@ -171,18 +159,12 @@
           <Model>Models\Cubes\Small\PistonBase.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>                               
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>                             
             <Component Subtype="SteelPlate" Count="20" />
             <Component Subtype="Construction" Count="40" />	
             <Component Subtype="SmallTube" Count="40" />
@@ -247,18 +229,12 @@
           <Model>Models\Cubes\Small\PistonBase.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>                             
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component>                           
             <Component Subtype="SteelPlate" Count="20" />
             <Component Subtype="Construction" Count="40" />
             <Component Subtype="SmallTube" Count="40" />
@@ -320,7 +296,14 @@
           <Size x="1" y="2" z="1" />
           <ModelOffset x="0" y="-1.25" z="0" />
           <Model>Models\Cubes\Large\MotorStator.mwm</Model>
+
           <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component> 
             <Component Subtype="SteelPlate" Count="10" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="LargeTube" Count="4" />
@@ -329,6 +312,7 @@
             <Component Subtype="SteelPlate" Count="5" />
           </Components>
           <CriticalComponent Subtype="Computer" Index="0" />
+
           <MountPoints>
             <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
             <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -336,11 +320,13 @@
             <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
             <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
           </MountPoints>
+
           <BuildProgressModels>
             <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorStatorConstruction_1.mwm" />
             <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorStatorConstruction_2.mwm" />
             <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorStatorConstruction_3.mwm" />
           </BuildProgressModels>
+
           <BlockPairName>PrecursorRotor</BlockPairName>
           <MirroringY>Z</MirroringY>
           <MirroringZ>Y</MirroringZ>
@@ -388,6 +374,12 @@
           <Model>Models\Cubes\Small\MotorStator.mwm</Model>
 
           <Components>
+            <Component Subtype="PrecursorFeor" Count="50" >    
+                <DeconstructId>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Scrap</SubtypeId>
+                </DeconstructId>      
+            </Component> 
             <Component Subtype="SteelPlate" Count="3" />
             <Component Subtype="Construction" Count="5" />
             <Component Subtype="SmallTube" Count="1" />

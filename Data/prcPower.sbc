@@ -19,12 +19,6 @@
           <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
@@ -103,18 +97,12 @@
           <Center x="0" y="0" z="0" />
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>                 
+            </Component> 
             <Component Subtype="SteelPlate" Count="2" />
             <Component Subtype="Construction" Count="1" />
             <Component Subtype="Girder" Count="4" />
@@ -188,18 +176,12 @@
         <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
 
         <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>                    
+            </Component>                   
           <Component Subtype="InteriorPlate" Count="10" />
           <Component Subtype="Motor" Count="8" />
           <Component Subtype="Construction" Count="20" />
@@ -274,18 +256,12 @@
           <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>                 
+            </Component>             
             <Component Subtype="SteelPlate" Count="20" />
             <Component Subtype="Construction" Count="10" />
             <Component Subtype="PowerCell" Count="80"/>
@@ -346,18 +322,12 @@
           <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>               
+            </Component>              
             <Component Subtype="SteelPlate" Count="5" />
             <Component Subtype="Construction" Count="2" />
             <Component Subtype="PowerCell" Count="20"/>
@@ -417,18 +387,12 @@
           <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>             
+            </Component>            
             <Component Subtype="SteelPlate" Count="160" />
             <Component Subtype="Construction" Count="120" />
             <Component Subtype="LargeTube" Count="24" />
@@ -526,18 +490,12 @@
           <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
 
           <Components>
-            <Component Subtype="PrecursorAlloy" Count="50" >
-              <DeconstructId>
-                <TypeId>Ore</TypeId>
-                <SubtypeId>Scrap</SubtypeId>
-              </DeconstructId>      
-            </Component>    
             <Component Subtype="PrecursorFeor" Count="50" >    
               <DeconstructId>
                 <TypeId>Ore</TypeId>
                 <SubtypeId>Scrap</SubtypeId>
               </DeconstructId>      
-            </Component>               
+            </Component> 
             <Component Subtype="SteelPlate" Count="40" />
             <Component Subtype="Construction" Count="36" />
             <Component Subtype="LargeTube" Count="8" />

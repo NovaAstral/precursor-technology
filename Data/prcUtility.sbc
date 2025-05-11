@@ -21,6 +21,12 @@
                     <Model>Models\Cubes\Large\TurretControlBlock.mwm</Model>
 
                     <Components>
+                        <Component Subtype="PrecursorFeor" Count="50" >    
+                            <DeconstructId>
+                                <TypeId>Ore</TypeId>
+                                <SubtypeId>Scrap</SubtypeId>
+                            </DeconstructId>      
+                        </Component>  
                         <Component Subtype="InteriorPlate" Count="20" />
                         <Component Subtype="Construction" Count="30" />
                         <Component Subtype="Detector" Count="20" />
@@ -103,6 +109,12 @@
                 <Model>Models\Cubes\Small\TurretControlBlock.mwm</Model>
 
                 <Components>
+                    <Component Subtype="PrecursorFeor" Count="50" >    
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                    </Component>  
                     <Component Subtype="InteriorPlate" Count="4" />
                     <Component Subtype="Construction" Count="10" />
                     <Component Subtype="Detector" Count="4" />
@@ -179,6 +191,12 @@
                 <FailedAttachSound>ShipLandGearNothing01</FailedAttachSound>
 
                 <Components>
+                    <Component Subtype="PrecursorFeor" Count="50" >    
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                    </Component>  
                     <Component Subtype="SteelPlate" Count="100" />
                     <Component Subtype="Construction" Count="20" />
                     <Component Subtype="Motor" Count="6" />

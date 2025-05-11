@@ -22,18 +22,12 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>                                
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                        </Component>
                         <Component Subtype="SteelPlate" Count="10"/>
                         <Component Subtype="Construction" Count="15"/>
                         <Component Subtype="SmallTube" Count="6"/>
@@ -96,18 +90,12 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>                                  
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                        </Component>                            
                         <Component Subtype="SteelPlate" Count="15"/>
                         <Component Subtype="Construction" Count="25"/>
                         <Component Subtype="LargeTube" Count="1"/>
@@ -183,18 +171,12 @@
                     <UsesDeformation>false</UsesDeformation>
                     
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>            
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                        </Component>         
                         <Component Subtype="SteelPlate" Count="270"/>
                         <Component Subtype="Construction" Count="60"/>
                         <Component Subtype="LargeTube" Count="18"/>
@@ -283,18 +265,12 @@
                 <UseModelIntersection>true</UseModelIntersection>
 
                 <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>                        
+                        <DeconstructId>
+                            <TypeId>Ore</TypeId>
+                            <SubtypeId>Scrap</SubtypeId>
+                        </DeconstructId>      
+                        </Component>              
                     <Component Subtype="SteelPlate" Count="30"/>
                     <Component Subtype="Construction" Count="45"/>
                     <Component Subtype="LargeTube" Count="6"/>
@@ -384,18 +360,12 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
                             <DeconstructId>
                                 <TypeId>Ore</TypeId>
                                 <SubtypeId>Scrap</SubtypeId>
                             </DeconstructId>      
-                        </Component>                      
+                        </Component>                     
                         <Component Subtype="SteelPlate" Count="23"/>
                         <Component Subtype="Construction" Count="38"/>
                         <Component Subtype="LargeTube" Count="2"/>
@@ -472,18 +442,12 @@
                     <UsesDeformation>false</UsesDeformation>
 
                     <Components>
-                        <Component Subtype="PrecursorAlloy" Count="50" >
-                            <DeconstructId>
-                                <TypeId>Ore</TypeId>
-                                <SubtypeId>Scrap</SubtypeId>
-                            </DeconstructId>      
-                        </Component>    
                         <Component Subtype="PrecursorFeor" Count="50" >    
                             <DeconstructId>
                                 <TypeId>Ore</TypeId>
                                 <SubtypeId>Scrap</SubtypeId>
                             </DeconstructId>      
-                        </Component>             
+                        </Component>              
                         <Component Subtype="SteelPlate" Count="15"/>
                         <Component Subtype="Construction" Count="23"/>
                         <Component Subtype="SmallTube" Count="6"/>
