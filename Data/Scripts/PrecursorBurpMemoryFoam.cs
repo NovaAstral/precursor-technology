@@ -64,35 +64,32 @@ namespace PrecursorBurpMemoryFoam{
 				var oxygen = MyVisualScriptLogicProvider.GetPlayersOxygenLevel(player.IdentityId);
                 var energy = MyVisualScriptLogicProvider.GetPlayersEnergyLevel(player.IdentityId);
 				var hydrogen = MyVisualScriptLogicProvider.GetPlayersHydrogenLevel(player.IdentityId);
+				
+				var Inv = player.Character.GetInventory();
 
 				if(health < 100f){
-					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersHealth(player.IdentityId,100f);
 					}
 				}
 
 				if(oxygen < 1f){
-					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersOxygenLevel(player.IdentityId,1f);
 					}
 				}
 
                 if(energy < 1f){
-					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersEnergyLevel(player.IdentityId,1f);
 					}
 				}
 
 				if(hydrogen < 1f){
-					var Inv = player.Character.GetInventory();
 					if(Inv.ContainItems(1, energyHalf) == true){
 						MyVisualScriptLogicProvider.SetPlayersHydrogenLevel(player.IdentityId,1f);
 					}
 				}
-
 			}
 		}
 	}
